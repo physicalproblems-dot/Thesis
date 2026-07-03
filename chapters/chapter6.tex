@@ -1,0 +1,593 @@
+%%%%%%%%%%%%%%%%%%%%%%% CHAPTER - 6 %%%%%%%%%%%%%%%%%%%%
+\chapter{Impact of flavor-dependent long-range neutrino interactions on the measurements of oscillation parameters using DUNE and T2HK}
+\label{C6} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The interplay between symmetry principles and fundamental interactions has repeatedly guided our journey toward a deeper understanding of nature's workings. From Maxwell's unification of electricity and magnetism \cite{Delphenich:2015rjq, Wilczek:2015rba, Reggia:2024kzh} to the electroweak theory's revelation \cite{Hollik:1995dv, Altarelli:1998xf} of an underlying symmetry between electromagnetic and weak forces, symmetry considerations have proven to be powerful guides in uncovering the fundamental laws of physics. Similarly, the discovery of parity violation in weak interactions \cite{Wu:1957my, Lee:1956qn} and the subsequent development of the Standard Model demonstrate how symmetry breaking \cite{Streater:1977hq} can lead to profound insights into Nature's structure. This historical progression suggests that further explorations of symmetry principles — particularly those that extend beyond the established SM — may continue to yield valuable discoveries.
+
+In the realm of neutrino physics, where three flavor eigenstates undergo quantum mechanical mixing described by the PMNS matrix \cite{Maki:1962mu, Pontecorvo:1967fh}, subtle distortions of oscillation probabilities may reveal hints of new physics. The phenomenon of neutrino oscillations itself emerged as a solution to the solar neutrino problem \cite{Gribov:1968kq, Bellerive:2016byv} and has since provided compelling evidence for physics beyond the SM, establishing that neutrinos possess non-zero masses \cite{Hu:2022ufh}. The precision measurement of the mixing angles $\theta_{12},\, \theta_{13},\, \text{and } \theta_{23}$ as well as the mass-squared differences $\Delta m_{21}^2$ and $\Delta m^2_{31}$ has entered an era of remarkable accuracy \cite{Capozzi:2021fjo, Abada:2025jpk} - with the notable exception of the CP-violating phase $\delta_{\mathrm{CP}}$ and the determination of the octant of $\theta_{23}$ which remain significant challenges.
+
+Beyond the established charged and neutral current interactions, neutrinos could experience additional forces mediated by ultralight bosons associated with broken symmetries in the lepton sector \cite{Fayet:1986vz, Heeck:2011wj, Ferrer:1999ad}. These new interactions could manifest as modifications to the matter potential experienced by neutrinos as they propagate through various media. While the standard matter effect \cite{Wolfenstein:1977ue} arising from coherent forward scattering via W-boson exchange (for electron neutrinos) is well understood, additional flavor-dependent potentials could arise from new gauge bosons coupling distinctively to different lepton flavors \cite{Foot:1994vd, Rodejohann:2005ru, Heeck:2010pg}.
+
+The gauging of lepton flavor differences- specifically $(L_e-L_\mu)$, $(L_e-L_\tau)$, and $(L_\mu-L_\tau)$ \cite{Foot:1994vd} represent a theoretically elegant extension to the SM \cite{Heeck:2014zfa, He:1991qd} that preserves anomaly cancellation \cite{Foot:1994vd, Allanach:2020zna} while introducing distinctive phenomenological signatures. These U(1) gauge symmetries \cite{Rodejohann:2005ru, Heeck:2010pg} stand out among possible extensions because they are anomaly-free \cite{Allanach:2020zna} without requiring additional exotic fermions \cite{Patra:2016ofq}, making them particularly economical additions to the SM gauge structure. When the mediators of these interactions \cite{He:1991qd, Coloma:2020gfv, Farzan:2016wym} possess masses below $10^{-10}$ eV, the resulting force ranges extend across astronomical distances, creating a cosmic web of matter potentials. The characteristic range of a force mediated by a boson of mass $m$ is approximately $\lambda \sim 1/m$, meaning that for mediators with $m \sim 10^{-10}$ eV, the force can act over distances of roughly $10^{5}$ km which is comparable to the Earth-Sun distance. For even lighter mediators with $m \sim 10^{-12}$ eV \cite{Coloma:2020gfv}, the range extends to galactic scales $(\sim 10$ kpc) and beyond \cite{Bustamante:2018mzu, Hogg:1999ad, Giunti:2007ry}. This remarkable reach enables these forces to integrate contributions from matter distributed throughout the solar system \cite{Coloma:2020gfv}, the Milky Way \cite{McMillan:2011wd}, and potentially even neighboring galaxies \cite{Steigman:2007xt, Yuksel:2008cu}. Unlike short-range non-standard interactions \cite{Grossman:1995wx, Proceedings:2019qno} that depend primarily on local matter densities, these ultralight-mediated forces integrate contributions from electrons and neutrons distributed throughout celestial bodies and galactic structures \cite{Coloma:2020gfv}. 
+
+As experimental precision advances into territory \cite{An:2025lws} where subleading effects become discernible, the boundary between parameter measurement and new physics discovery grows increasingly permeable. The three-flavor neutrino oscillation paradigm has successfully explained most experimental results to date, with persistent anomalies at short baselines \cite{Rodrigues:2025tha} potentially pointing to sterile neutrinos or other exotic physics. The next-generation long-baseline experiments — DUNE (Deep Underground Neutrino Experiment in U.S.A)~\cite{DUNE:2020jqi,DUNE:2020ypp} with its broad-band beam and superior energy resolution, and T2HK (Tokai-to-Hyper-Kamiokande in Japan)~\cite{Hyper-KamiokandeProto-:2015xww,Hyper-Kamiokande:2018ofw} with its unprecedented statistical power — stand as complementary probes of neutrino properties. The complementarity in baseline, energy, and detection technology makes their combined analysis particularly robust against systematic uncertainties and parameter degeneracies~\cite{Agarwalla:2024kti}. Both experimental programs aim to resolve persistent questions in the atmospheric sector: whether $\theta_{23}$ deviates from maximal mixing $(\theta_{23} = 45^{\circ})$, which octant houses the true value of $\theta_{23}$ ($\theta_{23} < 45^{\circ}$ or $\theta_{23}>45^{\circ}$), and the magnitude of CP violation in the lepton sector. The determination of deviation of $\theta_{23}$ from maximality~\cite{Gonzalez-Garcia:2004pfd, Antusch:2004yx, Choubey:2005zy, King:2014nza, Agarwalla:2021bzs} has profound theoretical implications, as maximal mixing may point to underlying symmetries in the lepton sector. Similarly, the octant determination could provide crucial input for model builders \cite{Agarwalla:2013ju, Chatterjee:2022pqg} attempting to explain the pattern of neutrino masses and mixings. The measurement of $\delta_{\mathrm{CP}}$, potentially indicating leptonic CP violation~\cite{Agarwalla:2022xdo, Coloma:2012wq}, could shed light on the origin of the matter-antimatter asymmetry in the Universe through the leptogenesis mechanism~\cite{Davidson:2008bu, Buchmuller:2005eh}.
+
+In this work, we examine how the presence of flavor-dependent long-range interactions would reshape the sensitivity landscape of these experimental endeavors. We analyze how these cosmic-scale forces would modify established measurement capabilities. The interference between standard oscillation terms and long-range potential contributions produces a rich phenomenology that may enhance sensitivity to some parameters while degrading the resolution of others, creating a nuanced experimental signature distinct from other new physics scenarios. Our analysis demonstrates that the synergistic combination of DUNE and T2HK data significantly outperforms individual experimental results in constraining oscillation parameters, even when long-range interactions introduce additional complexity to the oscillation probability. This complementarity proves particularly valuable for breaking degeneracies that would otherwise limit experimental reach. By systematically exploring the parameter space of coupling strengths and mediator masses for different gauge symmetries ~\cite{Bustamante:2018mzu, Khatun:2018lzs, Coloma:2020gfv, Singh:2023nek}, we identify regions where these experiments maintain robust sensitivity to standard oscillation parameters and regions where substantial degradation occurs, potentially guiding the development of analysis strategies resilient to new physics effects. 
+
+The architecture of this manuscript is delineated in the following fashion. In section \ref{sec:2}, we present the foundational aspects of long-range interactions (LRI), including the newly proposed gauge symmetries and the associated mediating vector bosons, as well as their implications for standard neutrino oscillations within the $3\nu$ paradigm. In section \ref{sec:effect-on-total-event-rates}, we introduce the rudimentary experimental setups of the impending long-baseline experiments, accentuating their salient complementary attributes pertinent to our analysis. This exposition includes a detailed examination of their total event rates and bi-events under the influence of LRI-induced symmetries. In section \ref{sec:results}, we discuss our results and findings. Lastly, section \ref{sec:summary} distills the essence of our findings, offering a comprehensive summary and concluding reflections.
+%scrutinize the ramifications of LRI in the sensitivities on CP coverage at $3\sigma$ and the possible bounds on $\sin^2\theta_{23}-\delta_\mathrm{CP}$ plane, whereas section 5 illustrates the impact of LRI in discerning non-maximal $\theta_{23}$ in Nature. Section 6 is dedicated to the fact that how the LRI affects the elimination of the wrong octant solution of $\theta_{23}$.  Lastly, Section 7 distills the essence of our findings, offering a comprehensive summary and concluding reflections.
+
+%The quest for a fifth fundamental force in nature has been a long-standing pursuit in the domain of high-energy particle physics research. The phenomenology associated with the existence of an additional interaction beyond the four fundamental forces described by the Standard Model serves as a compelling indicator of Beyond Standard Model (BSM) physics. However, the signatures of this new interaction are extremely weak, making them challenging to detect. Although numerous constraints have been established~\cite{Lee:1955vk, Okun:1995dn, Williams:1995nq, Dolgov:1999gk, Adelberger:2003zx, Williams:2004qba} through various studies, the direct observation of such an interaction remains a formidable challenge. 
+
+%Having traversed numerous significant milestones, oscillation-based neutrino research has presently transcended into an era of unparalleled precision. The forthcoming next-generation long-baseline experiments—the Deep Underground Neutrino Experiment (DUNE)~\cite{DUNE:2021cuw} and Tokai-to-Hyper Kamiokande (T2HK)~\cite{Hyper-Kamiokande:2016srs, Hyper-Kamiokande:2018ofw}—are imbued with the decent potential to unravel a plethora of enigmatic puzzles in neutrino oscillation physics within the robustly established $3\nu$ framework. The exquisite energy resolution of DUNE augments the aspiration of measuring the atmospheric mass-squared difference $\Delta m^2_{31}$ with exceptional precision, while the substantial disappearance statistics afforded by T2HK can promulgate more stringent constraints on the measurement of the atmospheric mixing angle $\theta_{23}$—notoriously one of the most elusive parameters in the neutrino oscillation landscape. The meticulously refined systematic uncertainties in both the appearance and disappearance channels of these experiments synergistically contribute to a profound enhancement of their sensitivity to attain this precision. The prime impetus of our inquiry is to ascertain whether any new interactions beyond the Standard Model prescription might manifest in nature, potentially revealing themselves through neutrino oscillation phenomenology in these eminent experimental enterprises. \par In this study, we focus on the flavor-dependent long-range neutrino interactions where the interactions between the leptons of the celestial objects and the neutrinos in the future long-baseline detectors, DUNE and T2HK are under our consideration. We undergo a detailed literature survey regarding the long-range neutrino interactions with ordinary matter [] and the possible bounds of those interaction potentials []. Assuming mainly the Sun-Earth distance, the long-range interacting potential brings an ultra-light gauge boson mediator ($Z^\prime$) into the picture, the upper bound of the mass of which has been considered as $10^{-12}$ eV in our analysis []. Due to this new kind of interaction via the mediator $Z^\prime$, we extend the conventional symmetry of the Standard Model Lagrangian (\textit{SU}$(3)_C\,\otimes\,$\textit{SU}$(2)_L\,\otimes\,$\textit{U}$(1)_Y$) by an extra global $U^\prime(1)$ group, which can be expressed due to the conservation of the quantum numbers $L_e-L_\mu$, $L_e-L_\tau$, and $L_\mu-L_\tau$, respectively, where $L_e$, $L_\mu$, and $L_\tau$ represent the electron, muon, and tau lepton numbers. These choices of gauging the new interactions are anomaly-free and economic. Furthermore, if any new interactions are manifested in Nature, they will impose an extra matter potential upon the neutrinos, and this will either flourish or perish the sensitivities of our studies based on neutrino oscillations, i.e., departure of $\theta_{23}$ from its maximal mixing value, eliminating the wrong solution of $\theta_{23}$ octant, and bounds on $\sin^2\theta_{23}-\delta_{\mathrm{CP}}$ plane breaking the degeneracies. \par Several word-class neutrino oscillation experiments have already given bounds on some oscillation parameters and brought exceptional precision to them. The 1-2 sector (i.e., the solar sector) of the oscillation parameters are already measured with high precision by the solar experiments [] where Daya-Bay's outstanding achievement alleviates the 1-3 sector (the reactor sector) with significant precision. But the 2-3 sectors (the atmospheric sector) still need to be improved with adequate precision. We confront the fact that synergistic effort among DUNE and T2HK improves this precision by a satisfactory amount than their standalone performances. In this work, we investigate how this synergy elevates the sensitivities of our study in the presence of the new long-range interaction in Nature.\par The architecture of this manuscript is delineated in the following fashion. In section 2, we present the foundational aspects of long-range interactions (LRI), including the newly proposed gauge symmetries and the associated mediating vector bosons, as well as their implications for standard neutrino oscillations within the $3\nu$ paradigm. In section 3, we introduce the rudimentary experimental setups of the impending long-baseline experiments, accentuating their salient complementary attributes pertinent to our analysis. This exposition includes a detailed examination of their total event rates and bi-events under the influence of LRI-induced symmetries. In section 4, we scrutinize the ramifications of LRI in the sensitivities on CP coverage at $3\sigma$ and the possible bounds on $\sin^2\theta_{23}-\delta_\mathrm{CP}$ plane, whereas section 5 illustrates the impact of LRI in discerning non-maximal $\theta_{23}$ in Nature. Section 6 is dedicated to the fact that how the LRI affects the elimination of the wrong octant solution of $\theta_{23}$.  Lastly, Section 7 distills the essence of our findings, offering a comprehensive summary and concluding reflections.
+\label{sec:introduction}
+%-----------------------------------------------------------
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+        \hline \hline
+        \multirow{2}{*}{\textbf{NMO}} & $\Delta m^2_{21}/10^{-5}$ & \multirow{2}{*}{$\sin^{2}\theta_{12}/10^{-1}$} & \multirow{2}{*}{$\sin^{2}\theta_{13}/10^{-2}$} & \multirow{2}{*}{$\sin^2\theta_{23}/10^{-1}$} & $\Delta m^2_{31}/10^{-3}$  & $\delta_{\text{CP}}$ \\
+        & ($\mathrm{eV^{2}}$) & & & & ($\mathrm{eV^{2}}$) & ($^\circ$)\\
+        \hline \hline
+        Benchmark & \boldmath$7.36$ & \boldmath$3.03$ & \boldmath$2.23$ & \boldmath$4.55$ & \boldmath$2.522$ & \boldmath$223$\\
+        \cline{1-7}
+        3$\sigma$ range & - & - & - & 4.16 - 5.99 & 2.436 - 2.605 & 139 - 355\\
+        \hline\hline
+        \multicolumn{7}{|c|}{\hspace{-1.8em}\textbf{LRI Potential} $V_{\alpha\beta}~(\times 10^{-14}~\mathrm{eV})$} \\
+        \hline
+         & \multicolumn{2}{c|}{$V_{e\mu}$} & \multicolumn{2}{c|}{$V_{e\tau}$} & \multicolumn{2}{c|}{$V_{\mu\tau}$} \\
+        \hline
+        Benchmark  & \multicolumn{2}{c|}{\boldmath$1.4$} & \multicolumn{2}{c|}{\boldmath$1.0$} & \multicolumn{2}{c|}{\boldmath$0.73$} \\
+        \hline
+        Range & \multicolumn{2}{c|}{0.1 - 3} & \multicolumn{2}{c|}{0.1 - 3} & \multicolumn{2}{c|}{0.1 - 3} \\
+        \hline \hline
+    \end{tabular}
+    }
+    \caption{\footnotesize{The benchmark values and the 3$\sigma$ ranges of the oscillation parameters over which we minimize in our study, assuming normal mass ordering (NMO), following the Ref.~\cite{Capozzi:2021fjo}. Benchmark values of long-range matter potential corresponding to each symmetry, $V_{\alpha\beta}$ to generate data, and the assumed range of minimization over the test statistic, used in the subsection \ref{subsec:DM-fixed-potential}. These values are motivated from Ref.~\cite{Singh:2023nek}. Further details regarding this have been given in sec.~\ref{subsec:simulation}.}}
+    \label{tab:oscillation-params}
+\end{table}
+
+%---------------------------------------------
+\section{Introduction to flavor-dependent long-range interaction}
+\label{sec:2}
+\subsection{Gauging new neutrino interactions under the global $U'(1)$ group via the symmetries of differences between  lepton numbers}
+\label{sec:lri_symmetries}
+\begin{figure}
+\includegraphics[width=\linewidth]{./Figures/Chapter-6/feynman.pdf}
+\caption{\footnotesize{\textbf{\textit{Feynman diagrams for neutrino-matter interactions.}}  Each diagram corresponds to a term in the Lagrangian, \ref{equ:lagrangian_total}: (a) SM contribution mediated by the $Z$ boson, (b) new contribution from the gauge symmetry $U(1)_{L_\alpha-L_\beta}$, mediated by the new boson $Z_{\alpha\beta}^\prime$, and (c) mixing between $Z$ and $Z_{\alpha\beta}^\prime$.  In our analysis, (a) is significant only for neutrinos inside the Earth. For $L_{e} - L_\beta$ symmetries, (b) is the only additional contribution sourced by electrons.  For $L_\mu - L_\tau$, (c) is instead the only additional contribution sourced by neutrons.}}
+\label{fig:feynman}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The edifice of the meticulously constructed Standard Model (SM) is invariant under the Lorentz symmetry ($SO(3,1)$) and the gauge symmetry \textit{SU}$(3)_C\,\otimes\,$\textit{SU}$(2)_L\,\otimes\,$\textit{U}$(1)_Y$. Consequent conserved quantities or quantum numbers maintaining the above-mentioned gauge symmetries are color charge (conserved under $SU(3)$), weak isospin charge (conserved under $SU(2)$), and the hypercharge (conserved under $U(1)$). The last two conserved quantities also point towards the conservation of the electric charge via the Gell-Mann Nishijima Formula ($Q=I_3+\frac{Y}{2}$) ~\cite{Gell-Mann:1956iqa, Nishijima:1955gxk}. Along with these conserved quantities, there are some left-over conserved candidates that are protected by the accidental global $U(1)$ symmetry shown by the SM and those are the individual lepton numbers (electron number ($L_e$), muon number ($L_\mu$), tau number ($L_\tau$) and the total lepton number ($L=L_e+L_\mu+L_\tau$). This also unveils the fact that the difference of the individual lepton numbers is also conserved quantities, $i.e.,\,(L_e-L_\mu)$, $(L_e-L_\tau)$, and $(L_\mu-L_\tau)$ hinting towards the three new symmetries $U(1)_{L_e-L_\mu},\, U(1)_{L_e-L_\tau}, \,\mathrm{and} \,\, U(1)_{L_\mu-L_\tau}$, respectively. The reasons for highlighting these three symmetries are they are economic, simple, and anomaly-free without introducing new fermions or breaking the natural helicity of neutrinos and hence help to gauge the new interaction due to the differences of the individual lepton numbers (although there are other anomaly-free choices of this accidental global $U(1)^\prime$ symmetry \cite{Coloma:2020gfv}). These three newly introduced gauge groups ($i.e.,\, U(1)_{L_e-L_\mu},\, U(1)_{L_e-L_\tau}, \,\mathrm{and}$\\$ \, U(1)_{{L_\mu-L_\tau}}$\,), while being broken locally, give birth to three new neutral gauge vector bosons (or new mediators), $Z^\prime_{e\mu},\, Z^\prime_{e\tau}, \, \text{and} \, Z^\prime_{\mu\tau}$, respectively, and these mediators show new kind of weak interactions between neutrinos and leptons, apart from the standard neutral current (NC) interactions of neutrinos with leptons.
+\par The governing Lagrangian density for a given lepton-number symmetry in our study can be depicted as follows.\\
+\begin{equation}
+ \mathscr{L}_{\rm gov}
+=
+ \mathscr{L}_{Z}
+ +
+ \mathscr{L}_{Z^\prime}
+ +
+ \mathscr{L}_{Z-Z^\prime} \;.
+ \label{equ:lagrangian_total} 
+\end{equation}
+The first term of equation \ref{equ:lagrangian_total} represents the usual weak interaction of neutrinos with leptons as suggested by SM via NC interaction, mediated by the $Z$ boson, $i.e.$,
+\begin{equation}
+ \mathscr{L}_{Z}
+ =
+ \frac{e}{\sin \theta_{W} \cos \theta_{W}}Z_\mu 
+ \left[-\frac{1}{2}\bar{l}_{\alpha}\gamma^\mu P_{L} l_{\alpha}+\frac{1}{2}\bar{\nu}_{\alpha}\gamma^\mu P_{L} \nu_{\alpha}+\frac{1}{2}\bar{u}\gamma^\mu P_{L} u-\frac{1}{2}\bar{d}\gamma^\mu P_{L} d
+ \right] \;,
+  \label{equ:lagrangian_sm}
+\end{equation}
+where $e$ represents the unit elctric charge, $\theta_W$ denotes the Weinberg angle($\sim 29^\circ$) \cite{Weinberg:1967tq,  Fairlie:1979at, Moroi:1993zj}, $\nu_\alpha$ and $l_\alpha$ are a neutrino and charged lepton of flavor $\alpha = e, \mu, \tau$, $P_{L}$ stands for the left-handed projection operator, and $u$, $d$ are up and down quarks, respectively.  Due to the massive  $Z$ boson ($m_Z\sim90$ GeV), the range of the interaction mediated by it is short; in our work, it covers only the distances inside the Earth. Two of the important assumptions at this point for our work are ordinary matter interacting with the neutrinos is electrically neutral ($i.e.$, the presence of equal weightage of electron and proton numbers) and isoscalar ($i.e.$, equal presence of protons and neutrons) except for the Sun \cite{Coloma:2020gfv} and the cosmological matter distributions \cite{McMillan:2011wd, Steigman:2007xt, Yuksel:2008cu}.
+\par The second term in \ref{equ:lagrangian_total} tells the interaction between $\nu_\alpha$ and $l_\alpha$ mediated by the flavor-dependent new vector boson $Z_{\alpha\beta}^\prime$ ~\cite{Bandyopadhyay:2021gcn, He:1990pn, He:1991qd, Heeck:2010pg}, $i.e.$, for the $L_\alpha-L_\beta$ symmetry,
+\begin{equation}
+ \mathscr{L}_{Z^\prime}
+ =
+ g_{\alpha \beta}^\prime Z^\prime_{\sigma}(\bar{l}_{\alpha}\gamma^{\sigma}l_{\alpha}-\bar{l}_{\beta}\gamma^{\sigma}l_{\beta}+ \bar{\nu}_{\alpha}\gamma^{\sigma}P_{L}\nu_{\alpha}-\bar{\nu}_{\beta}\gamma^{\sigma}P_{L}\nu_{\beta}) \;.
+ \label{equ:lagrangian_zprime}
+\end{equation}
+Here $g_{\alpha\beta}^\prime$ denotes the dimensionless coupling constant of this new interaction. In this case, we showcase the fact that the amount of naturally produced muon or tau in the matter is negligible for interacting with the neutrinos and hence, we only consider the interactions of neutrinos with only abundant electrons present in the matter giving birth the flavor-dependent matter potential. Hence, we neglect the contribution of this term under $L_\mu-L_\tau$ symmetry and consider it only under $L_e-L_\mu$ and $L_e-L_\tau$ symmetries.
+\par The penultimate term of equation \ref{equ:lagrangian_total} articulates the hybridization between $Z$ and $Z_{\alpha\beta}^\prime$~\cite{Babu:1997st, Heeck:2010pg, Bhattacharyya:1991rx, Joshipura:2019qxz}, which can be produced naturally or by radiative correction~\cite{Holdom:1985ag, Tomalak:2020zfh}.  In the mass basis, this term is~\cite{Babu:1997st} $\mathscr{L}_{ZZ^\prime} \supset
+ (\xi-\sin\theta_W\chi) Z'_{\mu}Z^{\mu}$,
+where $\chi$ denotes the kinetic mixing angle between the two gauge bosons and $\xi$ embodies the amount of rotation between weak eigenstates and mass eigenstates. This induces a quartic fermionic interaction between neutrinos and charged leptons, protons, and neutrons via $Z$--$Z_{\alpha\beta}^\prime$ mixing, $i.e.$,
+\begin{equation}
+ \label{equ:lag_mix}
+ \mathcal{L}_{\rm Z-Z^\prime}
+ =
+ -g_{\alpha\beta}^\prime
+ (\xi-\sin\theta_W\chi)\frac{e}{\sin\theta_W \cos\theta_W}
+ J'_\rho J_3^\rho \;,
+\end{equation}
+where $J^\prime_\rho = \bar{\nu}_\alpha \gamma_\rho P_L\nu_\alpha-\bar{\nu}_\beta \gamma_\rho P_L\nu_\beta$ and $J_3^\rho = -\frac{1}{2}\bar{e}\gamma^\rho P_L e+\frac{1}{2}\bar{u}\gamma^\rho P_L u-\frac{1}{2}\bar{d}\gamma^\rho P_L d$ are the conserved currents.
+It is pertinent to emphasize that the contribution of electrons is exactly offset by that of protons, resulting in neutrons being the sole effective source for the new interaction arising through mixing between $Z$ and $Z^\prime$. The coefficient $(\xi - \sin\theta_{W}\chi)$ serves as a quantitative measure of the mixing strength between the $Z$ and $Z_{\alpha\beta}^\prime$. While its precise magnitude remains undetermined, there exist upper bounds on its value~\cite{Schlamminger:2007ht, Adelberger:2009zz, Heeck:2010pg}. We consider its value together with $g_{\alpha\beta}^{\prime}$\,, as an effective coupling. It is important to note that the contribution of this term is exclusive under the $L_\mu - L_\tau$ symmetry, and the corresponding matter potential is contributed by interaction with neutrons only.
+
+ \subsection{Genesis of matter potential from the long-range interaction}
+\label{sec:lri_matter_potential}
+The backbone of this LRI-induced matter potential is nothing but the flavor-dependent Yukawa interaction. Hence, under $L_e-L_\beta$ ($\beta = \mu, \tau$) symmetry, if a neutrino is positioned at a distance $d$ from a cluster of $N_e$ electrons, it feels a matter potential given by
+\begin{equation}
+ V_{e\beta}
+ =
+ G_{\alpha\beta}^{\prime 2}
+ \frac{N_e}{4\pi d}
+ e^{-m'_{e\beta}d} \;.
+ % \left(4\pi d\right)^{-1}e^{-m'_{e\beta}d}\.
+ \label{equ:potential_e_beta}
+\end{equation}
+
+Here, $m_{e\beta}^\prime$ represents the mass of the neutral mediator $Z_{e\beta}^\prime$ boson. Conversely, in the context of $L_\mu-L_\tau$\, symmetry, a neutrino positioned at a distance $d$ from a collection of $N_n$ neutrons is subject to a potential.
+\begin{equation}
+ V_{\mu\tau}
+ =
+ G_{\alpha\beta}^{\prime 2}
+  \frac{e}{\sin\theta_W\cos\theta_W}
+ \frac{N_n}{4 \pi d}
+ e^{-m'_{\mu\tau}d} \;,
+ \label{equ:potential_mu_tau}
+\end{equation}
+where $m_{\mu\tau}^\prime$ denotes the mass of the mediator $Z_{\mu\tau}^\prime$ boson. In Eqs.~(\ref{equ:potential_e_beta}) and~(\ref{equ:potential_mu_tau}), the form of the effective flavor-dependent coupling constant can be expressed as,
+\begin{equation}
+ G_{\alpha \beta}^\prime
+ =
+ \left\{
+  \begin{array}{lll}
+   g^{\prime }_{e \mu} & , & ~{\rm for}~\alpha, \beta = e, \mu; \\
+   g^{\prime }_{e \tau} & , & ~{\rm for}~\alpha, \beta = e, \tau; \\
+   \sqrt{g^{\prime}_{\mu \tau} (\xi-\sin \theta_W \chi)} & , & ~{\rm for}~\alpha, \beta = \mu, \tau. \\
+  \end{array}
+ \right. \;.
+ \label{equ:Gab}
+\end{equation}
+A significant observation is that this novel interaction potential demonstrates dependence on the spatial separation between the neutrinos and the matter source, signifying the presence of a central force, which is identified as LRI. Consequently, the conservative nature of this force is implied. Typically, the mass scale of the mediator for such interactions spans from $10^{-35}$ to $10^{-10}$~eV, affirming that the interaction range, characterized by $r \propto 1/m^\prime_{\alpha\beta}$, is indeed long-ranged — extending from km to Gpc. In our analysis, we have gradually varied the mass of the mediating bosons within the range of $10^{-15}$~eV to $10^{-13}$~eV to explore its imprints on several aspects of neutrino oscillation phenomenology. This long-range interaction potential originates from electron and neutron distributions across various astrophysical scales, including the Earth matter ($\oplus$), lunar effects ($\leftmoon$), solar contributions ($\astrosun$), the galactic matter profile of the Milky Way (MW), and the cosmological matter distribution (cos) in the local Universe, $i.e.$,
+\begin{equation}
+ V_{\alpha \beta}
+ =
+ V_{\alpha \beta}^\oplus + V_{\alpha \beta}^{\leftmoon} + V_{\alpha \beta}^{\astrosun} + V_{\alpha \beta}^{\rm MW} +  V_{\alpha \beta}^{\rm cos} \;.
+ \label{equ:pot_total}
+\end{equation} 
+We assess the resultant value of $m_{\alpha\beta}^\prime$ by incorporating the aggregate contributions imparted by all the aforementioned sources, thereby determining the net matter potential that governs our analysis. In this context, we evaluate the mean potential encountered by neutrinos at their detection site \cite{Bustamante:2018mzu} while disregarding the influence of any fluctuations in the matter potential along their subterranean passages \cite{Coloma:2020gfv}. This approximation holds particularly well for mediators with masses below approximately $10^{-14}$~eV, where the interaction range exceeds the Earth's radius. In this regime, the entire population of electrons and neutrons on Earth contributes uniformly to the potential sensed by a neutrino, irrespective of its location along its course.
+\par We envisage the Moon ($N_{e,\leftmoon} = N_{n,\leftmoon} \sim 5 \cdot 10^{49}$) and the Sun ($N_{e,\astrosun} \sim 10^{57}$, $N_{n,\astrosun} = N_{e,\astrosun}/4$) as point sources of electrons and neutrons. In contrast, we treat the Earth ($N_{e, \oplus} \approx N_{n, \oplus} \sim 4 \times 10^{51}$), the Milky Way ($N_{e, {\rm MW}} \approx N_{n, {\rm MW}} \sim 10^{67}$), and the cosmological matter ($N_{e,\mathrm{cos}} \sim 10^{79}$, $N_{n,\mathrm{cos}} \sim 10^{78}$) as extended objects with continuous mass distributions. For a detailed computation of \ref{equ:pot_total}, we refer to \cite{Bustamante:2018mzu}, but we adopt one contrasting aspect introduced by \cite{Agarwalla:2023sng}.  In \cite{Bustamante:2018mzu}, only the potential is shown to be generated by electrons for $L_e-L_\mu$ and $L_e-L_\tau$ symmetries, we additionally compute the potential engendered by neutrons for $L_\mu-L_\tau$ symmetry also.
+
+\subsection{Analyzing the neutrino oscillation probability in the presence of long-range interactions}
+We proceed with our discourse in this section on the texture of the well-established $3\nu$ paradigm. For the $L_\alpha-L_\beta$ symmetry in Nature, the governing Hamiltonian of the neutrinos while traveling through a medium, in the weak basis, can be written as
+\begin{equation}
+ \label{equ:hamiltonian_tot}
+ \mathbf{H}_{\rm gov} = \mathbf{H}_{\rm free} + \mathbf{V}_{\rm matt} + \mathbf{V}_{\alpha\beta} \;.
+\end{equation} 
+The first two candidates on the right-hand side of this equation showcase the neutrino oscillations in vacuum and through the standard interactions with matter and in vacuum, whereas the third piece elucidates oscillations due to the new long-range interactions.  
+\par 
+The standard form of $\mathbf{H}_{\textrm{free}}$, representing the conventional Hamiltonian for neutrino oscillations in a vacuum, can be expressed as follows,
+\begin{equation}
+ \mathbf{H}_{\rm free} = \frac{1}{2 E} \mathbf{U}~{\rm diag}(0, \Delta m^2_{21}, \Delta m^2_{31})~\mathbf{U}^{\dagger} \;,
+ \label{equ:total_hamiltonian}
+\end{equation}
+where $E$ denotes the true neutrino energy, $\Delta m^2_{ij} \equiv m^2_i-m^2_j$ are the mass-squared differences between two neutrino mass eigenstates, and $\mathbf{U}$ represents the Pontecorvo-Maki-Nakagawa-Sakata (PMNS) matrix~\cite{Maki:1962mu, Pontecorvo:1967fh, ParticleDataGroup:2022pth}. In our whole analysis, we consider the normal mass ordering (NMO) in Nature ($i.e.$, $\Delta m^2_{31}>0$), and the choices of the benchmark values of the neutrino oscillation parameters are shown in the table~\ref{tab:oscillation-params}.
+\par The second term of equation \ref{equ:total_hamiltonian} tells us the standard charged-current (CC) interaction of neutrinos with the ambient electrons of earth matter via $W^\pm$ boson of the SM and its form can be written in flavor basis as,
+\begin{equation}
+ \mathbf{V}_{\rm matt}
+ =
+ {\rm diag}(V_{\rm CC}, 0, 0) \;,
+\end{equation}
+where $V_{\rm CC} = \sqrt{2} G_F n_e \simeq 7.6\,\times Y_e\,\times[ \rho / (10^{-14}~{\rm g}~{\rm cm}^{-3})]$~eV is matter potential arising from CC interactions, $G_F$ represents the Fermi coupling constant, governing the weak interaction strength. The quantity $n_e$ denotes the density of electron numbers, $Y_e \equiv n_e / (n_p + n_n)$ characterizes the fractional contribution of ambient electrons, encapsulating its relative prevalence compared to protons and neutrons, $n_p$ and $n_n$, and $\rho$ corresponds to the mass density, averaged along the line of sight, serving as a crucial factor in neutrino-matter interactions. This matter potential changes its sign while considering the interactions with antineutrinos. In our investigation, we fix the value of $\rho$ as 2.848~g/$\mathrm{cm}^3$ for DUNE and 2.8~g/$\mathrm{cm}^3$ for T2HK experiment referring to the Preliminary Reference Earth Model (PREM profile)~\cite{Dziewonski:1981xy}. 
+\par The penultimate term in equation \ref{equ:total_hamiltonian} characterizes the matter potential arising from the novel interaction governed by the $L_\alpha-L_\beta$ symmetry and is formulated as follows,
+\begin{equation}
+ \label{equ:pot_lri_matrix}
+ \mathbf{V}_{\alpha\beta}
+ =
+ \left\{
+  \begin{array}{ll}
+   {\rm diag}(V_{e\mu}, -V_{e\mu}, 0), & {\rm for}~ \alpha, \beta = e, \mu; \\
+   {\rm diag}(V_{e\tau}, 0, -V_{e\tau}), & {\rm for}~ \alpha, \beta = e, \tau; \\
+   {\rm diag}(0, V_{\mu\tau}, -V_{\mu\tau}), & {\rm for}~ \alpha, \beta = \mu, \tau. \\   
+  \end{array}
+ \right. \;.
+\end{equation}
+There are two control parameters of this new kind of matter potential
+$V_{\alpha\beta}$ , as referred in equation~\ref{equ:pot_total} --- they are coupling constant $G_{\alpha\beta}^\prime$ focusing the strength of the interaction and the mediator mass $m_{\alpha\beta}^\prime$ specifying the range of this interaction. Like the ordinary matter potential ($i.e.$, $\mathbf{V}_{\rm matt}$), the new matter potential $V_{\alpha\beta}$ also shows the property of flipping its polarity for the case of the interactions of matter with antineutrinos.
+\par Upon incorporating the modified matter potential into the formalism of \ref{equ:total_hamiltonian},  the resultant theoretical formulation governing the oscillation probability (in $3\nu$ paradigm) of a neutrino of flavor $\alpha$ to a flavor $\beta$ after covering a distance $L$ km with a true energy $E$ GeV can be expressed as, 
+\begin{equation}
+ P_{\nu_{\alpha}\rightarrow \nu_{\beta}}
+ =
+ \Bigg| 
+ \sum_{i=1}^{3} 
+ U^\prime_{\alpha i}
+ \exp \left( \dfrac{\Delta \tilde{m}^2_{i1}L}{2E} \right)
+ U^{\prime \ast}_{\beta i}
+ \Bigg|^{2} \;,
+ \label{equ:osc_prob}
+\end{equation}
+where $\Delta \tilde{m}^2_{ij} \equiv \tilde{m}_i^2 - \tilde{m}_j^2$, with $\tilde{m}_i^2/2E$ represent the eigenvalues of the effective Hamiltonian $\mathbf{H}_{\rm gov}$ \ref{equ:hamiltonian_tot}. $\mathbf{U}^\prime$ is the unitary matrix that diagonalizes the Hamiltonian. To ensure a parametrization of $\mathbf{U}^\prime$ that retains the structural form of the PMNS matrix, the mixing parameters must be redefined in the presence of the effective matter potential $V_{\alpha \beta}$ \ref{equ:pot_lri_matrix} from Eq. \ref{equ:pot_lri_matrix}, leading to the modified parameters $\theta_{12}^m$, $\theta_{23}^m$, $\theta_{13}^m$, and $\delta^m_{\mathrm{CP}}$. The exact expressions for these matter-modified oscillation parameters are adopted from the reference~\cite{Agarwalla:2021zfr}.
+\par We consider well-motivated selections of the new matter potential values, ensuring a meaningful comparison with the standard neutrino oscillations in vacuum, thereby allowing it to have a significant impact on our oscillation-based analysis. Since the sensitivity of any oscillation study is predominantly driven by the first oscillation maximum — where the neutrino flux is at its peak (located at 2.5 GeV for DUNE and 0.6 GeV for T2HK) — the characteristic value of the frequency term of the neutrino oscillation is  $\frac{\Delta m^2_{31}}{2E}\sim\mathcal{O}(10^{-13}\, \mathrm{eV})$, which is comparable to the magnitude of the effective matter potential $V_{\alpha\beta}$. Consequently, we set the upper bound of our benchmark choices for the LRI potential approximately around $10^{-13}$ eV. For a detailed listing of the benchmark values of the LRI potential corresponding to the three considered symmetries, refer to Table 3 in \cite{Singh:2023nek}.
+
+
+
+
+\label{sec:lri_osc_prob}
+
+%=======================================================
+\section{Effect of long-range interactions on total event rates}
+\label{sec:effect-on-total-event-rates}
+
+\subsection{Experimental details of DUNE and T2HK}
+\label{subsec:exp-details}
+%=======================================================
+Long-baseline neutrino experiments are at the forefront of exploring some of the most intriguing questions in neutrino physics~\cite{Feldman:2012jdx, Agarwalla:2014fva, Diwan:2016gmz, Giganti:2017fhf}. By using powerful, precisely tuned beams of neutrinos over distances of hundreds to thousands of kilometers, these experiments can study how neutrinos change as they travel through matter. This offers a unique opportunity to investigate phenomena like CP violation, the order of neutrino masses, and the influence of matter on oscillations. Furthermore, they also provide a vast window into potential physics beyond the Standard Model~\cite{Mena:2005ek, Feldman:2012jdx, Agarwalla:2014fva, Diwan:2016gmz, Farzan:2017xzy, Giganti:2017fhf}. Current experiments like T2K~\cite{T2K:2023smv} and NO$\nu$A~\cite{NOvA:2021nfi} have already provided valuable data for understanding these processes. In the coming decade, new experiments such as DUNE~\cite{DUNE:2015lol, DUNE:2020lwj, DUNE:2020ypp, DUNE:2020jqi, DUNE:2021cuw, DUNE:2021mtg}, T2HK~\cite{Hyper-Kamiokande:2016srs, Hyper-Kamiokande:2018ofw}, and the European Spallation Source neutrino Super Beam (ESS$\nu$SB)~\cite{Blennow:2019bvl, ESSnuSB:2021azq}, promise to take this research even further~\cite{Mena:2005ek, Feldman:2012jdx, Agarwalla:2014fva, Diwan:2016gmz, Farzan:2017xzy, Giganti:2017fhf}, offering the potential for groundbreaking discoveries. 
+
+At Fermilab, the Long Baseline Neutrino Facility (LBNF) generates the neutrino beam for DUNE. This is achieved by the Main Injector, which propels an on-axis 1.2 MW proton beam with an energy of 120 GeV onto a graphite target. This collision produces charged mesons that decay in flight, creating a wide-band neutrino flux. The flux ranges from a few hundred MeV to several tens of GeV, peaking at 2.5 GeV. We generate statistics in the 0.5 - 18 GeV range. The planned run time is 5 years for both neutrino and antineutrino modes, resulting in approximately $1.1 \times 10^{21}$ protons on target (P.O.T.) per year and a total exposure of 480 kton MW year. DUNE incorporates two key detectors: a near detector and a far detector. The near detector, positioned 600 m downstream from the neutrino production point at Fermilab, is designed to monitor and characterize the neutrino beam, while also possessing notable physics capabilities. The far detector, located 1285 kilometers away and 1.5 kilometers underground at the Sanford Underground Research Facility in South Dakota, is central to our analysis due to its exceptional sensitivity to neutrino oscillations. This detector, a liquid argon time projection chamber with a net volume of 40 kt, is considered for single-phase detection only in our study. Neutrino detection occurs via both neutral-current (NC) and charged-current (CC) neutrino interactions. While the deployment of the detector will be phased~\cite{DUNE:2020jqi,DUNE:2021mtg}, our simulations account for the total final detector volume. Our results are based on the DUNE simulation configuration from Ref.~\cite{DUNE:2021cuw}.
+
+T2HK will use the 2.5$^\circ$ off-axis JPARC neutrino beam, similar to its predecessor, T2K (Tokai-to-Kamioka). JPARC generates the beam by firing a 1.3 MW proton beam at 30 GeV onto a graphite target~\cite{McDonald:2001mc}. This process creates a narrow-band neutrino flux, ranging from a few MeV to a few GeV, and peaking at 600 MeV, with most neutrinos within the 0.1 - 3 GeV range. According to Ref.~\cite{Hyper-Kamiokande:2016srs}, the planned run time is 2.5 years in neutrino mode and 7.5 years in antineutrino mode, resulting in approximately $2.7 \times 10^{22}$ P.O.T. and a total exposure of 2431 kton MW year. T2HK comprises both near and far detectors. The near detectors are located approximately 280 m downstream from the neutrino production point at the Japan Proton Accelerator Research Complex (JPARC) and are tasked with monitoring and characterizing the neutrino beam. The far detector, located 295 km away and 1.7 km underground in the Tochibora mines of Japan is our primary focus due to its high sensitivity. This detector consists of a tank filled with purified water with a net volume of 187 kton. Neutrino detection occurs via quasielastic charged-current scattering and charged-current deep inelastic scattering. Our results are based on the T2HK simulation configuration from Ref.~\cite{Hyper-Kamiokande:2016srs}.
+
+
+\begin{figure}[htb!]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Chapter-6/v2_four_panel_plot_nu.pdf}
+
+	\caption {\footnotesize{Total $\nu_\mu\rightarrow\nu_\mu$ disappearance event rates (signal + background) as a function of $\sin^2\theta_{23}$ and $\Delta m^2_{31}$ using DUNE and T2HK considering standard interaction (left panel) and in presence of $L_{\mu}-L_{\tau}$ (right panel) assuming $V_{\mu\tau} = 4 \times 10^{-14}$~eV illustratively in the top and bottom panels, respectively. The benchmark values correspond to Table~\ref{tab:oscillation-params}, assuming NMO.}}
+   
+ \label{fig:Oscillogram_disapp_nu}
+ \end{figure}
+
+ \begin{figure}[htb!]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Chapter-6/v2_four_panel_plot_nubar.pdf}
+
+	\caption{\footnotesize{Total $\bar{\nu}_\mu\rightarrow\bar{\nu}_\mu$ disappearance events (signal + background) of DUNE (T2HK) in upper (lower) panel in $\sin^2\theta_{23}-\Delta m^2_{31}$ plane considering standard interaction (left panel) and in presence of $L_{\mu}-L_{\tau}$ (right panel) assuming $V_{\mu\tau} = 4 \times 10^{-14}$ eV illustratively in the top and bottom panels, respectively. The benchmark values correspond to Table~\ref{tab:oscillation-params}, assuming NMO.}}
+ \label{fig:Oscillogram_disapp_anti}
+ \end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Effect on disappearance statistics}
+\label{subsec:disapp-stats}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In this section, we study the effect of the presence of LRI under $L_{\mu}-L_{\tau}$ symmetry in disappearance statistics. For completion, we show the effect under $L_{e}-L_{\mu}$ and $ L_{e} - L_{\tau}$ symmetries in Appendix... For studying the effect in disappearance statistics, we generate total (signal+background) event rates as a function of atmospheric mixing angle, $\sin^{2}\theta_{23}$ and mass-squared splitting, $\Delta m^{2}_{31}$. Illustratively, we depict here the effects assuming the strength of $V_{\mu\tau} = 4 \times 10^{-14}$ eV. The choice of this value is explained in Sec.~\ref{subsec:simulation}. 
+
+We expect the rates to decrease around the maximal mixing solutions ($\sin^2\theta_{23} = 0.5$) as they are $\propto (1 - \sin^2 \theta_{23})$~\cite{Agarwalla:2021bzs, Agarwalla:2024kti}. This trend is consistent in the presence of LRI. This U-shaped nature under SI does not have its minimum exactly at $\sin^2\theta_{23} = 0.5$ due to $\theta_{13}$ corrections; however, the presence of $L_{\mu}-L_{\tau}$ symmetry shifts this minimum to $\sin^2\theta_{23} \sim \text{LO}$. We checked that depending upon the strength of LRI potential, this minima shifts. This can be explained by examining the evolution of the $\theta_{13}$ parameter in the presence of matter (referred to as $\theta^{\rm m}_{13}$) under SI and  $V_{\mu\tau}$ [we can refer to fig if we plan to give or we can refer to our previous works in the literature]. In the presence of LRI, $\theta^{\rm m}_{13}$ achieves a higher value much more rapidly than under SI. Furthermore, we observe that in the higher octant (HO) ($\sin^2\theta_{23} > 0.5$), neutrino event rates are higher with LRI compared to SI. For a given value of $\Delta m^{2}_{31}$, the increase in the event rates on either side of the maximal mixing (MM) solutions of $\sin^2\theta_{23}$ occurs more rapidly in the presence of LRI than in the presence of SI. In the case of antineutrinos, for any combination of $\sin^2\theta_{23}$ and $ \Delta m^{2}_{31}$, there are significantly higher event rates in the presence of LRI than SI. This can be explained by examining the evolution of the $\theta_{23}$ parameter in the presence of matter (denoted as $\theta^{\rm m}_{23}$), which attains a higher value at lower energies in the presence of LRI than SI. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Effect on appearance statistics}
+\label{subsec:app-stats}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-----------------------------------------------
+\begin{figure}[htb!]
+	\centering 
+ \includegraphics[width=\linewidth]{./Figures/Chapter-6/v2_four_panel_combined_plot.pdf}
+	\caption{\footnotesize{The top (bottom) panel depicts the bi-events in the $\nu_\mu\rightarrow\nu_e$ and $\bar{\nu}_\mu\rightarrow\bar{\nu}_e$ appearance channel in DUNE (T2HK). Red, blue, and green curves are for $L_e-L_\mu$, $L_e-L_\tau$, and $L_\mu-L_\tau$ symmetries, respectively, assuming $V_{\alpha\beta} = 4 \times 10^{-14}$ eV, whereas the black curve depicts the bi-events in the standard interaction case.  Left and right panels represent two different values of $\sin^{2}\theta_{23}$ = 0.455 and 0.55, respectively. We vary $\delta_{\mathrm{CP}}$ from $-180^\circ$ to $+180^\circ$ for the appearance bi-events. The benchmark oscillation parameters are from Table \ref{tab:oscillation-params}. Please note different y-ranges in the top and bottom panels.}} 
+	\label{fig:App_Event_spectra}
+\end{figure}
+%-------------------------------------------------------
+
+Bi-probability in appearance channel is a crucial pictorial representation of three major effects: intrinsic or genuine CP-violating phase $\delta_{\mathrm{CP}}$\,, induced due to the presence of $\sin \delta_{\mathrm{CP}}$ term; a CP-conserving effect due to the presence of $\cos\delta_{\mathrm{CP}}$ and the matter effect. CP-trajectory forms an ellipse and this shape has been previously 
+justified~\cite{Arafune:1996bt, Minakata:1997td, Minakata:1998bf,
+ Tanimoto:1996ky, Tanimoto:1996by, Bilenky:1997dd, Yasuda:1999uv, Koike:1999hf}. In Fig.~\ref{fig:App_Event_spectra}\, we extend this discussion in terms of appearance event rates under $L_{e}-L_{\mu}$, $ L_{e} - L_{\tau}$, and $L_{\mu}-L_{\tau}$ symmetries and the SI. For elaboration, we depict these bievents for two choices of $\sin^2\theta_{23}$, one in the lower octant (LO) (left panel), which is also the benchmark value in Table~\ref{tab:oscillation-params}, and other in HO corresponding to $\sin^2\theta_{23} = 0.55$ (right panel). The solid and dotted curves represent the bi-events in the presence of only SI and SI+LRI, respectively. These are generated for some illustrative choice, $V_{e\mu}$ =  $V_{e\tau}$ = $V_{\mu\tau}$ = $4.0\times10^{-14}$ eV. The choice of the strength of these potentials is elaborated in Sec.~\ref{subsec:simulation}.
+
+As discussed in disappearance statistics, the standard appearance rates also exhibit greater deviations due to LRI under DUNE compared to T2HK. In the presence of all the three symmetries, $L_{e}-L_{\mu}$, $ L_{e} - L_{\tau}$, and $L_{\mu}-L_{\tau}$ under DUNE, the maximum achievable neutrino event statistics surpass those of SI. This can be explained from the fact that in the presence of LRI, the probability of $\nu_{\mu} \rightarrow \nu_{e}$ attains oscillation maximum at lower energies than the SI~\cite{Singh:2023nek, Agarwalla:2024ylc}. The appearance statistics is proportional to $\sin^2\theta_{23}\cdot\sin^22\theta_{13}$. Upon examining the evolution of the parameters $\theta_{23}^{\mathrm{m}}$ and $\theta_{13}^{\mathrm{m}}$  we observe that they attain higher values at lower energies compared to SI. However, the highest attainable antineutrino event statistics occur under SI, rather than in the presence of any of the considered LRI symmetries. This nature of ellipses is consistent with the choice of the octant of $\sin^2 \theta_{23}$. As expected, the overall appearance statistics are higher in HO compared to LO.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%====================================================================
+\section{Projected sensitivities in the presence of long-range interactions}
+\label{sec:results}
+%====================================================================
+
+In the subsequent subsections, we give a detailed description of the numerical analysis we employ to estimate our results. We forecast the effect of long-range interaction under $(L_{e}-L_{\mu})$, $(L_{e} - L_{\tau})$, and $(L_{\mu}-L_{\tau})$ symmetries on the projected sensitivity in establishing: CP coverage, deviation from maximal mixing, and exclusion of wrong octant of $\sin^2\theta_{23}$. We show our results in two ways: (i) assuming a fixed 3$\sigma$ discoverable value of $V_{\alpha\beta}$ corresponding to each symmetry and then studying its effect in the above-mentioned physics potentials. (ii) depicting the fraction of sensitivity in achieving the corresponding physics potential at a designated confidence level as a function of $V_{\alpha\beta}$. 
+
+%----------------------------------
+\subsection{Simulation Details}
+\label{subsec:simulation}
+%----------------------------------
+
+In this subsection, we give a detailed analysis of the statistical treatment that we adopt to quantify our achievable constraints from the upcoming long-baseline experiments DUNE and T2HK. To perform all our simulations, we make use of publicly available GLoBES software~\cite{Huber:2004ka,Huber:2007ji}. Further, extended snu library~\cite{Kopp:2006wp,Kopp:2007ne} is used to include the effect of long-range interactions. We generate our data using the benchmark values of oscillation parameters from Table~\ref{tab:oscillation-params} following Ref.~\cite{Capozzi:2021fjo}, assuming NMO. In the fit, we minimize over the consecutive mentioned 3$\sigma$ ranges in $\sin^{2}\theta_{23}\,, \delta_{\mathrm{CP}\,,}$ and $ \Delta m^{2}_{31}$ (refer to Table~\ref{tab:oscillation-params}). Furthermore, we also vary $V_{\alpha\beta}$ in the range $ [1\times10^{-15}, 3 \times 10^{-14}]$ eV in different phenomenological aspects addressed in the subsection \ref{subsec:DM-fixed-potential}. This range is chosen to encompass the region where measurable impacts on neutrino oscillation phenomena could arise in experiments like DUNE and T2HK. The selected interval provides a robust foundation for placing constraints or making statistically significant measurements, ensuring the analysis remains sensitive to any potential deviations introduced by the long-range potential as explored previously in~\cite{Singh:2023nek}. For an elaborate checking we extend this range to $V_{\alpha\beta} \in [1\times10^{-15}: 1\times 10^{-13}]$ eV in the different phenomenological aspects discussed in the subsection \ref{subsec:frac-DM} for the test statistic, where the true value of LRI potential strength is not fixed while generating data, but instead varied within the range $V_{\alpha\beta} \in [5 \times 10^{-14}: 5\times 10^{-14}]$ eV. We keep $\theta_{13}$ fixed at the benchmark value as Daya Bay has already achieved an unprecedented precision of 2.8\%~\cite{DayaBay:2022orm}. We do not vary solar parameters as we do not expect them to affect our results. We do not minimize over the wrong mass ordering. We only show the effect assuming NMO in both data and fit. We expect the upcoming long-baseline experiment DUNE to fix the mass ordering issue in their earlier years of data-taking~\cite{DUNE:2020jqi}. 
+Following the detailed discussions in references~\cite{Baker:1983tu,
+Cowan:2010js,Blennow:2013oma}, we use the Poissonian $\chi^{2}$ function as:
+\begin{equation}
+\chi^{2} = \underset{\xi_{s}, \, \xi_{b}}{\mathrm{min}} \left[ 2\sum^{n}_{i=1}(\Tilde{y_{i}} - x_{i} - x_{i}ln\frac{\Tilde{y}_{i}}{x_{i}}) + \xi^{2}_{s} + \xi^{2}_{b} \right]\,,
+\label{eq:poisonian-eq}
+\end{equation}
+where $n$ gives the total reconstructed energy bins, and $\xi_{s}$ and $\xi_{b}$ are the pull parameters on signal and background, respectively. True-statistic enters the above Eq.~\ref{eq:poisonian-eq} through $x_{i}$, where $x_{i} = N^{\mathrm{ex}}_{i} + N^{b}_{i}$. Here, $N^{\mathrm{ex}}_{i}$ denotes the predicted true event rates in the $i$-th bin, and $N^{b}_{i}$ provides the corresponding background event rates. The value of $\Tilde{y}_{i}$ comes from the predicted set of test event rates (denoted by $N^{th}_{i}\{\omega\}$) for the $i-$th energy bin. Both $x_{i}$ 
+and $\Tilde{y}_{i}$ are a function of $\omega$, which is the set of 
+oscillation parameters (elaborated later). 
+The test-statistic $\Tilde{y}_{i}$ is computed as,
+\begin{equation}
+\Tilde{y}_{i}(\{\omega\}, \{\xi_{s}, \xi_{b}\}) = 
+N^{th}_{i} (\{\omega\})\left[1+\pi^{s}\xi_{s}\right] + 
+N^{b}_{i} (\{\omega\})\left[1+\pi^{b}\xi_{b}\right]\,,
+\end{equation}
+where $N^{b}_{i}(\{\omega\})$ depicts the total number of background events, dependent upon systematic uncertainty $\pi^{b}$. In principle, an experiment can have a number of detector systematic uncertainties contributing to background, for a given channel probed as signal. However, for simplicity we stick to one uncertainty in the background, corresponding to each signal: for appearance events, we assume 5\% systematic uncertainties in the background, while for disappearance events, we consider 10\%. $\pi^{s}$ quantifies the systematic errors on signal events. We consider 2\% and 5\% systematic uncertainties on appearance signal events and 5\% and 3.5\% on disappearance signal events, in both neutrino and antineutrino modes in in DUNE and T2HK, respectively. However, these uncertainties in neutrino and antineutrino modes are fully uncorrelated.
+
+For obtaining the full $\chi^{2}$, we sum over the $\chi^{2}$ contributions from individual oscillation channels in both neutrino and antineutrino modes as described below:
+\begin{equation}
+\chi^{2}_{\mathrm{total}} = 
+\chi^{2}_{\nu_{\mu} \rightarrow{ \nu_{e}}} + \chi^{2}_{\bar{\nu}_{\mu} 
+\rightarrow{\bar{\nu}_{e}}} + \chi^{2}_{\nu_{\mu} \rightarrow{ \nu_{\mu}}} + 
+\chi^{2}_{\bar{\nu}_{\mu} \rightarrow{\bar{\nu}_{\mu}}}\,.
+\end{equation}
+In the above expression, oscillation channels and the systematic 
+uncertainties on both signal and backgrounds are fully uncorrelated, 
+whereas in a given channel, all the energy bins are fully correlated. 
+Further, while minimizing the $\chi^{2}_{\mathrm{total}}$\,, 
+first it is minimized with respect to the pull variables ($\xi_{s}$ and $\xi_{b}$). This is then further minimized over a subset of all oscillation parameters in their defined allowed ranges in the theory (refer to Table~\ref{tab:oscillation-params} for allowed ranges). 
+
+\subsection{Influence of fixed LRI in data}
+
+%============================================================
+\subsubsection{Impact on deviation from maximal $\sin^{2}\theta_{23}$ }
+\label{subsec:DM-fixed-potential}
+%======================================================================
+\begin{figure}[htb!]
+	\centering 
+	\includegraphics[width=\linewidth]{./Figures/Chapter-6/Masoom_di_revised_DM}
+	\caption{\footnotesize{Effect of $L_e-L_\mu$ (left panel), $L_e-L_\tau$ (middle panel), and $L_\mu-L_\tau$ (right panel) symmetries on the sensitivity to deviations from maximal mixing using DUNE (top), T2HK (middle), and their combination DUNE + T2HK (bottom) under NMO.  The black and colored curves represent the absence and presence of LRI in SI with a fixed potential strength in data, using benchmark oscillation parameters and minimization ranges for $\delta_{\mathrm{CP}}$, $\Delta m^2_{31}$, and $V_{\alpha\beta}$ from Table~\ref{tab:oscillation-params}. \textit{The sensitivity decreases in the presence of LRI compared to SI when data is generated with LO but increases with HO, with DUNE exhibiting the most significant effect due to its large matter influence. As the study is predominantly driven by disappearance statistics, $L_{\mu}-L_{\tau}$ symmetry impacts the sensitivity the most.}}
+     } 
+	\label{fig:DM_LRI}
+\end{figure}
+%--------------------------------------------
+
+Fig. \ref{fig:DM_LRI} illustrates the sensitivity of DUNE and T2HK in identifying deviations of $\sin^2\theta_{23}$ from its maximal mixing value, both individually and in combination, under the influence of LRI. We compute the sensitivity using
+
+
+%--------------------------------------------
+\begin{equation}
+    \resizebox{\textwidth}{!}{$
+    \Delta \chi^2_{\mathrm{DM}} = \underset{(\delta_{\mathrm{CP}},\,\Delta m^{2}_{31},\, V_{\alpha\beta})}{\mathrm{min}} \bigg[
+    \chi^2(\sin^2\theta^{\mathrm{test}}_{23} = 0.5, (\rm{SI} + V_{\alpha\beta}))-\chi^2(\sin^2\theta^{true}_{23}\in[0.4:0.6],(\rm{SI} + V_{\alpha\beta}^{\rm {fixed}}))\bigg]$}
+    \label{eq:chi2-sensitivity-DM}.
+\end{equation}
+%--------------------------------------------
+
+As extensively discussed in existing studies, the sensitivity to deviations from MM primarily relies on disappearance-driven analyses~\cite{Agarwalla:2024kti}. The characteristic U-shaped nature of the sensitivity curves reaffirms this, as it reflects the variation of disappearance statistics proportional to $1- \sin^2 2\theta_{23}$.  A narrower and more sharply defined U-shape indicates enhanced precision in determining deviations from MM, emphasizing the experiment's ability to tightly constrain $\sin^2\theta_{23} = 0.5$. The substantial disappearance statistics and the lower disappearance systematic uncertainties of 3.5\% in T2HK enable superior sensitivity in identifying deviations from MM compared to DUNE, both in the presence and absence of LRI. Notably, the $L_{\mu}-L_{\tau}$ symmetry significantly influences the $\nu_{\mu} \rightarrow \nu_{\mu}$ and $\bar{\nu}_{\mu} \rightarrow \bar{\nu}_{\mu}$ disappearance channels, resulting in notable deviations in sensitivity when compared with the SI case under DUNE. This effect is more pronounced in DUNE due to its relatively higher disappearance systematic uncertainties of 5\%\,, as illustrated in Fig.~\ref{fig:DM_LRI}. To provide a quantitative measure of our findings, we introduce a variable, $\zeta_{\rm DM}$, which captures the deviation in sensitivity observed in the presence of LRI compared to the SI scenario in Table~\ref{table:DM_LRI_2}. Illustratively, we evaluate  for $\sin^2\theta_{23} = 0.48$ (a choice in LO) and $\sin^2\theta_{23} = 0.52$ (a choice in HO). 
+%---------------------------------------
+\begin{equation}
+\zeta_{\rm DM}\, =\, \dfrac{(\Delta\chi^2_{\mathrm{SI}}-\Delta\chi^2_{\mathrm{LRI}})}{\Delta\chi^2_{\mathrm{SI}}}\times \, 100\%\, .
+    \label{eq:deflection-DM}
+\end{equation}
+%----------------------------------------
+
+\begin{table}[htb!]
+    \centering
+    {\footnotesize  % Set smaller font size
+    \renewcommand{\arraystretch}{2.0} % Adjust vertical spacing
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \multirow{2}{*}{Sym.} & \multicolumn{3}{|c|}{Departure from SI, $\zeta_{\rm DM}$(\%) at $\sin^2\theta_{23}=0.48\,(0.52)$} \\
+        \cline{2-4}
+        & DUNE & T2HK & DUNE + T2HK \\
+        \hline
+        $L_e-L_\mu$ & 27.2 ($-\,77.2$) & 6.8 ($-\,6.5$) & $\,7.0$ ($-50.4$) \\
+        \hline
+        $L_e-L_\tau$ & 21.8 (-0.4) & 1.8 (-0.1) & 11.6 (9.1) \\
+        \hline
+        $L_\mu-L_\tau$ & 27.1 ($-\,129.2$) & 23.6 (-0.6) & 13.4 (-7.0) \\
+        \hline
+    \end{tabular}
+    \caption{\footnotesize{Deflection in sensitivity for establishing deviation from maximal $\sin^2\theta_{23}$, assuming true $\sin^2\theta_{23} = 0.48\,(0.52)$ under different LRI symmetries relative to the SI case. \textit{Positive values indicate a deterioration in sensitivity, while negative values signify an improvement}.}}
+    \label{table:DM_LRI_2}
+    }
+\end{table}
+
+
+
+From Table \ref{table:DM_LRI_2}, we see that the positive values of $\zeta_{\rm DM}$ indicate a decrease in sensitivity when probing a non-maximal $\theta_{23}$ in the presence of LRI, compared to the SI case. This holds true for all LRI symmetries, with the true value of $\sin^2\theta_{23}$ set at 0.48 (LO). The largest deflection from SI occurs in DUNE for the $L_\mu - L_\tau$ symmetry, with a deflection of $\sim 129\%$. In contrast, the smallest deflection is seen in T2HK for the $L_e - L_\mu$ symmetry (1.7\%). Interestingly, we find that when the data is generated with $\sin^2\theta_{23}$ in the HO, the presence of both $L_\mu - L_\tau$ and $L_{e} - L_{\mu}$ symmetries in DUNE improves the sensitivity significantly compared to the SI case. This improvement is meagre in the case of $L_e - L_\tau$ symmetry. The improvement is more pronounced for $L_\mu - L_\tau$ symmetry than for $L_{e} - L_{\mu}$ symmetry. This enhancement occurs because the neutrino disappearance statistics under these symmetries are higher than in the SI case (refer Fig.~\ref{fig:Oscillogram_disapp_nu}), with the highest statistics observed under the $L_\mu - L_\tau$ symmetry, followed by $L_e - L_\mu$ and the least under $L_e - L_\tau$ symmetry. We observe that among DUNE and T2HK, T2HK generally provides better sensitivity to non-maximal $\theta_{23}$ than DUNE. This is because T2HK benefits from huge disappearance statistics and reduced disappearance systematic uncertainties, both of which are crucial for this study. Moreover, when combining results from DUNE and T2HK, the sensitivity under $L_\mu - L_\tau$ symmetry improves as compared to their individual sensitivities; however, it remains lower than in the SI case. This is attributed to the behavior of how $\theta_{23}$ evolves in the presence of matter ($\theta_{23}^{\rm m}$) with $E$ under the three LRI symmetries considered, as shown in Fig. \ref{fig:running_th23}. 
+
+%-------------------------------------------------------------
+
+\subsubsection{Effect on exclusion of wrong octant of $\sin^{2}\theta_{23}$ }
+\label{subsec:wrong-octant-fixed-potential}
+%-----------------------------------------------------------------
+\begin{figure}[htb!]
+	\centering 
+	\includegraphics[width=\linewidth]{./Figures/Chapter-6/Masoom_di_revised_octant}
+	\caption{\footnotesize{Effect of the presence of $L_e-L_\mu$ (left panel), $L_e-L_\tau$ (middle panel), and $L_\mu-L_\tau$ (right panel) symmetries in excluding the wrong octant solutions using DUNE (top), T2HK (in between), and their combination DUNE + T2HK (bottom), assuming NMO. The black and colored curves represent the absence and presence of LRI in SI with a fixed potential strength (Refer Table~\ref{tab:oscillation-params}). The benchmark choices of oscillation parameters used to generate the data, as well as the ranges of $\delta_{\mathrm{CP}}$ and $\Delta m^2_{31}$ over which the test statistic is minimized, are taken from Table~\ref{tab:oscillation-params}. Additionally, we also minimize test statistic over $V_{\alpha\beta}$ (Refer Table~\ref{tab:oscillation-params}). The rest of the oscillation parameters remain fixed at their benchmark. \textit{In DUNE, the presence of $L_{\mu}-L_{\tau}$ symmetry, the sensitivity is significantly affected, decreasing for true LO and enhancing for true HO compared to SI, followed by the effects of $L_{e}-L_{\mu}$ symmetry.}
+    }} 
+	\label{fig:LRI_oct_excl}
+\end{figure}
+%---------------------------------------------------------------
+Fig.~\ref{fig:LRI_oct_excl} illustrates the sensitivity of DUNE and T2HK in excluding the wrong octant of $\sin^2\theta_{23}$ in isolation and combination, under the influence of LRI. This sensitivity is computed using
+%--------------------------------------------
+\begin{equation}
+    \Delta \chi^2_{\mathrm{oct}} = \underset{(\delta_{\mathrm{CP}},\,\Delta m^{2}_{31},\, V_{\alpha\beta})}{\mathrm{min}} \bigg[
+    \chi^2(\sin^2\theta^{\mathrm{test}}_{23}, (\rm{SI} + V_{\alpha\beta}))-\chi^2(\sin^2\theta^{true}_{23},(\rm{SI} + V_{\alpha\beta}^{\rm {fixed}}))\bigg]
+    \label{eq:chi2-sensitivity-octant}\,,
+\end{equation}
+%--------------------------------------------
+where $\sin^2\theta_{23}^{\rm test}$ and $\sin^2\theta_{23}^{\rm true}$ corresponds to the opposite octant. The ranges of minimization over the uncertain parameters are taken from Table~\ref{tab:oscillation-params}. Under SI, the sensitivity to excluding the wrong octant solutions is similar for DUNE and T2HK individually, but it improves when combined, highlighting the complementarity between these experiments, as studied in Ref.~\cite{Agarwalla:2024kti}. 
+
+Under the influence of new LRI potential, we observe very little effect under T2HK, only in LO, where the sensitivity decreases in the presence of LRI. However, under DUNE, we observe significant deviation from the SI sensitivities in the presence of each LRI symmetry considered. The presence of $L_{\mu}-L_{\tau}$ symmetry significantly reduces the sensitivity to exclude the wrong octant solutions if the correct octant in Nature is LO, with a similar but lesser effect observed for $L_{e}-L_{\tau}$ symmetry. However, in the presence of $L_{e}-L_{\mu}$ symmetry, the sensitivity does not get affected. This can be attributed to the overall reduction in total neutrino rates under $L_{\mu}-L_{\tau}$ and $L_{e}-L_{\tau}$ symmetries compared to SI, whereas in the case of $L_{e}-L_{\mu}$ symmetry, the neutrino rates remain comparable to SI when LO is assumed in Nature (Refer fig.~\ref{fig:Oscillogram_disapp_nu}). This can be understood by observing the nature of the evolution of $\theta_{23}^{\rm m}$ with matter in the presence of these three symmetries in Fig.~\ref{fig:running_th23}. If $\sin^2\theta_{23}$ is in HO in Nature, the sensitivity increases in the presence of $L_{e}-L_{\mu}$ symmetry, followed by $L_{\mu}-L_{\tau}$ symmetry, while $L_{e}-L_{\tau}$ symmetry has little effect. This enhancement arises because, under $L_{e}-L_{\mu}$ symmetry, the total antineutrino rates increase significantly compared to SI. This behavior can be understood by examining the evolution of $\theta_{23}^{\rm m}$ in matter for antineutrinos under this LRI symmetry in fig~\ref{fig:running_th23}, which differs notably from SI in a manner opposite to that observed for $L_{\mu}-L_{\tau}$ and $L_{e}-L_{\tau}$ symmetries. In general, combining DUNE and T2HK does not significantly alter the sensitivity in excluding the wrong octant solutions of $\sin^2\theta_{23}$ under any symmetry. This highlights the complementarity between DUNE and T2HK, ensuring a similar sensitivity to excluding the wrong octant solutions in the presence of LRI symmetries - an outcome that was not observed with DUNE alone. 
+
+To provide a quantitative measure of our findings, we introduce a variable, $\zeta_{\rm oct}$, which captures the deviation in sensitivity observed in the presence of LRI compared to the SI scenario in Table~\ref{table:Oct_LRI_2}. Illustratively, we evaluate  for $\sin^2\theta_{23} = 0.48$ (a choice in LO) and $\sin^2\theta_{23} = 0.52$ (a choice in HO).
+
+\begin{table}[htb!]
+    \centering
+    {\footnotesize  % Set smaller font size
+    \renewcommand{\arraystretch}{2.0} % Adjust vertical spacing
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \multirow{2}{*}{Sym.} & \multicolumn{3}{|c|}{Departure from SI, $\zeta_{\rm oct}$(\%) at $\sin^2\theta_{23}=0.48\,(0.52)$} \\
+        \cline{2-4}
+        & DUNE & T2HK & DUNE + T2HK \\
+        \hline
+        $L_e-L_\mu$ & 13.8 ($-\,64.9$) & 3.7 ($-\,3.2$) & $-\,1.9$ ($-41.4$) \\
+        \hline
+        $L_e-L_\tau$ & 41.0 (14.3) & 23.7 (1.5) & 31.7 (45.3) \\
+        \hline
+        $L_\mu-L_\tau$ & 54.9 ($-\,6.1$) & 40.8 (2.5) & 34.6 (36.0) \\
+        \hline
+    \end{tabular}
+    }
+    \caption{\footnotesize{Departure in sensitivity for excluding the wrong octant solutions of $\sin^2\theta_{23}$, assuming true $\sin^2\theta_{23} = 0.48\,(0.52)$ under different LRI symmetries relative to the SI case. \textit{Positive values indicate a deterioration in sensitivity, while negative values signify an improvement}.}}
+    \label{table:Oct_LRI_2}
+\end{table}
+
+
+
+
+The numerical values align with the above explanation, where a positive $\zeta_{\rm oct}$ indicates a deterioration in sensitivity, while a negative value signifies an improvement. As discussed, DUNE exhibits the strongest impact of LRI among the two experiments. Under $L_{\mu}-L_{\tau}$ , DUNE experiences the greatest deterioration in sensitivity for excluding the wrong octant solutions, deviating by approximately 55\% from the SI case when in Nature $\sin^2\theta_{23} = 0.48$. Conversely, if $\sin^2\theta_{23} = 0.52$, the same symmetry enhances the sensitivity by  6\% compared to the SI case. 
+
+
+%---------------------------------------------------------------
+\subsubsection{Influence on CP violation }
+\label{subsec: CPV-fixed-potential}
+%---------------------------------------------------------
+\begin{figure}[htb!]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Chapter-6/Masoom_di_revised_CPV}
+	\caption{\footnotesize{Effect of the presence of $L_e-L_\mu$ (left panel), $L_e-L_\tau$ (middle panel), and $L_\mu-L_\tau$ (right panel) symmetries on CP violation sensitivity using DUNE (top), T2HK (middle), and their combination DUNE + T2HK (bottom) under NMO. The black and colored curves represent the absence and presence of LRI in SI with potential strengths taken from Table~\ref{tab:oscillation-params} using benchmark oscillation parameters and minimizing the test statistic over $\sin^2\theta_{23}$, $\Delta m^2_{31}$, and $V_{\alpha\beta}$ within the specified ranges. \textit{The presence of each LRI symmetry decreases the CP violation sensitivity, particularly near maximal CP-violating values, with $L_{e}-L_{\tau}$ symmetry causing the most significant reduction.}
+    }}
+ \end{figure}
+ \label{fig:CPV}
+%--------------------------------------------------------
+Fig.~\ref{fig:CPV} illustrates the sensitivity of DUNE and T2HK in determining CP violation both individually and in combination, under the influence of LRI. This sensitivity is computed using
+%-------------------------
+\begin{equation}
+ \Delta \chi^2 = \underset{(\delta_{\rm CP}^{\rm test} = 0^{\circ} \text{ and } 180^{\circ},\,\sin^2\theta_{23},\,\Delta m^{2}_{31}, \, V_{\alpha\beta})}{\mathrm{min}} \bigg[
+    \chi^2(\delta^{\mathrm{test}}_{\mathrm{CP}}, (\rm{SI} + V_{\alpha\beta}))-\chi^2(\delta^{\mathrm{true}}_{\mathrm{CP}} = 223^\circ, (\rm{SI} + V_{\alpha\beta}^{\rm fixed})\bigg],
+    \label{eq:chi2-sensitivity-cpv}
+\end{equation}
+%-------------------------------------------------------
+where the ranges over which minimization is performed is taken from Table~\ref{tab:oscillation-params}. T2HK, in isolation, shows better sensitivity to determining CP violation than DUNE under SI, particularly in the favorable region of NMO and the lower half-plane of $\delta_{\mathrm{CP}}$. This is due to its narrow-band energy beam and reduced matter effects from a shorter baseline, compared to DUNE’s wide-band beam and stronger matter effects from a longer baseline~\cite{Singh:2024nvt}. However, DUNE outperforms T2HK in the upper half-plane of $\delta_{\mathrm{CP}}$, thanks to its superior appearance channel systematic uncertainties. Combining both experiments leverages their complementarity, significantly enhancing sensitivity under SI~\cite{Singh:2024nvt}. 
+
+The presence of LRI symmetry reduces the sensitivity to CP violation for both DUNE and T2HK, whether in isolation or combination, with the most significant impact occurring around maximal CP-violating values. As observed in previous sensitivity results, this effect is more pronounced in DUNE than in T2HK due to DUNE's greater sensitivity to LRI effects. Among the symmetries, $L_{\mu}-L_{\tau}$ symmetry causes the strongest deterioration around $\delta_{\mathrm{CP}} = -90^{\circ}$, followed by $L_{e}-L_{\tau}$ symmetry and then $L_{e}-L_{\mu}$ symmetry. This deterioration arises from degeneracies when the test statistic is minimized over both $\sin^2\theta_{23}$ and $V_{\alpha\beta}$. T2HK, with its large disappearance statistics and reduced matter effects, helps resolve these degeneracies, leading to less deterioration than in DUNE. The complementarity between DUNE and T2HK preserves CP violation sensitivity under $L_{e}-L_{\mu}$ and $L_{\mu}-L_{\tau}$ symmetries, keeping it close to the sensitivity seen under SI. However, the presence of $L_{e}-L_{\tau}$ symmetry still reduces sensitivity around maximal CP-violating values. This is because the presence of $L_{e}-L_{\tau}$ symmetry primarily affects $\nu_{\mu} \rightarrow \nu_{e}$ and $\bar{\nu}_{\mu} \rightarrow \bar{\nu}_{e}$ appearance channels. Since CP violation sensitivity is largely driven by appearance statistics, it remains impaired even with the combined complementarity of DUNE and T2HK.
+
+
+\subsubsection{Consequence in computing allowed ranges in $(\sin^{2}\theta_{23}- \delta_{\mathrm{CP}})$ plane}
+\label{subsec: allowed-ranges-th23-dcp}
+%----------------------------------------------------
+\begin{figure}[htb!]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Chapter-6/Masoom_di_contour_best_fit}
+	\caption{\footnotesize{Effect of $L_e-L_\mu$ (left), $L_e-L_\tau$ (middle), and $L_\mu-L_\tau$ (right) symmetries on allowed ranges in the $\sin^2\theta_{23}-\delta_{\mathrm{CP}}$ plane at $3\sigma$ C.L. (2 d.o.f.) assuming NMO, true $\delta_{\mathrm{CP}}=223^\circ$, and true $\sin^2\theta_{23}=0.455$.The black and colored curves represent the absence and presence of LRI in SI with potential strengths from Table~\ref{tab:oscillation-params} using DUNE (top), T2HK (middle), and DUNE + T2HK (bottom). The test statistic is scanned over $3\sigma$ ranges of $\delta_{\mathrm{CP}}$, $\sin^2\theta_{23}$, and $\Delta m^2_{31}$ and also $V_{\alpha\beta}$ from Table~\ref{tab:oscillation-params}. \textit{The presence of LRI relaxes constraints in the $\sin^2\theta_{23}-\delta_{\mathrm{CP}}$ plane: $L_\mu - L_\tau$ and $L_e - L_\mu$ symmetries (dominating disappearance channels) weaken $\sin^2\theta_{23}$ constraints in DUNE, while $L_e - L_\tau$ symmetry (dominating appearance channels) loosens $\delta_{\mathrm{CP}}$ constraints in T2HK. DUNE and T2HK together maintain constraints under LRI nearly as stringent as in the SI case.}}}
+	\label{fig:th23-dcp-allowed-contours}
+\end{figure}
+%-------------------
+
+ Fig. \ref{fig:th23-dcp-allowed-contours} illustrates the impact of long-range interactions on depicting the allowed ranges in $(\sin^2\theta_{23}-\delta_{\mathrm{CP}})$ plane. We compute it using
+
+%-------------------------
+\begin{equation}
+   \Delta \chi^2 = \underset{(\Delta m^{2}_{31}, \, V_{\alpha\beta})}{\mathrm{min}} \bigg[
+    \chi^2(\delta^{\mathrm{test}}_{\mathrm{CP}}, \sin^2\theta^{\mathrm{test}}_{23})-\chi^2(\delta^{\mathrm{true}}_{\mathrm{CP}},  \sin^2\theta^{\mathrm{true}}_{23}) = (223^\circ, 0.455)\bigg],
+    \label{eq:chi2-sensitivity-contours_left}
+\end{equation}
+%------------------------------------------
+where the $\delta^{\mathrm{test}}_{\mathrm{CP}}$ and $\sin^2\theta^{\mathrm{test}}_{23}$ corresponds to their corresponding 3$\sigma$ ranges. Data is generated by considering a fixed true value of $V_{e\mu} = 1.4\times10^{-14}$ eV, $V_{e\tau} = 1.0\times10^{-14}$ eV, and $V_{\mu\tau} = 0.73\times10^{-14}$ eV in the top, middle, and bottom panels, respectively. These values are motivated from Ref.~\cite{Singh:2023nek}, following the constraints established by the combined DUNE + T2HK on $V_{e\mu},\, V_{e\tau}$, and $V_{\mu\tau}$ at 2$\sigma$ confidence level.
+
+
+The inclusion of LRI does not significantly improve the constraints on the $(\sin^2\theta_{23}-\delta_{\mathrm{CP}})$ plane. Among the three LRI symmetries considered, the tightest constraints are observed under the $L_{e} - L_{\tau}$ symmetry. This is because it has the most pronounced effect on neutrino appearance statistics, as highlighted in the bievents in Sec.~\ref{subsec:app-stats}. The presence of $L_{e} - L_{\mu}$ symmetry follows while $L_{\mu}-L_{\tau}$ symmetry yields the loosest constraints. In the case of $L_{\mu} - L_{\tau}$, DUNE exhibits degeneracies in $\sin^2\theta_{23}$, suggesting solutions in both the lower octant (LO) and maximal mixing (MM). Constraints improve when $\sin^2\theta_{23} = 0.581$ (HO) is used to generate data due to increased neutrino statistics in the HO compared to the LO. However, even in this scenario, a degenerate solution at MM persists. In contrast, T2HK achieves tighter constraints along $\sin^2\theta_{23}$ owing to its substantial disappearance statistics and superior disappearance systematic uncertainties, although its constraints on $\delta_{\mathrm{CP}}$ remain less stringent. The complementarity between DUNE and T2HK is evident in their respective strengths. The wide-band beam, diverse $L/E$ ratios, and superior appearance systematic uncertainties in DUNE enable stronger constraints on $\delta_{\mathrm{CP}}$. Meanwhile, the large disappearance statistics and enhanced disappearance systematics in T2HK deliver tighter bounds on $\sin^2\theta_{23}$. Together, these strengths produce a well-constrained region in the $(\sin^2\theta_{23}-\delta_{\mathrm{CP}})$ parameter space, demonstrating the synergy of combining data from both experiments.
+
+%--------------------------------------------------------------------
+\subsection{Impact of scanning LRI in data}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-----------------------------------------------
+\subsubsection{Effect on fractional coverage of $\sin^2\theta_{23}$ differentiable from MM }
+\label{subsec:frac-DM}
+%------------------------------------------------
+%-----------------------------------------------------
+\begin{figure}[htb!]
+	\centering 
+	\includegraphics[width=\linewidth]{./Figures/Chapter-6/Ritam_DM}
+	\caption{\footnotesize{Fraction of $\sin^2\theta_{23}$ in Nature that can be differentiated from MM at $\geq 3\sigma$ using DUNE, T2HK, and DUNE + T2HK in the presence of  $(L_e-L_\mu)$, $(L_e-L_\tau)$, or $(L_\mu-L_\tau)$ symmetries (dotted curves) in left, middle, and right panels, respectively. We generate these curves following Eq.~\ref{eq:chi2-sensitivity-DM-2}, using the benchmark oscillation parameters and allowed ranges from Table~\ref{tab:oscillation-params}. We assume the benchmark choice of $\Delta m^2_{31}=2.522\times10^{-3}$ eV$^2$ and consider NMO in Nature. For reference, we show fractional contributions of $\theta_{23}$ for our study under standard neutrino interaction (solid line) following the same benchmark values. The test statistic is minimized over 3$\sigma$ ranges in $\delta_{\mathrm{CP}}$, $\Delta m^2_{31}$ (Refer Table~\ref{tab:oscillation-params}), and $V_{\alpha\beta} \in [1 \times 10^{-15}, 1 \times 10^{-13}]$ eV. \textit{This sensitivity, being predominantly driven by disappearance statistics, is most affected by the presence of $L_{\mu}-L_{\tau}$ symmetry. 
+    } }}
+	\label{fig:frac_th23_DM}
+\end{figure}
+%------------------------------------------------------
+We revisit the sensitivity studies to establish the deviation from maximality using DUNE, T2HK, and their combination by computing the fractional percentage of $\sin^2\theta_{23}$ that can be differentiated from MM solutions. We use Eq.~\ref{eq:chi2-sensitivity-DM-2}, and generate data by scanning over $V_{\alpha\beta}$ between [$5.0\times10^{-15}$ eV : $5.0\times10^{-14}$ eV] and $\sin^2\theta_{23} \in [0.4 : 0.6]$, fixing all other oscillation parameters to their benchmark values. In the fit, we minimize over 3$\sigma$ uncertainty in $\delta_{\mathrm{CP}}$, $\Delta m^{2}_{31}$) (refer Table~\ref{tab:oscillation-params}), and $V_{\alpha\beta} \in [1.0\times10^{-15} : 1.0\times10^{-13}]$ eV.  For quantification, we consider only those true values of $\sin^2\theta_{23}$ that reach a 3$\sigma$ level of statistical significance. 
+
+%--------------------------------------------
+\begin{equation}
+    \resizebox{\textwidth}{!}{%
+    $
+    \Delta \chi^2 = 
+    \underset{(\delta_{\mathrm{CP}},\,\Delta m^{2}_{31},\, V_{\alpha\beta})}{\mathrm{min}} 
+    \left[
+    \chi^2\bigl(\sin^2\theta^{\mathrm{test}}_{23} = 0.5, (\mathrm{SI} + V_{\alpha\beta})\bigr) 
+    - 
+    \chi^2\bigl(\sin^2\theta^{\mathrm{true}}_{23} \in [0.4:0.6], (\mathrm{SI} + V_{\alpha\beta})\bigr)
+    \right]
+    $
+    }
+    \label{eq:chi2-sensitivity-DM-2}
+\end{equation}
+
+%--------------------------------------------
+
+Figure~\ref{fig:frac_th23_DM} illustrates the fractional contributions of $\sin^2\theta_{23}$ in Nature that are responsible for establishing non-maximality at the $3\sigma$ confidence level, as envisioned by DUNE and T2HK, both individually and in combination in both presence and absence of LRI. We expect that when the effect of LRI is minimal ( $ <10^{-14}$ eV), the test statistic will closely match the data, resulting in similar sensitivity with and without the presence of LRI. However, we observe that the presence of LRI suppresses the sensitivity due to the degeneracy arising from the minimization over the uncertainties in oscillation parameters and $V_{\alpha\beta}$. When LRI becomes sub-dominant (beyond $10^{-14}$ eV), the sensitivity to establishing deviations from the MM scenario increases compared to the SI case. This increment is most pronounced in the presence of $L_{\mu}- L_{\tau}$ symmetry, followed by $L_{e}- L_{\mu}$ symmetry, consistent with the trend observed in Fig.~\ref{fig:DM_LRI}. The increase in sensitivity is notably more significant in DUNE than in T2HK. This behavior can be explained by analyzing the evolution of $\theta_{23}^{\rm m}$ in Fig.~\ref{fig:running_th23}, where the atmospheric mixing angle gets enhanced from $45^\circ$ at 1st oscillation maxima of DUNE in the presence of LRI compared to the case where effect of LRI is absent. This rapid attainment of the maximal mixing angle in the presence of LRI, as opposed to SI, is critical. Since the disappearance channel probability is directly proportional to $ (1-\sin^2 2\theta_{23}^{\rm m})$, achieving the higher value of $\theta_{23}^{\rm m }$ leads to $\sin^2 2\theta_{23}^{\rm m} \rightarrow 0$, thereby increasing the leading-order disappearance probability and consequently enhancing the sensitivity. As the presence of  $L_{\mu}- L_{\tau}$ symmetry predominantly influences the disappearance channels, it enhances the sensitivity most significantly. Leveraging the complementarity between DUNE and T2HK, their combined analysis exhibits the most pronounced effect.
+
+%-------------------------------------------------------
+\subsubsection{Effect on excluding HO solutions of $\sin^2\theta_{23}$ }
+\label{subsec:frac-octant}
+%------------------------------------------------------
+
+%-----------------------------------------------------
+\begin{figure}[htb!]
+	\centering 
+	\includegraphics[width=\linewidth]{./Figures/Chapter-6/Ritam_octant_excl}
+	\caption{\footnotesize{Fraction of $\sin^2\theta_{23}$ in Nature that can exclude wrong octant solutions of $\sin^2\theta_{23}$ at $\geq 3\sigma$ using DUNE, T2HK, and DUNE + T2HK in the presence of  $(L_e-L_\mu)$, $(L_e-L_\tau)$, or $(L_\mu-L_\tau)$ symmetries (dotted curves) in left, middle, and right panels, respectively. We generate these curves following Eq.~\ref{eq:chi2-sensitivity-oct-2}, using the benchmark oscillation parameters and allowed ranges from Table~\ref{tab:oscillation-params}. We assume the benchmark choice of $\delta_{\mathrm{CP}}$ as $223^\circ$ and consider the LO ($i.e., 0.4\leq\sin^2\theta_{23}\leq0.5$) as a true octant of $\theta_{23}$ and excluding the HO ($i.e., 0.5\leq\sin^2\theta_{23}\leq0.6$), treating NMO as the underlying mass hierarchy in nature. For reference, we show this fraction under standard neutrino interaction (solid line) following the same benchmark values. The test statistic is minimized over 3$\sigma$ ranges in $\delta_{\mathrm{CP}}$, $\Delta m^2_{31}$ (Refer Table~\ref{tab:oscillation-params}), and $V_{\alpha\beta} \in [1 \times 10^{-15}, 1 \times 10^{-13}]$ eV. \textit{This sensitivity, being predominantly driven by appearance statistics, is most affected by the presence of $L_{\mu}-L_{\tau}$ symmetry. 
+    } }}
+	\label{fig:frac_th23_oct}
+\end{figure}
+%------------------------------------------------------
+
+We revisit the sensitivity studies to exclude the wrong octant solutions of $\sin^2\theta_{23}$ using DUNE, T2HK, and their combination by computing the fractional percentage of $\sin^2\theta_{23}$ in LO that can be differentiated from HO solutions. For simplicity, we focus solely on generating data with LO and evaluating the sensitivity in excluding HO solutions in the test statistic. This approach is justified since the best-fit scenario falls within LO when data is generated under NMO. We use Eq.~\ref{eq:chi2-sensitivity-oct-2}, and generate data by scanning over $V_{\alpha\beta}$ between [$5\times10^{-15}$ eV : $5\times10^{-14}$ eV] and $\sin^2\theta_{23} \in [0.4 : 0.5]$, fixing all other oscillation parameters to their benchmark values. In the fit, we scan over $\sin^2\theta_{23} \in [0.5 : 0.6]$ and minimize over 3$\sigma$ uncertainty in $\delta_{\mathrm{CP}}$ and $\Delta m^{2}_{31}$) (refer Table~\ref{tab:oscillation-params}), and $V_{\alpha\beta} \in [1\times10^{-15} : 1\times10^{-13}]$ eV.  For quantification, we consider only those true values of $\sin^2\theta_{23}$ that reach a 3$\sigma$ level of statistical significance. 
+
+%--------------------------------------------
+\begin{equation}
+    \Delta \chi^2_{\mathrm{oct}} = \underset{(\delta_{\mathrm{CP}},\,\Delta m^{2}_{31},\, V_{\alpha\beta})}{\mathrm{min}} \bigg[
+    \chi^2(\sin^2\theta^{\mathrm{test}}_{23} \in \text{HO}, (\rm{SI} + V_{\alpha\beta}))-\chi^2(\sin^2\theta^{true}_{23} \in \text{LO},(\rm{SI} + V_{\alpha\beta}))\bigg]
+    \label{eq:chi2-sensitivity-oct-2}\,,
+\end{equation}
+%--------------------------------------------
+
+Figure~\ref{fig:frac_th23_oct} presents the fractional contributions of $\sin^2\theta_{23}$ in the lower octant (LO) that enable the exclusion of incorrect higher octant (HO) solutions at the $3\sigma$ confidence level, as predicted by DUNE and T2HK—both individually and in combination, with and without the presence of long-range interactions (LRI). The sensitivity under standard interactions (SI), assuming $\sin^2\theta_{23} \in$ LO and other parameter values from Table~\ref{tab:oscillation-params} while generating data, is comparable for DUNE and T2HK when scanning over $\sin^2\theta_{23} \in$ HO and minimizing over $\delta_{\mathrm{CP}}$ and $\Delta m^{2}_{31}$ in the test statistic.
+
+When the effect of LRI is minimal (below $10^{-14}$ eV), the test statistic closely aligns with the data, leading to similar sensitivity with and without LRI. However, the presence of LRI reduces sensitivity due to degeneracies arising from minimization over uncertainties in the oscillation parameters and $V_{\alpha\beta}$. As LRI becomes subdominant (beyond $10^{-14}$ eV), sensitivity to excluding HO solutions begins to increase. This effect is most pronounced under the $L_{\mu} - L_{\tau}$ symmetry, surpassing the SI case, followed by $L_{e} - L_{\mu}$ symmetry, in agreement with the trend observed in Fig.~\ref{fig:LRI_oct_excl}. The enhancement in sensitivity is notably stronger in DUNE than in T2HK.
+
+This behavior can be understood by examining the evolution of $\theta_{23}^{\rm m}$ and $\theta_{13}^{\rm m}$ in Fig.~\ref{fig:running_th23} and Fig.~\ref{fig:running_th13}, where the matter-modified mixing angles ($i.e., \theta^m_{23}\,\,\text{and}\,\,\theta^m_{13}$) increase at the 1st oscillation maxima of DUNE in the presence of LRI compared to the absence of the LRI. Since the disappearance probability is proportional to $(1-\sin^2 2\theta_{23}^{\rm m})$, $\theta_{23}^{\rm m}$ increase as $\sin^2 2\theta_{23}^{\rm m}\rightarrow0$ and consequently increases the disappearance probability through the leading-order term, thereby improving sensitivity. However, the appearance probability is proportional to $(\sin^2\theta_{23}^{\rm m}\cdot\sin^22 \theta_{13}^{\rm m})$, meaning that achieving higher values for both $\theta_{23}^{\rm m}$ and $\theta_{13}^{\rm m}$ reduce the leading term, mitigating the sensitivity increase due to disappearance statistics. Since the $L_{e} - L_{\tau}$ symmetry primarily impacts the appearance channels, its contribution to the sensitivity increase in the presence of subdominant LRI is relatively small. In contrast, the $L_{\mu} - L_{\tau}$ and $L_{e} - L_{\mu}$ symmetries primarily affect the disappearance channel, leading to a significant enhancement in the exclusion sensitivity of the wrong octant.
+
+By leveraging the complementarity between DUNE and T2HK, their combined analysis exhibits the strongest effect, particularly under the $L_{\mu} - L_{\tau}$ symmetry.
+
+%-------------------------------------------------------
+\subsubsection{Impact on CP coverage }
+\label{subsec:frac-CPV}
+%------------------------------------------------------
+\begin{figure}[htb!]
+	\centering
+	%\includegraphics[width=\linewidth]{./Figures/Chapter-6/v3_CPC}
+\includegraphics[width=\linewidth]{./Figures/Chapter-6/Ritam_CPC}
+	\caption{\footnotesize{Fraction of $\delta_\mathrm{CP}$ in Nature that can establish CPV at $\geq 3\sigma$ using DUNE, T2HK, and DUNE + T2HK in presence of  $(L_e-L_\mu)$, $(L_e-L_\tau)$, or $(L_\mu-L_\tau)$ symmetries in dotted curves in left, middle, and right panels, respectively. We generate these curves following Eq.~\ref{eq:chi2-sensitivity-to-cp-coverage}, using the benchmark oscillation parameters and allowed ranges from Table~\ref{tab:oscillation-params} assuming NMO in Nature. We assume the benchmark choice of $\sin^2\theta_{23}$ as $0.455$ ($i.e.,$ in LO) and marginalize over $3\sigma$ range of $\Delta m^2_{31}$ and $\sin^2\theta_{23}$ as mentioned in \ref{tab:oscillation-params}. For reference, we show CP coverage under standard neutrino interaction (solid line) following the same benchmark values. \textit{If subdominant long-range interaction exists in Nature, then under each symmetry, expected CP coverage in leptonic CP violation at $\geq 3\sigma$ will decrease due to the degeneracies arising by minimizing over $V_{\alpha\beta} \text{ and } \sin^2\theta_{23}$ in test statistic.}}}
+ \label{fig:CPC_LRI}
+ \end{figure}
+ %---------------------------------------------
+ 
+In this subsection, we revisit the sensitivity studies in establishing CPV using DUNE, T2HK, and their combination. For computing it, we use
+
+ %-------------------
+\begin{equation}
+    \resizebox{\textwidth}{!}{$
+    \Delta \chi^2 = \underset{(\delta^{\mathrm{test}}_{\mathrm{CP}}, \,\theta_{23},\,\Delta m^{2}_{31}, V_{\alpha\beta})}{\mathrm{min}} \bigg[
+    \chi^2(\delta^{\mathrm{test}}_{\mathrm{CP}}=0^{\circ}\, \text{and}\, 180^{\circ}, (\mathrm{SI + LRI}))-\chi^2(\delta^{\mathrm{true}}_{\mathrm{CP}}\in[0^{\circ}, 360^{\circ}], (\mathrm{SI + LRI}))\bigg]
+    $}.
+    \label{eq:chi2-sensitivity-to-cp-coverage}
+\end{equation}
+
+%-------------------
+ For quantifying our results, we follow the convention of CP coverage~\cite{Nath:2015kjg, Machado:2015vwa, Agarwalla:2022xdo}, which is defined as the fraction of true $\delta_{\mathrm{CP}}$ that can establish CPV at 3$\sigma$ (refer to Fig.~\ref{fig:CPC_LRI}), studied under NMO. For this, we follow Eq.~\ref{eq:chi2-sensitivity-to-cp-coverage}, and generate data by scanning over $V_{\alpha\beta}$ between [$5\times10^{-15}$ eV : $5\times10^{-14}$ eV] 
+ %\textcolor{blue}{\\ I think it should be [$1.0\times10^{-15}$ eV : $1.0\times10^{-13}$ eV]} 
+ and $\delta_{\mathrm{CP}}$ in the range [$-180^\circ$ : $+180^\circ$], fixing all other oscillation parameters to their benchmark values. In the fit, we minimize over the $\delta_{\mathrm{CP}} = 0^{\circ}$ and $180^{\circ}$, considering only the minimum. We also minimize over 3$\sigma$ uncertainty in $\theta_{23},\,\Delta m^{2}_{31}$) \ref{tab:oscillation-params}, and $V_{\alpha\beta} \in [1 \times 10^{-15}: 1 \times 10^{-13}]$ eV. 
+ 
+ In Fig.~\ref{fig:CPC_LRI}, we observe that depending upon the strength of LRI potential, the sensitivity in establishing CP coverage is affected in the presence of each symmetry. For $V_{\alpha\beta}$ close to $10^{-15}$ eV and smaller, the test statistic matches with the data, and hence, the sensitivity in both the presence and absence of LRI remains similar, suppressing a little because of the minimization over the uncertainties in oscillation parameters and $V_{\alpha\beta}$. Following this, in the region where $V_{\alpha\beta}$ gets sub-dominant, there is visible suppression in the CP coverage fraction. This is mostly because of the degeneracy arising when minimized over the uncertainty in $\sin^2\theta_{23}$ and $V_{\alpha\beta}$. %However, we checked that further around $> 10^{-13}$ eV,  %\textcolor{blue}{I think that, it should be rephrased as: \textbf{Towards the higher LRI potential, CP coverage falls drastically}}, the sensitivity in CP coverage decreases significantly. %\textcolor{red}{We have not extended our range of LRI in the plots so that CPC touches zero. Should we mention "zero"?}. This behavior can be traced back to the discussion in Sec.~\ref{app:running_osc_params}, where it was noted that under the influence of LRI, $\theta_{13}^{\rm m}$ rapidly approaches $45^{\circ}$ as the energy increases \ref{fig:running_th13}. Consequently, the resonance energy is significantly reduced compared to the SI scenario. As $\theta_{13}^{\rm m}$ continues to increase with energy, it eventually reaches $90^{\circ}$, causing the $\nu_{\mu} \rightarrow \nu_{e}$ oscillation probabilities to diminish across most of the energy spectrum where the neutrino flux is substantial. This results in a pronounced suppression of event rates, ultimately leading to a complete loss of CP sensitivity. \textcolor{red}{Kindly see the upcoming sentence. Can we specify these numbers beyond the range of LRI potential shown in the plot?} In DUNE, the presence of $L_\mu-L_\tau$ symmetry, this suppression can be seen at the higher LRI potential ( $\sim 8.1\times10^{-13}$ eV) whereas, for $L_e-L_{\mu}$ symmetry, this can be seen comparatively at lower LRI potential ($\sim 3.7\times10^{-13}$ eV. This is because in the presence of $L_\mu-L_\tau$ symmetry, we expect the sensitivity towards fixing the octant of $sin^2\theta_{23}$ more (discussed in later sections), which reduces the degeneracy. \textcolor{red}{I don't know if the next sentence is suitable or not as we have not extended our limit towards $10^{-12}$ eV} Following, the same explanation, this range is way beyond $10^{-12}$ eV when DUNE + T2HK is considered in combination.  
+ In the presence of $L_e-L_\tau$ symmetry, the sensitivities corresponding to DUNE and T2HK in isolation reduces because of the above-mentioned degeneracy. Yet when these experiments are combined, the DUNE + T2HK configuration effectively breaks these degeneracies in the sub-dominant parameter space, resulting in enhanced overall sensitivity. The $L_\mu-L_\tau$ symmetry exhibits analogous behavior, though its impact is less pronounced. This difference primarily stems from the fact that CP coverage sensitivity is predominantly determined by the
+ $\nu_{\mu}\rightarrow\nu_{e}$ and $\bar{\nu}_{\mu}\rightarrow\bar{\nu}_{e}$ appearance channels. Since $L_e-L_\tau$ symmetry has its strongest influence on the appearance channel, its impact on CP coverage sensitivity is particularly pronounced. 
+
+\section{Summary and conclusion}
+\label{sec:summary}
+
+The next-generation long-baseline experiments, equipped with their excellent precision, reserve adequate room for exploring new kinds of neutrino interactions in Nature. The long-range interactions are too subtle to be detected due to the massive mediating new gauge boson \( Z^\prime \) responsible for this interaction. In our work, we portray the illuminating prospects of the future long-baseline experiments DUNE and T2HK to detect this interaction through phenomenological studies ($i.e.$, non-maximal \( \theta_{23} \), resolution of the octant ambiguity of \( \theta_{23} \), and CP violation sensitivity), either in isolation or in unison.
+
+Here, we observe that the sensitivity of DUNE to establish the deviation from maximal \( \theta_{23} \) at its first oscillation maximum is enhanced in the presence of LRI arising from the \( L_\mu - L_\tau \) symmetry. Since this study is statistics-dominated, DUNE outperforms T2HK in this domain, as per the benchmark values given in Table~\ref{tab:oscillation-params}. However, based on this set of benchmark choices, the performance of both DUNE and T2HK deteriorates compared to the SI case. On the other hand, if we shift the best-fit value of \( \theta_{23} \) from the lower octant (LO) to the higher octant (HO), the performance of DUNE significantly improves (especially for the \( L_\mu - L_\tau \) symmetry), leaving a striking footprint of LRI in Nature. The fraction of true \( \sin^2 \theta_{23} \) that can be segregated from the MM solution also increases in DUNE for the \( L_\mu - L_\tau \) symmetry at \( 3\sigma \) C.L., while considering the LRI potential in the sub-dominant range (\( > 10^{-14} \) eV). In the dominant LRI range (\( < 10^{-14} \) eV), however, the sensitivity of our study remains largely unaffected by the presence of LRI. The synergistic setup of DUNE and T2HK does not show very promising results in this context at the dominated LRI range (\( > 10^{-14} \) eV), primarily due to the greater systematic uncertainty (5\%) of T2HK in the disappearance channel. Next, we show that the effect of LRI due to \( L_\mu - L_\tau \) is most clearly manifested in DUNE when testing the exclusion sensitivity of the higher octant solution of \( \theta_{23} \) for a benchmark LO choice. The sensitivity in the presence of LRI for \( L_\mu - L_\tau \) symmetry is significantly lower than in the SI case, while for the \( L_e - L_\mu \) and \( L_e - L_\tau \) symmetries, the sensitivity remains similar to SI. This behavior can be attributed to the fact that at the first oscillation maximum of DUNE, the matter-modified \( \theta_{23} \) and \( \theta_{13} \) are more affected in the presence of LRI compared to SI, which in turn significantly impacts the \( \nu_\mu \rightarrow \nu_e \) appearance probability and the corresponding total event rates. In this scenario, assuming the best-fit \( \theta_{23} \) in the HO, we find that the sensitivity to exclude LO increases across all experimental configurations and LRI symmetries. Here as well, standalone DUNE shows almost equal potential to detect LRI for the \( L_e - L_\mu \) symmetry to the combined DUNE+T2HK setup, due to its good control over systematics in the \( \nu_\mu \rightarrow \nu_e \) appearance channel, which is crucial for excluding the opposite octant of \( \theta_{23} \). However, DUNE’s matching performance with the combined DUNE+T2HK setup in excluding HO becomes significant (at \( 3\sigma \) C.L.) only in the sub-dominant regime of \( V_{\mu\tau} \) (\( \geq 1.0 \times 10^{-14} \) eV). The incorporation of LRI symmetry attenuates the sensitivity to CP violation in both DUNE and T2HK—whether considered independently or synergistically—with the most profound suppression manifesting near maximally CP-violating phases. This suppression is more accentuated in DUNE compared to T2HK, owing to DUNE’s heightened responsiveness to LRI effects. Among the symmetries considered, the \( L_{\mu} - L_{\tau} \) symmetry induces the most pronounced degradation near \( \delta_{\mathrm{CP}} = -90^{\circ} \), followed sequentially by the \( L_{e} - L_{\tau} \) and \( L_{e} - L_{\mu} \) symmetries. The observed deterioration stems from parameter degeneracies emerging during the minimization over both \( \sin^2\theta_{23} \) and \( V_{\alpha\beta} \). Due to its substantial disappearance statistics and minimal matter effects, T2HK mitigates these degeneracies more effectively than DUNE, thereby exhibiting a comparatively milder decline in CP sensitivity. Lastly, we show, among the three LRI symmetries, the $L_e-L_\tau$ symmetry imposes the strongest constraint on $(\sin^2\theta_{23}-\delta_{\mathrm{CP}})$ plane, due to its most significant impact on neutrino appearance statistics. The complementarity of DUNE  and T2HK plays a prime role in constraining this parameter space by breaking the degeneracies that are negligible in the individual setups.
+
+Hence, this study shows a promising avenue to detect the existence of the long-range neutrino interaction in the mirrors of the upcoming highly precise long-baseline experiments DUNE and T2HK. The possible complementarities between them also help to decipher the oscillation phenomenology in the sub-dominant regime of LRI in Nature.

@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% START %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[timesnewroman,12pt, twoside]{report}
+\usepackage[titletoc]{appendix}
+\usepackage[a4paper]{geometry}
+\usepackage{comment}
+%\geometry{a4paper,top=25mm,bottom=25mm,inner=3.0cm,outer=2.0cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Package section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{authblk, lineno, color, lscape, url, sectsty}
+\usepackage[autostyle]{csquotes}
+\usepackage{amsmath}
+\usepackage{mathrsfs, wasysym} % need to incporate to remove errors
+\usepackage{slashed}
+\usepackage{tikz}
+\usepackage{dsfont}
+\usepackage{enumitem}
+%\usepackage{lineno}
+%\linenumbers
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[labelfont=bf]{caption}
+\usepackage{emptypage}
+\usepackage{array, float, multirow, graphicx, setspace, cite, url, titlesec, tocloft}
+\usepackage{amsmath, amsfonts, mathtools, notoccite}
+\usepackage{bm}
+\usepackage{chngcntr, rotating, pdflscape, enumitem, algpseudocode, algorithm, subcaption}
+\usepackage[square,sort,comma,numbers,sort&compress]{natbib}
+\usepackage[colorlinks=True,citecolor=blue,linkcolor=blue,anchorcolor=blue,filecolor=blue,urlcolor=blue]{hyperref}
+%%\usepackage{backref=page}
+\allowdisplaybreaks
+\usepackage{tensor}
+\usepackage{braket}
+\usepackage{latexsym}
+\usepackage{color}
+\usepackage[dvipsnames,svgnames,table]{xcolor}
+\usepackage{graphicx}
+\usepackage{epsfig}  
+\usepackage{epsf}   
+\usepackage{dcolumn}
+\usepackage{bm}
+%\usepackage[toc,page]{appendix}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{float}
+\usepackage{hypcap}
+\usepackage[]{hyperref}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{diagbox}
+\usepackage{alphalph}
+\usepackage{textcomp}
+\usepackage{epstopdf}
+\usepackage{soul} 
+\usepackage[normalem]{ulem}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage[Sonny]{fncychap}
+\def\blankpage{%
+	\clearpage%
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\null%
+	\clearpage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%======================================== HBNI ==========================================
+\oddsidemargin 0.5in \evensidemargin 0.5in
+\marginparwidth 40pt \marginparsep 10pt
+\topmargin -1.0cm \headsep .5in
+\textheight 9.0in \textwidth 6in
+\brokenpenalty=10000
+\renewcommand{\baselinestretch}{1.4}
+%============================== Define symbols ==========================================
+\newcommand{\ym}{\widetilde{y}}
+\newcommand{\Ms}{$M_\odot$}
+\newcommand{\kfdm}{$k_f^{\rm DM}$}
+\newcommand{\vect}[1]{\boldsymbol{\mathrm{#1}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{roman}
+\thispagestyle{empty}
+\input{titlepage.tex}  
+\blankpage     
+%%%%%%%%%%%%%%%%%%%% Recommendation page %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{recomendation.tex}
+%\blankpage
+%%%%%%%%%%%%%%%%%%% Statement page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{SBA.tex} 
+%\blankpage   
+%%%%%%%%%%%%%%%%%%% Declaration page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{declaration.tex}     
+%\blankpage
+%%%%%%%%%%%%%%%%%%% List of publications %%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{listofpublications.tex}
+\blankpage
+%%%%%%%%%%%%%%%%%%% Dedication page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{dedication.tex}    
+\blankpage  
+%%%%%%%%%%%%%%%%%%% Acknowledgement page %%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{acknowledgment.tex}
+%\blankpage
+%%%%%%%%%%%%%%%%% Table of contents %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \hypersetup{linkcolor=blue}
+ \tableofcontents
+ \blankpage 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \numberwithin{equation}{chapter}
+% \numberwithin{figure}{chapter}
+% \numberwithin{table}{chapter}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%% Synopsis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \input{summary.tex}
+% \blankpage 
+% %%%%%%%%%%%%%%%%%%% Table of figures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\blankpage 
+% %%%%%%%%%%%%%%%%%%% Table of tables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+%\blankpage 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+% %%%%%%%%%%%%%%%%%%%%%%%%% Chapter-1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\blankpage
+\input{chapters/chapter1.tex}
+%\blankpage
+% %%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter2.tex}
+%\blankpage
+% %%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter3.tex}
+%\blankpage 
+% %%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter4.tex}
+%\blankpage 
+% %%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-5 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter5.tex}
+% \blankpage 
+%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-6 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter6.tex}
+%\blankpage 
+%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-7 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter7.tex}
+%\blankpage 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% Appendix %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+
+% Force Appendix label to always be A internally
+\renewcommand\thechapter{A}
+
+% Numbering styles inside appendix
+\renewcommand\thesection{\thechapter.\arabic{section}}
+\renewcommand\theequation{\thechapter.\arabic{equation}}
+\renewcommand\thefigure{\thechapter.\arabic{figure}}
+\renewcommand\thetable{\thechapter.\arabic{table}}
+\counterwithin{equation}{chapter}
+
+% Suppress automatic "Appendix A" chapter title
+\chapter*{Appendix}
+\addcontentsline{toc}{chapter}{Appendix}
+
+% Remove chapter number from page headers (if using fancyhdr)
+\markboth{Appendix}{Appendix}
+
+\setcounter{section}{0}
+\setcounter{chapter}{1} % keeps counters sane internally
+
+\input{Appendix.tex}
+
+%\blankpage 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{chapter}{REFERENCES}
+\bibliographystyle{hcdas}
+\bibliography{thesis}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% END %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

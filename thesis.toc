@@ -1,0 +1,87 @@
+\contentsline {paragraph}{}{iii}{paragraph*.1}%
+\contentsline {chapter}{List of Figures}{xv}{Item.20}%
+\contentsline {chapter}{List of Tables}{xxviii}{Item.20}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}Neutron star }{9}{subsection.1.0.1}%
+\contentsline {subsection}{\numberline {1.0.2}From Neutron to Neutron Star}{9}{subsection.1.0.2}%
+\contentsline {subsection}{\numberline {1.0.3}Organisation of the Thesis}{9}{subsection.1.0.3}%
+\contentsline {section}{\numberline {1.1}Conventions}{10}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Fundamentals and Theoretical Framework of Neutrino Oscillations}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The mathematical framework of two-flavor neutrino oscillation}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Formalism of neutrino oscillation probability in $3\nu $ paradigm}{23}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Manifestation of matter effect in neutrino oscillation}{30}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Overview of the matter effect in two-flavor neutrino oscillation}{34}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}The influence of matter effect in $3\nu $ framework}{36}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}A keen insight into different neutrino oscillation parameters, their current status, the eight-fold degeneracy, and some pending puzzles in $3\nu $ framework}{39}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Oscillation parameters in solar (1-2) sector}{41}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Overview of atmospheric oscillation parameters (2-3 sector)}{42}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Reactor Neutrinos (1-3 sector): the bridge connecting the other two oscillation sectors as a hallmark of $3\nu $ paradigm}{44}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Summary}{46}{section.2.5}%
+\contentsline {chapter}{\numberline {3}A Review on Long-baseline Neutrino Oscillation Experiments}{48}{chapter.3}%
+\contentsline {section}{\numberline {3.1}General setup of LBL experiments and their beam specifications}{50}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Concept of near detector and far detector in LBL setup}{51}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Beam specifications of LBL experiments}{52}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}A Panorama of LBL Neutrino Experiments}{55}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}K2K (KEK to Kamioka) [1999 - 2004]}{55}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}MINOS (Main Injector Neutrino Oscillation Search) [2005 - 2012]/ MINOS+ [2013 - 2016]}{56}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}OPERA (Oscillation Project with Emulsion-tRacking Apparatus) [2006 - 2018]}{56}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}T2K (Tokai-to-Kamioka) [2010 - till date]}{57}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}NO$\nu $A (NuMI Off-Axis $\nu _e$ Appearance) [2014 - till date]}{58}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}T2HK (Tokai-to-Hyper-Kamiokande) experiment in \\JAPAN}{59}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}DUNE (Deep Underground Neutrino Experiment) in U.S.A}{60}{subsection.3.2.7}%
+\contentsline {chapter}{\numberline {4}A close look on the departure of 2-3 mixing angle from maximal mixing with DUNE in the perspective of present neutrino oscillation data}{62}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Discussion at the level of probabilities}{67}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Discussion at the level of events}{73}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Salient features of DUNE}{73}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Appearance and disappearance event rates as a function of $\sin ^{2}\theta _{23},\ \Delta m^{2}_{31},$ and $\delta _{\rm CP}$}{74}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Disappearance event spectra to resolve $\sin ^{2} \theta _{23}-\Delta m^{2}_{31}$ degeneracy}{79}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Our findings}{81}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Deviation from maximal $\theta _{23}$}{82}{subsection.4.3.1}%
+\contentsline {subsubsection}{Contributions from appearance and disappearance channels and role of systematics}{84}{subsubsection*.2}%
+\contentsline {subsubsection}{Advantage due to spectral analysis and impact of marginalization over oscillation parameters}{86}{subsubsection*.3}%
+\contentsline {subsubsection}{Individual contributions from neutrino and antineutrino runs}{88}{subsubsection*.4}%
+\contentsline {subsubsection}{Performance as a function of exposure}{89}{subsubsection*.5}%
+\contentsline {section}{\numberline {4.4}Summary and conclusions}{91}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Improved precision on 2-3 oscillation parameters using the synergy between DUNE and T2HK}{93}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Experimental details and total event rates}{99}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Complementarities between DUNE and T2HK}{99}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Events due to wrong-sign contamination }{100}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Total appearance and disappearance event rates}{103}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Projected sensitivities and its variation with total exposure}{104}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Establishing deviation from maximal $\sin ^{2}\theta _{23}$}{105}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Exclusion of wrong octant solutions of $\sin ^{2}\theta _{23}$}{109}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Precision measurements of $\sin ^{2}\theta _{23}$ and $\Delta m^{2}_{31}$}{112}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Allowed regions in ($\sin ^{2}\theta _{23}- \delta _{\mathrm {CP}}$) plane}{115}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Allowed regions in ($\sin ^{2}\theta _{23}-\Delta m_{31}^{2}$) plane}{118}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Sensitivity in ($\sin ^{2}\theta _{23}-\Delta m_{31}^{2}$) plane with near-future experiments}{119}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Summary and conclusions}{120}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Impact of flavor-dependent long-range neutrino interactions on the measurements of oscillation parameters using DUNE and T2HK}{123}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction to flavor-dependent long-range interaction}{127}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Gauging new neutrino interactions under the global $U'(1)$ group via the symmetries of differences between lepton numbers}{127}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Genesis of matter potential from the long-range interaction}{130}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Analyzing the neutrino oscillation probability in the presence of long-range interactions}{131}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Effect of long-range interactions on total event rates}{134}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Experimental details of DUNE and T2HK}{134}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Effect on disappearance statistics}{135}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Effect on appearance statistics}{138}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Projected sensitivities in the presence of long-range interactions}{140}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Simulation Details}{140}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Influence of fixed LRI in data}{142}{subsection.6.3.2}%
+\contentsline {subsubsection}{Impact on deviation from maximal $\sin ^{2}\theta _{23}$ }{142}{subsubsection*.6}%
+\contentsline {subsubsection}{Effect on exclusion of wrong octant of $\sin ^{2}\theta _{23}$ }{145}{subsubsection*.7}%
+\contentsline {subsubsection}{Influence on CP violation }{147}{subsubsection*.8}%
+\contentsline {subsubsection}{Consequence in computing allowed ranges in $(\sin ^{2}\theta _{23}- \delta _{\mathrm {CP}})$ plane}{149}{subsubsection*.9}%
+\contentsline {subsection}{\numberline {6.3.3}Impact of scanning LRI in data}{151}{subsection.6.3.3}%
+\contentsline {subsubsection}{Effect on fractional coverage of $\sin ^2\theta _{23}$ differentiable from MM }{151}{subsubsection*.10}%
+\contentsline {subsubsection}{Effect on excluding HO solutions of $\sin ^2\theta _{23}$ }{153}{subsubsection*.11}%
+\contentsline {subsubsection}{Impact on CP coverage }{155}{subsubsection*.12}%
+\contentsline {section}{\numberline {6.4}Summary and conclusion}{156}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{159}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Establishing the deviation from maximal mixing of $\theta _{23}$ in DUNE:}{161}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Improved precision on the 2-3 oscillation parameters using the synergy between DUNE and T2HK:}{162}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Impact of long-range neutrino interactions on the measurements of oscillation parameters at DUNE and T2HK :}{165}{section.7.3}%
+\contentsline {chapter}{Appendix}{168}{section.7.3}%
+\contentsline {chapter}{\numberline {A}Symmetry-driven deviations of atmospheric and reactor mixing angles in LRI perspective}{169}{chapter.2}%
+\contentsline {section}{\numberline {A.1}Impact of LRI on $\theta _{23}$ as a function of neutrino energy}{169}{section.2.1}%
+\contentsline {section}{\numberline {A.2}Impact of LRI on $\theta _{13}$ as a function of neutrino energy}{171}{section.2.2}%
+\contentsline {chapter}{REFERENCES}{173}{equation.2.2}%
