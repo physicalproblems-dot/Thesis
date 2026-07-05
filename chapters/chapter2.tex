@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%% CHAPTER - 2 %%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Fundamentals and Theoretical Framework of Neutrino Oscillations}
+\chapter{Theoretical framework}
 \label{C2} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -7,9 +7,16 @@ Neutrino oscillation is one of the pioneering discoveries in the history of part
 Before entering into the formalism of neutrino oscillation, it is essential to know why neutrinos show the flavor transition (named ``neutrino oscillation") \cite{Rajasekaran:2000nn, Agarwalla:2008jin}, whereas their charged counterparts do not show oscillations. Neutrino oscillation is a mass-induced phenomenon. Due to the non-zero value of neutrino mass and the non-degenerate values of the mass eigenstates \cite{Raychaudhuri:2000zn}, the flavor eigenstates and mass eigenstates of neutrinos are quite different. The tiny mass-squared differences between the neutrino mass eigenstates ($\sim 10^{-5}$ to $10^{-3} \, \mathrm{eV}^2$) protect the coherence of the superposition \cite{LIPKIN2004355, Ravari:2022yfd} of mass eigenstates to the flavor states. In contrast, the mass differences between the leptons are so huge ($\sim 100$ MeV to GeV scale) that any superposition of the mass eigenstates of the leptons decoheres almost immediately before their significant propagation.\\
 This chapter is planned in the following way. Section \ref{sec:2.1} outlines the fundamental theoretical framework of neutrino oscillations in the vacuum, examining the formalism in the two-flavor framework. In section \ref{sec:2.2}, the extension of this formalism in the three-flavor landscape is described. In section \ref{sec:2.3}, we introduce matter-effect in our discussion, incorporating standard neutrino-matter interactions within both two-flavor and three-flavor scenarios. Section \ref{sec:2.4} provides an overview of several relevant neutrino oscillation experiments and their contributions to measuring oscillation parameters. In section \ref{sec:2.4}, we present the current status of the six oscillation parameters and the so-called eight-fold degeneracies, discussing their experimental determination. Finally, in section \ref{sec:2.5}, we provide a concluding overview of this chapter.\\
 
-\section{The mathematical framework of two-flavor neutrino oscillation}
+\section{Neutron star Matter}
 \label{sec:2.1}
 There are several approaches to construct the neutrino oscillation framework. Neutrinos are fermions and occupy their places in the lepton family of the SM, in the form of $SU(2)$ doublets. So, ideally, the Dirac equation should lead us to the neutrino oscillation probability. However, neutrino oscillation does not manifest any spin nature of itself, and hence, for the ease of our calculations, we use the Schr\"{o}dinger equation considering neutrino as a free particle instead of assuming it as a wave packet. Neutrinos are produced or detected at their flavor eigenstates ($\nu_e$, $\nu_\mu$, or $\nu_\tau$) or weak eigenstates (or gauge states), but they are in the mass eigenstates or physical states ($\nu_1$ and $\nu_2$) while propagating through the vacuum or the matter. The mass eigenstates and flavor eigenstates are considered to form a complete orthonormal basis to conserve the flavor transition probability, and hence a flavor eigenstate, $\nu_\alpha$ is connected to the mass eigenstate $\nu_k$ through a unitary matrix $U$ in the following fashion.
+
+
+\section{Quarkyonic Star Matter}
+
+\section{Dark Matter}
+
+
 
 \begin{align}
 \ket{\nu_{\alpha}}=\sum_{k=1}^{2}U_{\alpha k}\ket{\nu_{k}},
@@ -176,7 +183,9 @@ P(\nu_{\alpha}\rightarrow\nu_{\alpha})=1-\sin^2\left(2\theta\right)\sin^2\left(1
 
  Figure~\ref{fig:oscillation_prob_vacuum_analytical} illustrates that the variations in the mixing angle enable precise modulation of the amplitude of the neutrino oscillation probability, while adjustments to the mass-squared difference primarily govern the phase shift of the oscillation pattern. The mixing angle $\theta$ signifies the extent of flavor mixing, with maximal mixing corresponding to the highest transition probability or the deepest suppression in survival probability. Moreover, in the oscillation frequency domain, an increase in the value of $\Delta m^2$ induces a phase shift toward higher neutrino energies, resulting in a rightward displacement of the oscillation peak.\\
  %-----------------------------------------------------
- \section{Formalism of neutrino oscillation probability in $3\nu$ paradigm}
+ \section{Equllibrium state }
+ \subsection{TOV equation}
+ \subsection{Tidal Deformability}
  \label{sec:2.2}
  The discovery of the non-zero value of $\theta_{13}$ in the Daya Bay \cite{DayaBay:2012fng, DayaBay:2022orm} experiment connects the atmospheric neutrino sector and the solar neutrino sector, establishing the $3\nu$ paradigm on a strong footing. At the same time, the two-flavor neutrino oscillation delineates the values of the solar and atmospheric oscillation parameters, and the $3\nu$ paradigm with non-zero $\theta_{13}$ gives rise to the possibilities of observing CP violation in the neutrino sector. Now, we discuss the formalism of the three-flavor neutrino oscillation.
  \par Let, a neutrino of flavor $ \alpha$ is produced at $ x=0 $ with energy $E$, then the state of the neutrino at $x=0$ can be expressed as\\
@@ -360,8 +369,12 @@ Equations \ref{Delta P} and \ref{Jarlskog invariant} denote the necessary condit
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Manifestation of matter effect in neutrino oscillation}
+\section{Perturbed state}
 \label{sec:2.3}
+\subsection{f-mode eigenvalue problem}
+\subsection{w-mode eigenvalue problem}
+
+
 Neutrinos interact with the ambient matter via weak interactions and it can modify the oscillation probabilities of neutrinos. The first experimental evidence of matter effects in neutrino oscillations came from the solar neutrino experiments, particularly the Sudbury Neutrino Observatory (SNO) \cite{SNO:2002hgz} and Super-Kamiokande \cite{Super-Kamiokande:2013mie}, around the early 2000s. These experiments confirmed the Mikheyev-Smirnov-Wolfenstein (MSW) effect \cite{Wolfenstein:1977ue, Mikheyev:1989dy, Mikheyev:1985zog}, which describes how the oscillation probability of neutrinos gets modified as they travel through dense matter.
 \par The modified Hamiltonian incorporating the neutrino-matter interaction can be written as,
 \begin{equation}
@@ -441,189 +454,6 @@ where, $\Tilde{\Delta}_{ji} = \dfrac{\Delta\Tilde{m}^2_{ji}L}{4E}$ denotes the m
 %---------------------------------------------------------
 
 
-\subsection{Overview of the matter effect in two-flavor neutrino oscillation}
-To understand the influences of the matter effect on the neutrino oscillation and the modifications of its expression, we consider the simple two-flavor oscillation first. Following the equation \ref{eq:general hamiltonian matter effect} and \ref{eq:V_cc}, we can rewrite the effective Hamiltonian in the matrix form as,
-\begin{align}
-\label{eq:2 flavor matter effect}
-    \hat{H}_{\text{eff}} &= \mathbf{U}
-    \begin{bmatrix}
-         0 & 0 \\
-         0 & \dfrac{\Delta m^2}{2E}
-    \end{bmatrix}
-    \mathbf{U}^\dagger
-    + \begin{bmatrix}
-         V_{CC} & 0 \\
-         0 & 0
-    \end{bmatrix} \\
-    &= \begin{bmatrix}
-         \cos\theta & \sin\theta \\
-         -\sin\theta & \cos\theta
-    \end{bmatrix}
-    \begin{bmatrix}
-         0 & 0 \\
-         0 & \dfrac{\Delta m^2}{2E}
-    \end{bmatrix}
-    \begin{bmatrix}
-         \cos\theta & -\sin\theta \\
-         \sin\theta & \cos\theta
-    \end{bmatrix}
-    + \begin{bmatrix}
-         V_{CC} & 0 \\
-         0 & 0
-    \end{bmatrix} \nonumber \\
-    &= \dfrac{\Delta m^2}{4E}
-    \begin{bmatrix}
-         \left(1-\cos2\theta+\dfrac{4EV_{CC}}{\Delta m^2}\right) & \sin2\theta \\
-         \sin2\theta & 1+\cos2\theta
-    \end{bmatrix}. \nonumber
-\end{align}
-If we diagonalize the matrix mentioned in \ref{eq:2 flavor matter effect}, then the eigenvalues are,
-\begin{align}
-    E^m_1=\frac{V_{CC}}{2}+\frac{\Delta m^2}{4E} \left[1-\sqrt{\sin^22\theta+\left(\cos2\theta-\frac{2EV_{CC}}{\Delta m^2}\right)^2}\right]\\
-   E^m_2=\frac{V_{CC}}{2}+\frac{\Delta m^2}{4E} \left[1+\sqrt{\sin^22\theta+\left(\cos2\theta-\frac{2EV_{CC}}{\Delta m^2}\right)^2}\right]\nonumber.
-\end{align}
-Now, we can parameterize the modified mixing matrix $\Tilde{U}^m$ with the matter-modified oscillation parameter $\theta^m$ and write the form of $\Tilde{U}^m$ as,
-\begin{align}
-    U^m &= 
-    \begin{bmatrix}
-         \cos\theta^m & \sin\theta^m \\
-         -\sin\theta^m & \cos\theta^m
-    \end{bmatrix}.
-    \end{align}
-The link between the matter-modified oscillation parameter ($\theta^m$) and the same in vacuum can be expressed as,
-\begin{equation}
-    \sin2\theta^m=\frac{\sin2\theta}{\sqrt{\sin^22\theta+\left[\cos2\theta-\dfrac{2EV_{CC}}{\Delta m^2}\right]^2}}.
-    \label{resonance condition}
-\end{equation}
-If, in the denominator of the equation \ref{resonance condition}, $\cos2\theta=\dfrac{2EV_{CC}}{\Delta m^2}$ , $\theta^m$ will be $45^\circ$ (maximal mixing value). This phenomenon is called ``MSW (Mikhev-Smirnov-Wolfenstein) resonance" \cite{Smirnov:2019kto}, and the expression $\cos2\theta=\dfrac{2EV_{CC}}{\Delta m^2}$ is the criterion of this resonance. Neutrinos can show the MSW resonance if $\Delta m^2>0$, whereas antineutrinos can show it when $\Delta m^2<0$, as $V_{CC}$ changes its polarity for antineutrinos. 
-\par Now, following the recipes used to derive the equation \ref{eq:2 flavor oscillation probability}, the revised expression of the probability of neutrino oscillation from a flavor $\alpha$ to a flavor $\beta$ is,
-\begin{align}
-P(\nu_{\alpha} \rightarrow \nu_{\beta}) &= \sin^2(2\theta^m) \sin^2\left( 1.27 \times \frac{\Delta \Tilde{m}^{2} L}{E} \right) \\
-&= \sin^2(2\theta^m) \sin^2\left[\frac{\Delta m^2 L}{4E}\sqrt{\sin^22\theta+\left(\cos2\theta-\frac{2EV_{\mathrm{CC}}}{\Delta m^2}\right)^2}    \right].
-\label{eq:2 flavor oscillation probability matter}
-\end{align}
-\par Some key takeaways from the equation \ref{eq:2 flavor oscillation probability matter} are,
-\begin{itemize}
-    \item If we change the polarity of $\Delta m^2$, the oscillation probability is affected due to the change of the $\theta^m$ and $\Delta \Tilde{m}^2$. So, the matter effect is a good portal to investigate the correct mass hierarchy in Nature.
-    \item If we consider the extreme values of the matter potential V, then for $V=0$, the equation \ref{eq:2 flavor oscillation probability matter} reduces to the equation \ref{eq:2 flavor oscillation probability}. On the other hand, if $V\rightarrow \infty$, then the oscillation probability vanishes due to the lack of oscillation in the presence of an infinitely dense medium.
-    \item Non-degenerate value of $m^2$ is crucially required for the neutrino oscillation either in vacuum or in matter.   
-\end{itemize}
-
-\subsection{The influence of matter effect in $3\nu$ framework}
-By advancing our next step to the experimentally confirmed three-flavor case, we just expand the matrix form of the Hamiltonian [from equation \ref{eq:general hamiltonian matter effect}] in $3\times3$ dimension by introducing one additional mass-squared splitting, $i.e.$, atmospheric mass-splitting ($\Delta m^2_{31}$). The form of the effective Hamiltonian introducing matter effect in three flavors \cite{Agarwalla:2021zfr} is,
-\begin{align}
-    \hat{H}_{\text{eff}} &= \mathbf{U}
-    \begin{bmatrix}
-         0 & 0 & 0\\
-         0 & \dfrac{\Delta m^2_{21}}{2E} & 0\\
-         0 & 0 & \dfrac{\Delta m^2_{31}}{2E}
-    \end{bmatrix}
-    \mathbf{U}^\dagger
-    + \begin{bmatrix}
-         V_{CC} & 0 & 0\\
-         0 & 0 & 0\\
-         0 & 0 & 0\\
-    \end{bmatrix}. 
-    \label{eq:3 flavor matter effect}
-\end{align}
-Note that, here, $U$ is the ($3\times3$) unitary mixing matrix and is considered as the usual PMNS matrix for convenience. Now, we have to follow the same way we show in the previous section. But, to construct a new basis where the matter-modified Hamiltonian will be diagonalized in $3\nu$ framework is a bit tideous job. However, after diagonalizing the Hamiltonian, we land up to the following expression of matter-modified neutrino oscillation probability in $\nu_\mu\rightarrow\nu_e$ appearance channel by taking the approximation of considering only upto the 2nd order of ($\alpha\cdot\sin(2\theta_{13})$) \cite{Akhmedov:2004ny}.
-\begin{align}
-    P(\nu_{\mu} \rightarrow \nu_{e}) \simeq 
-    &\ \bm{\sin^2\theta_{23}} \sin^2(2\theta_{13}) 
-   \frac{\sin^2[(A-1)\Delta]}{(A-1)^2} \nonumber \\
-    &+ \alpha \sin(2\theta_{13})\sin(2\theta_{12})\sin(2\theta_{23}) \bm{\sin (\delta_{\mathrm{CP}})} \sin(\Delta) \frac{\sin(A\Delta)}{A} \bm{\frac{\sin[(A-1)\Delta]}{(A-1)}}\nonumber \\
-    &+ \alpha \sin(2\theta_{13})\sin(2\theta_{12})\sin(2\theta_{23}) \cos (\delta_{\mathrm{CP}}) \cos(\Delta) \frac{\sin(A\Delta)}{A} \frac{\sin[(A-1)\Delta]}{(A-1)} \nonumber \\
-    &+ \alpha^2 \cos^2\theta_{23} \sin^2(2\theta_{12}) \frac{\sin^2(A\Delta)}{A^2},
-    \label{Four_term_app_prob_matter}
-\end{align}
-where, $A=\pm\dfrac{2\sqrt{2}G_FN_eE}{\Delta m^2_{31}}$ stands for the dimensionless normalized matter potential [positive (negative) sign is for neutrino (antineutrino)] and $\Delta = \dfrac{\Delta m^2_{31}L}{4E}$. 
-The same characteristic features of this equation through $\nu_\mu\rightarrow\nu_e$ appearance channel mentioned in \ref{Four_term_app_prob} hold good in the equation \ref{Four_term_app_prob_matter} also. Additionally, we highlight one more fact crucially contributed only by the matter effect in this channel. In the second term ($i.e.$, CP-violating term) of equation \ref{Four_term_app_prob_matter}, if we consider the interactions of antineutrinos with the matter, then the sign of the matter potential will be changed, \textit{i.e.,} $A\rightarrow -A $ and $\delta_{\mathrm{CP}}\rightarrow -\delta_{\mathrm{CP}}$. Consequently, the value of the term $\dfrac{\sin[(A-1)\Delta]}{(A-1)}$ will be changed. If the value of $\delta_{\mathrm{CP}}$ becomes zero, the matter term $\dfrac{\sin[(A-1)\Delta]}{(A-1)}$ will still affect the value of the appearance probability, producing a matter-induced (fake) CP violation. In this case, even if we do not consider the change of the sign of intrinsic $\delta_{\mathrm{CP}}$ ($i.e.,\,\sin(\delta_{\mathrm{CP}})$), the value of the last term ($i.e.,\,\dfrac{\sin[(A-1)\Delta]}{(A-1)}$) will be changed.\\ Thus, it is difficult to understand if the value of appearance probability changes due to intrinsic $\delta_{\mathrm{CP}}\,(i.e., \sin(\delta_{\mathrm{CP}}))$ term or due to the contribution of matter effect ($i.e., \dfrac{\sin[(A-1)\Delta]}{(A-1)}$). Therefore, the matter effect mimics a CP-violating signal in this channel, creating ambiguity in identifying whether the observed change in appearance probability originates from intrinsic $\delta_{\mathrm{CP}}$ or from matter-induced effects. This confusion is enhanced if the strength of the matter potential ($A$) becomes relatively high due to the higher line-averaged density of the Earth matter. Hence, we focus on an important point from the above expression. The $\nu_\mu\rightarrow\nu_e$ appearance channel is contaminated with fake CP violation \cite{deGouvea:2016pom, Agarwalla:2022xdo}. The amount of contamination increases with the increment of the value of the line-averaged Earth matter density. So, this channel solely is not a good probe to measure the intrinsic $\delta_{\mathrm{CP}}$ in Nature. 
-\par Similarly for the $\nu_\mu\rightarrow\nu_\mu$ disappearance channel, we can write the oscillation probability under the influence of matter effect as,
-\begin{samepage}
-\begin{flalign}
-     P(\nu_\mu \to \nu_\mu) \nonumber\\
-    &= 1 - \sin^2 2\theta_{23} \sin^2 \Delta  - 4 s_{13}^2 s_{23}^2 \frac{\sin^2 (A-1)\Delta}{(A-1)^2}\nonumber \\
-    &+ \alpha^2 \sin^2 2\theta_{12} c_{23}^2 \frac{\sin^2 A \Delta}{A^2} - (\alpha \Delta)^2 c_{12}^4 \sin^2 2\theta_{23} \cos 2\Delta  \nonumber \\
-    &+ \frac{1}{2A} \alpha^2 \sin^2 2\theta_{12} \sin^2 2\theta_{23} \left( \sin \frac{\sin A \Delta}{A} \cos (A-1)\Delta - \frac{\Delta}{2} \sin 2\Delta \right) \nonumber \\
-    &- \frac{2}{A-1} s_{13}^2 \sin^2 2\theta_{23} \left( \sin A \Delta \cos A \Delta \frac{\sin (A-1)\Delta}{(A-1)} - \frac{A\Delta}{2} \sin 2\Delta \right) \nonumber \\
-    &- 2\alpha s_{13} \sin 2\theta_{12} \sin 2\theta_{23} \cos \delta_{\text{CP}} \cos \Delta \frac{\sin A \Delta}{A} \frac{\sin (A-1)\Delta}{(A-1)} \nonumber \\
-    &+ \frac{1}{A-1} \alpha s_{13} \sin 2\theta_{12} \sin 4\theta_{23}\bm{\cos \delta_{\text{CP}}} \sin \Delta\left[A \sin \Delta - \frac{\sin A \Delta}{A} \cos (A-1)\Delta)\right], &&
-    \label{eq:disapp oscillation prob matter}
-\end{flalign}
-\end{samepage}
-where, $c_{ij}\, (s_{ij})$ stands for $\cos\theta_{ij}\,(\sin\theta_{ij})$. The polarities of $A$ and intrinsic $\delta_{\mathrm{CP}}$ are changed if we switch from neutrino to antineutrino. Similarly, considering neutrinos also, if we shift from the normal mass ordering (NMO, \textit{i.e.,} $\Delta m^2_{31}>0$) to the inverted mass ordering (IMO, \textit{i.e.,} $\Delta m^2_{31}<0$), there will be a sign flip of $A$ as it depends on the atmospheric mass-splitting. From equation \ref{eq:disapp oscillation prob matter}, it is evident that, $\nu_\mu\rightarrow\nu_\mu$ disappearance channel is statistically enriched, and hence is utilized to investigate any phenomenology demanding the statistical dominance (e.g., bringing improved precision on measuring the oscillation parameters by reducing their uncertainties). The cons of this channel are that the probability is not free from the degeneracy of $\theta_{23}$ and hence is not helpful to exclude the $\theta_{23}$ octant. It is also not helpful to probe intrinsic $\delta_{\mathrm{CP}}$ in Nature due to containing even terms of $\delta_{\mathrm{CP}}$.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{A keen insight into different neutrino oscillation parameters, their current status, the eight-fold degeneracy, and some pending puzzles in $3\nu$ framework}
-\label{sec:2.4}
-The cornerstone of three-flavor oscillation was laid by the LEP experiment \cite{ALEPH:2005ab} in 1990 through the invisible decay of $Z$ boson and is firmly established by the discovery of non-zero $\theta_{13}$ in the Daya Bay experiment in 2012 \cite{DayaBay:2012fng, DayaBay:2022orm} with adequate statistical significance. Throughout this thesis, we maintain the unitarity property of the mixing matrix between flavor basis and mass basis. For a $N\times N$ unitary mixing matrix, there should be $N(N-1)$ independent parameters; $i.e., \dfrac{N(N-1)}{2}$ number of mixing angles, $\dfrac{(N-1)(N-2)}{2}$ number of Dirac CP-phases, and $(N-1)$ number of Majorana CP-phases. After standing on the ground of $3\nu$ landscape ($i.e., N=3$),  there should be three mixing angles ($\theta_{12}, \theta_{13}$, and $\theta_{23}$), one Dirac $\delta_{\mathrm{CP}}$ phase, and two Majorana CP-phases \cite{Zhukovsky:2016bee}. As Majorana phases do not affect the neutrino oscillation probability, we do not consider them in our discussion. We see that non-degenerate mass states \cite{Raychaudhuri:2000zn} are pivotal for the mass-induced neutrino oscillation. Hence, two more oscillation parameters are important to consider, solar mass-splitting ($\Delta m^2_{21}$) and atmospheric mass-splitting ($\Delta m^2_{31}$). These six independent neutrino oscillation parameters construct the backbone of the oscillation perspective of active neutrinos in the three-flavor framework. In this section, we give an overview on these neutrino oscillation parameters along with their experimental confirmations. Unlike the precisely measured values of the oscillation parameters in the quark oscillations, neutrino oscillation parameters bear a wide range of uncertainties. The most uncertain neutrino oscillation parameter is Dirac $\delta_{\mathrm{CP}}$ followed by $\theta_{23}$ \cite{Capozzi:2021fjo}. However, due to the advancement of several present and future experimental setups, it becomes possible to reduce this uncertainty significantly, and hence oscillation phenomenology has stood in the domain of the precision era \cite{Abada:2025jpk}. There are some remaining puzzles in the three-flavor landscape. We still do not know, in Nature, whether lower octant (LO) or higher octant (HO) of $\theta_{23}$ reigns; this is called ``octant ambiguity" \cite{Agarwalla:2013ju}. We also do not know precisely, if the mass states of the active neutrinos are ordered according to the normal mass ordering or the inverted mass ordering; this is called ``mass hierarchy ambiguity" \cite{Petcov:2005rv, Blennow:2013oma}. We still do not know about the existence of CP violation in Nature, to establish the matter-antimatter asymmetry in the leptonic sector \cite{Branco:2011zb, Singh:2024nvt}. 
-\par Although the six neutrino oscillation parameters ($i.e., \theta_{12}, \theta_{13}, \theta_{23}, \Delta m^2_{21}, \Delta m^2_{31}, \delta_{\mathrm{CP}}$) are independent quantities, they are however correlated among each other. The expression of oscillation probabilities ($i.e.,$ equation \ref{Four_term_app_prob_matter} and \ref{eq:disapp oscillation prob matter}) reflect that for some sets of the values of some specific oscillation parameters ($i.e., \theta_{23}, \delta_{\mathrm{CP}}$, and the sign of $\Delta m^2_{31}$) represent the same oscillation probability, which is called $degeneracy$ \cite{Kajita:2006bt}. The first discussion of degeneracies in neutrino oscillations dates back to the late 1990s and early 2000s when long-baseline experiments such as K2K, MINOS, and T2K started probing the $\nu_\mu\rightarrow\nu_e$ appearance. Barger \cite{Barger:2001yr}, Giunti, and Marfatia (2001) demonstrated that the neutrino oscillation probability exhibits intrinsic degeneracy, wherein distinct sets of values for the CP-violating phase ($\delta_{\mathrm{CP}}$) and the reactor mixing angle $\theta_{13}$ yield nearly identical transition probabilities, making their independent determination ambiguous. This is called \textit{intrinsic degeneracy}, and it is two-fold. However, after the remarkable precision measurement of $\theta_{13}$ by Daya Bay \cite{DayaBay:2012fng, DayaBay:2022orm}, this degeneracy is resolved \cite{Kajita:2006bt}. Burguet-Castell et al. (2002) extended this analysis by examining the effects of \textit{mass hierarchy degeneracy} \cite{Burguet-Castell:2002ald}. They showed that oscillation probabilities remain symmetric when the sign of $\Delta m^2_{31}$ is reversed, leading to a two-fold degeneracy between the normal mass ordering (NMO) and the inverted mass ordering (IMO). Minakata and Nunokawa (2003) proposed the idea of another two-fold $octant\, degeneracy$ \cite{Nunokawa:2006mc}, pointing out that since oscillation probabilities depend on \(\sin^2\theta_{23}\), they cannot differentiate between the lower octant (LO: \(\theta_{23} < 45^\circ\)) and the higher octant (HO: \(\theta_{23} > 45^\circ\)). So, there exists a total $2\times2\times2=8$ fold degeneracies as all three degeneracies mentioned are independent of each other. Phenomenological studies of any parameters mentioned here affect to the uncertainty of the other conjugate parameters through these degeneracies. Hence, a degeneracy-free study is one of the main goals of oscillation phenomenology through different methodologies. Due to the different interactions of neutrinos and antineutrinos with matter, long-baseline experiments like NO$\nu$A, T2K, and DUNE leverage this asymmetry to determine the true mass hierarchy. Exceptional measurement of the value of $\theta_{13}$ by Daya Bay \cite{DayaBay:2012fng, DayaBay:2022orm} helps to break the intrinsic $(\theta_{13}-\delta_{\mathrm{CP}})$ degeneracy. The spectral analysis also opens an avenue to tackle several degeneracies in the upcoming long-baseline experiments like DUNE due to its enriched energy resolutions \cite{Agarwalla:2021bzs}. The synergistic approach of different experiments also helps to reduce these degeneracies \cite{Agarwalla:2024kti}.
-\subsection{Oscillation parameters in solar (1-2) sector} 
-Photons coming out of the Sun's outer surface undergo multiple scattering while coming from the center to the surface of the Sun. On the other hand, neutrinos can penetrate all the inner layers of the Sun and come to the Sun's surface almost confronting no interactions. Hence, solar neutrinos are important as a very fast messenger of the information at Sun's core. Solar neutrinos ($i.e., \nu_e$) is generated in the Sun's core through the fusion process, called pp-chain \cite{Redchuk:2020hjv} and CNO cycle \cite{Bahcall:1964gx}.
-The main reaction of pp-chain helping to neutrino synthesis is,\\
-\begin{equation}
-p + p \rightarrow {}^2\text{H} + e^+ + \nu_e.
-\end{equation}
-This reaction predominantly contributes to the production of solar neutrinos, with a branching ratio of approximately 0.86, yielding a high flux of \(10^{10} \, \text{cm}^{-2} \text{s}^{-1}\) and neutrino energies extending up to 420 keV. Neutrinos originating from other nuclear reactions within the Sun typically exhibit energies ranging from a few keV to several MeV. The first indication of neutrino mixing emerged from the solar neutrino anomaly, a discrepancy revealed by experiments specifically designed to detect solar neutrinos. The Homestake Experiment (1968) \cite{Cleveland:1998nv, Davis:1968cp}, led by Ray Davis et al., utilized chlorine-based detectors to measure the flux of solar electron neutrinos (\(\nu_e\)). Remarkably, the observed flux was only 30\% of the expected value predicted by the Standard Solar Model (SSM) \cite{10.1007/978-94-009-0541-2_3}, highlighting a significant anomaly in solar neutrino detection. In the 1980s, the Super-Kamiokande experiment confirmed this neutrino deficit using a water Cherenkov detector, while in the 1990s, gallium-based detectors further substantiated the discrepancy. A major breakthrough occurred in 2001 when the Sudbury Neutrino Observatory (SNO) observed that the electron neutrino flux measured via charged-current interactions was notably lower than the SSM prediction \cite{Aharmim:2009gd, Aharmim:2008kc}. SNO provided the first direct evidence that this deficit could be explained by flavor oscillations, where \(\nu_e\) undergoes oscillation into \(\nu_\mu\) and \(\nu_\tau\). The Super-Kamiokande experiment \cite{Hu:2022ufh} subsequently determined the first precise value of the solar mixing angle as \(\sin^2\theta_{12} \approx 0.3\). Additionally, the KamLAND reactor neutrino experiment \cite{KamLAND:2002uet} provided an independent measurement of the mixing parameters, yielding \(\theta_{12} \approx 34^\circ\) and \(\Delta m^2_{21} \approx 7.5 \times 10^{-5} \,\, \text{eV}^2\). Future experiments JUNO (Jiangmen Underground Neutrino Observatory) \cite{JUNO:2023ete} and Hyper-Kamiokande (HK) \cite{Martinez-Mirave:2021cvh} have the prospect to bring more precision on the measurements of $\theta_{12}$ and $\Delta m^2_{21}$.
-
-\subsection{Overview of atmospheric oscillation parameters (2-3 sector)}
-The prime source of the atmospheric neutrinos ($\nu_\mu$) is the decay of the short-lived pions ($\sim 10^{-8}$ sec) generated through the interactions between primary cosmic showers and the atmospheric air \cite{Hamilton:1943dne, Reines:1965qk}. These kaons and short-lived pions further decay to produce atmospheric neutrinos via the following process.
-\begin{equation}
-\begin{aligned}
-    \pi^+, K^+ &\rightarrow \nu_{\mu} \mu^+ \rightarrow \nu_{\mu} e^+ \nu_e \bar{\nu}_{\mu}, \\
-    \pi^-, K^- &\rightarrow \bar{\nu}_{\mu} \mu^- \rightarrow \bar{\nu}_{\mu} e^- \bar{\nu}_e {\nu}_{\mu}.
-\end{aligned}
-\end{equation}
-Since each charged pion decay produces one $\nu_\mu$ and each muon decay produces one $\nu_e$, the naive expectation for the flux ratio is:
-\begin{equation}
-\dfrac{\nu_\mu+\bar{\nu}_\mu}{\nu_e+\bar{\nu}_e}\approx2.
-\end{equation}
-The \textit{Super-Kamiokande} experiment \cite{Super-Kamiokande:2015qek} observed a significant deficit in the flux of \textit{upward-going muon neutrinos} — those traversing long distances through the Earth — compared to theoretical expectations, while the \textit{electron neutrino flux} remained consistent with predictions. This discrepancy, known as the \textit{atmospheric neutrino anomaly}, provided the first strong indication of neutrino oscillations \cite{Kajita:2010zz}. The \textit{branching ratio} for kaon decays producing $\nu_\mu$ is lower ($\sim 64\%$) than that of pion decays since a substantial fraction of kaons undergo hadronic decays that do not yield neutrinos ($\sim 99\%$). At \textit{low and moderate energies} ($< 100$ GeV), pions dominate the atmospheric neutrino flux due to their \textit{greater abundance and shorter lifetime}, leading to rapid decay. However, at \textit{higher energies} ($> 100$ GeV), kaons contribute more significantly, as their longer decay length allows them to decay before interacting with the atmosphere. Consequently, pion decays play the dominant role in atmospheric neutrino production. In \textit{1998}, Super-Kamiokande provided a breakthrough by resolving the anomaly through neutrino oscillations \cite{Super-Kamiokande:1998kpq}, demonstrating that \textit{approximately 50\% of $\nu_\mu$} traveling over distances comparable to Earth's diameter \textit{undergo flavor conversion into $\nu_\tau$}. At that time, they gave their best-fit of atmospheric mass-squared splitting as $\Delta m^2_{31} = 2.2 \times 10^{-3}$ eV$^2$ inside the physical region $0<\sin^22\theta<1$, marking a major milestone in neutrino physics.\\
-The dominant oscillation channels for atmospheric neutrinos are 
-$\nu_\mu \to \nu_\mu$ (survival) and $\nu_\mu \to \nu_\tau$ (transition). However, due to the significantly larger rest-mass energy of the tau lepton, detecting $\nu_\tau$ remains challenging. The typical detectable energy range of atmospheric neutrinos spans $0.1$–$100$ GeV, while high-energy neutrino telescopes such as \textit{IceCube} \cite{IceCube:2019cia} extend sensitivity to the $10$–$1000$ GeV range. The distance traveled by these neutrinos is determined by the \textit{zenith angle}, which depends on the relative positioning of the detector and the source of neutrinos. Thus, \textit{energy and zenith angle} serve as the two primary control parameters in this sector. The propagation length varies from $\sim10$ km for downward-going neutrinos to $\sim12,700$ km for those traversing the Earth's diameter. As they travel through matter over long distances, atmospheric neutrinos provide a unique opportunity to probe \textit{oscillation parameters} such as $\theta_{23}$ and $\Delta m^2_{31}$ with high precision. In India, the \textit{Kolar Gold Field (KGF)} experiment \cite{Krishnaswamy:1971be} was among the earliest efforts to detect atmospheric neutrinos, while the \textit{Indian Neutrino Observatory (INO)} \cite{ICAL:2015stm} has future plans to contribute significantly to studying their properties. On the international front, the \textit{KM3NeT/ORCA} experiment \cite{Drakopoulou:2023nkh}, located in the Mediterranean Sea, is advancing research on the \textit{neutrino mass hierarchy} and improving the precision of atmospheric mass-splitting measurements. Their latest analysis, based on $355$ days of data, provides updated constraints on $\sin^2\theta_{23}$ and $\Delta m^2_{31}$ \cite{Schumann:2023kil}.
-
-\subsection{Reactor Neutrinos (1-3 sector): the bridge connecting the other two oscillation sectors as a hallmark of $3\nu$ paradigm}
-The 1-3 (reactor) sector of the PMNS matrix is crucially pivotal in giving the first signature of the three flavor framework connecting the solar sector and the atmospheric sector. Not only that, reactor antineutrinos ($\bar{\nu_e}$) were detected first in the history of the discovery of the ``neutrinos" in 1956 by Clyde Cowan and Frederick Reines \cite{Cowan:1956rrn} at the Savannah River Plant (nuclear reactor) in South Carolina, USA, where the reactor produced a high flux of electron antineutrinos from beta decay of fission products. The electron antineutrinos produced there via the inverse beta decay (IBD) process,
-\begin{equation}
-\bar{\nu}_e + p \rightarrow e^+ + n.
-\end{equation}
-The typical energy of the reactor antineutrinos are of 10 MeV, while the energy of antineutrinos taking part in the IBD is $\sim 2$ MeV \cite{Kopeikin:2004cn, Ma:2012bm}. Most of the energy is occupied by the positron and the neutron gets captured by the H or other doping nucleus of the scintillator. This neutron capturing ensures a delayed signal signifying an event in the reactor. The main oscillation channel investigated in the reactor sector is $\bar{\nu}_e\rightarrow\bar{\nu}_e$ disappearance.\\ 
-\par \textbf{KamLAND} (Kamioka Liquid Scintillator Antineutrino Detector) \cite{KamLAND:2002uet} \cite{KamLAND:2004mhv} was the first experiment to establish an upper limit on the mixing angle $\theta_{13}$ in 2010, constraining it to $\sin^2 2\theta_{13} < 0.2$ at a 90\% confidence level. From 2011 to 2013, KamLAND provided evidence for a non-zero $\theta_{13}$ \cite{KamLAND:2013rgu} and improved its precision, thereby reducing the uncertainty in its measurement. Additionally, the combined analysis of KamLAND and SNO data \cite{Balantekin:2004hi} significantly refined the determination of the solar neutrino oscillation parameters, yielding $\tan^2\theta_{12} = 0.47^{+0.06}_{-0.05}$ and $\Delta m^2_{21} = 7.59^{+0.21}_{-0.21} \times 10^{-5} \text{ eV}^2$. KamLAND, located at an average baseline of 80 km, observes reactor antineutrinos from 55 nuclear reactors in Japan, making it a pivotal long-baseline reactor neutrino experiment. It also achieved a groundbreaking milestone as the first experiment to detect geo-neutrinos, providing direct evidence of antineutrinos from radioactive decays within the Earth's crust and mantle. Its extension, KamLAND-Zen (operational since 2011) \cite{KamLAND-Zen:2024eml, Ozaki:2019uyd}, is dedicated to the search for neutrinoless double-beta decay ($0\nu\beta\beta$), aiming to probe the majorana nature of neutrinos and the possible violation of lepton number conservation.\\
-\par During the early 2010s, three additional experiments among the eight originally proposed began data collection: Double Chooz \cite{DoubleChooz:2019qbj}, Daya Bay \cite{DayaBay:2012fng}, and RENO \cite{Kim:2013sza}. Double Chooz (France) is an extension of the original Chooz experiment, while RENO (Reactor Experiment for Neutrino Oscillation) in South Korea and Double Chooz both employ liquid scintillator detectors for reactor antineutrino detection. RENO consists of two detector modules, whereas Daya Bay features a more extensive setup with eight detector modules strategically placed around six nuclear reactors at a baseline of 1.9 km. The first indication of a nonzero $\theta_{13}$ came from Double Chooz, while Daya Bay provided the first definitive measurement in 2012 with a statistical significance of $5.2\sigma$ C.L., firmly establishing the three-flavor neutrino oscillation framework. The Daya Bay result marked a major milestone in neutrino physics, as it confirmed that $\theta_{13}$ is not only non-zero but also relatively large. This discovery was pivotal, as it enabled the experimental study of CP violation in the lepton sector, with profound implications for understanding the matter-antimatter asymmetry of the Universe.\\
-\par \textbf{JUNO} (Jiangmen Underground Neutrino Observatory) \cite{JUNO:2024jaw} is a next-generation medium-baseline reactor neutrino experiment under construction in China. The central detector consists of 20 kilotons of linear alkylbenzene-based liquid scintillator, making it one of the largest scintillator-based neutrino detectors in the world. Located at a baseline of $\sim 53$ km from the Yangjiang and Taishan nuclear power plants, it will observe an intense flux of electron antineutrinos ($\bar{\nu}_e$). A distinctive feature of JUNO is its excellent energy resolution ($3\%$ at 1 MeV), which is crucial for resolving the neutrino mass ordering. Additionally, its medium-baseline distance allows for significant matter effects in neutrino oscillations. JUNO is expected to provide precise constraints on the solar mixing parameters ($\theta_{12}, \Delta m^2_{21}$) and the atmospheric mass-squared splitting ($\Delta m^2_{31}$), though, like all reactor neutrino experiments, it is not sensitive to the atmospheric mixing angle ($\theta_{23}$), as reactor $\bar{\nu}_e$ do not participate in $\nu_\mu \rightarrow \nu_\tau$ oscillations.\\
-\section{Summary}
-\label{sec:2.5}
-Several key sources of neutrinos have been discussed above, providing an overview of the discovery of the four neutrino oscillation parameters of the PMNS matrix ($\theta_{12}, \theta_{13}, \theta_{23},$ and $\delta_{\mathrm{CP}}$). In addition to these well-known sources, there exist other fundamental neutrino sources that play a crucial role in advancing the frontiers of neutrino physics.\\
-\textbf{Astrophysical neutrinos} serve as a powerful probe for addressing several fundamental open questions in physics and cosmology, such as the nature of dark matter, the flavor composition of neutrinos, neutrino interactions at ultra-high energies, the internal structure of the Sun, and the matter-antimatter asymmetry of the Universe. These neutrinos span a wide energy range, from a few MeV to several TeV. Some of the leading neutrino telescopes dedicated to detecting astrophysical neutrinos include IceCube \cite{IceCube:2013low}, Baikal-GVD \cite{Baikal-GVD:2020xgh}, KM3NeT/ARCA \cite{KM3Net:2016zxf, KM3NeT:2024paj}, and P-ONE \cite{Henningsen:2024nmb}.\\
-\textbf{Geo-neutrinos} are primarily electron antineutrinos ($\bar{\nu}_e$) produced by the natural radioactive decays occurring within Earth's interior \cite{Fiorentini:2007te, Mantovani:2003yd}, predominantly in the crust and mantle. These neutrinos originate from beta decays of long-lived radioactive isotopes, such as $^{238}\mathrm{U}$, $^{232}\mathrm{Th}$, and $^{40}\mathrm{K}$. KamLAND \cite{Bellini:2021sow} was the first experiment to detect geo-neutrinos, and leading detectors such as Borexino \cite{Borexino:2019gps}, SNO$^+$ \cite{Semenec:2023mjj}, and JUNO continue to advance geo-neutrino observations. Their measurements, when combined with seismic wave studies, provide valuable insights into Earth's internal structure and its radiogenic heat contribution.\\
-Among the diverse sources of neutrinos, artificially produced neutrinos offer a unique advantage—their energy and propagation distance can be precisely controlled. This capability is harnessed in \textbf{Long-Baseline (LBL) experiments} \cite{Agarwalla:2014fva}, which play a pivotal role in the precision era of neutrino oscillation physics. Leading LBL experiments such as T2K \cite{T2K:2011qtm}, NO$\nu$A \cite{NOvA:2004blv}, and MINOS \cite{MINOS:2011amj} have significantly contributed to our understanding of neutrino phenomenology. Looking ahead, next-generation high-precision experiments like DUNE \cite{DUNE:2021tad} and T2HK \cite{Hyper-Kamiokande:2018ofw} hold immense potential to unravel the remaining puzzles in the $3\nu$ paradigm. The next chapter is dedicated to the long-baseline experiments completely, which is one of the main content of this thesis.\\ 
-To get a quick overview of the experiments contributed in measuring the specific neutrino oscillation parameter, the following chart may be useful.
-\begin{itemize}
-    \item \textbf{Solar Parameters:}
-    \begin{itemize}
-        \item $\Delta m^2_{21}$: Strongest constraint from \textbf{KamLAND}, also constrained by other Solar experiments, e.g.- \textbf{GALLEX}.
-        \item $\theta_{12}$: Best measured by \textbf{Solar experiments}, with additional input from \textbf{KamLAND}.
-    \end{itemize}
-    
-    \item \textbf{Atmospheric and Long-Baseline Parameters:}
-    \begin{itemize}
-        \item $|\Delta m^2_{31}|$: Best constrained by \textbf{Long-Baseline (LBL) experiments}, with additional input from \textbf{Atmospheric + Reactor experiments}.
-        \item $\theta_{23}$: Primarily determined by \textbf{Atmospheric + LBL experiments}.
-    \end{itemize}
-    
-    \item \textbf{Reactor and Long-Baseline Constraints:}
-    \begin{itemize}
-        \item $\theta_{13}$: Most precisely measured by \textbf{Reactor experiments}, with additional constraints from \textbf{Solar + KamLAND} and \textbf{Atmospheric + LBL} experiments.
-        \item $\delta_{\mathrm{CP}}$: Constrained mainly by \textbf{LBL experiments}, with additional input from \textbf{Atmospheric experiments}.
-        \item Reactor experiments are blind in measuring $\theta_{23}$.
-    \end{itemize}
-    
-    \item \textbf{Mass Ordering:}
-    \begin{itemize}
-        \item Determined through a combination of \textbf{LBL + Reactor} and \textbf{Atmospheric} experiments.
-        \item Complementary constraints come from \textbf{Cosmology} and \textbf{Neutrinoless Double Beta Decay ($0\nu\beta\beta$)}.
-    \end{itemize}
-\end{itemize}
 
 
 

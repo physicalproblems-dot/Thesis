@@ -9,7 +9,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 21206 items from 5000.
+Reallocated field_info (elt_size=4) to 19615 items from 5000.
 Database file #1: thesis.bib
 Repeated entry---line 1924 of file thesis.bib
  : @article{Bahcall:1964gx
@@ -23,10 +23,6 @@ Repeated entry---line 4560 of file thesis.bib
  : @article{Jarlskog:1985ht
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4574 of file thesis.bib
- : @article{Schechter:1980gr
- :                          ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 6133 of file thesis.bib
  : @article{Agarwalla:2014fva
  :                           ,
@@ -35,7 +31,6 @@ Repeated entry---line 6325 of file thesis.bib
  : @article{Kajita:2006bt
  :                       ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 7336 of file thesis.bib
  : @article{Akhmedov:2004ny
  :                         ,
@@ -149,6 +144,7 @@ Repeated entry---line 11143 of file thesis.bib
  : @article{T2K:2014xyt
  :                     ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 11245 of file thesis.bib
  : @article{T2K:2023mcm
  :                     ,
@@ -172,10 +168,6 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 11390 of file thesis.bib
  : @article{Agarwalla:2021bzs
  :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 11559 of file thesis.bib
- : @article{Altarelli:2010gt
- :                          ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 11573 of file thesis.bib
  : @article{Weinberg:1967tq
@@ -957,6 +949,58 @@ Repeated entry---line 21083 of file thesis.bib
  : @article{DUNE:2020jqi
  :                      ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "ref2"
+Warning--I didn't find a database entry for "ref3"
+Warning--I didn't find a database entry for "ref4"
+Warning--I didn't find a database entry for "ref5"
+Warning--I didn't find a database entry for "ref6"
+Warning--I didn't find a database entry for "ref7"
+Warning--I didn't find a database entry for "ref8"
+Warning--I didn't find a database entry for "ref9"
+Warning--I didn't find a database entry for "ref10"
+Warning--I didn't find a database entry for "ref11"
+Warning--I didn't find a database entry for "ref12"
+Warning--I didn't find a database entry for "ref13"
+Warning--I didn't find a database entry for "ref14"
+Warning--I didn't find a database entry for "ref15"
+Warning--I didn't find a database entry for "ref16"
+Warning--I didn't find a database entry for "ref17"
+Warning--I didn't find a database entry for "ref18"
+Warning--I didn't find a database entry for "ref19"
+Warning--I didn't find a database entry for "ref20"
+Warning--I didn't find a database entry for "ref21"
+Warning--I didn't find a database entry for "ref22"
+Warning--I didn't find a database entry for "ref23"
+Warning--I didn't find a database entry for "ref24"
+Warning--I didn't find a database entry for "ref25"
+Warning--I didn't find a database entry for "ref26"
+Warning--I didn't find a database entry for "ref27"
+Warning--I didn't find a database entry for "ref28"
+Warning--I didn't find a database entry for "ref29"
+Warning--I didn't find a database entry for "ref30"
+Warning--I didn't find a database entry for "ref31"
+Warning--I didn't find a database entry for "ref32"
+Warning--I didn't find a database entry for "ref33"
+Warning--I didn't find a database entry for "ref34"
+Warning--I didn't find a database entry for "ref35"
+Warning--I didn't find a database entry for "ref36"
+Warning--I didn't find a database entry for "ref37"
+Warning--I didn't find a database entry for "ref38"
+Warning--I didn't find a database entry for "ref39"
+Warning--I didn't find a database entry for "ref40"
+Warning--I didn't find a database entry for "ref41"
+Warning--I didn't find a database entry for "ref42"
+Warning--I didn't find a database entry for "ref43"
+Warning--I didn't find a database entry for "ref44"
+Warning--I didn't find a database entry for "ref45"
+Warning--I didn't find a database entry for "ref46"
+Warning--I didn't find a database entry for "ref47"
+Warning--I didn't find a database entry for "ref48"
+Warning--I didn't find a database entry for "ref49"
+Warning--I didn't find a database entry for "ref50"
+Warning--I didn't find a database entry for "ref51"
+Warning--I didn't find a database entry for "ref52"
+Warning--I didn't find a database entry for "ref53"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 apsrev4-2.bst 2015-08-30 from 4.21a (PWD, AO, DPC/HNN) hacked
 Control: key (0) 
@@ -966,12 +1010,6 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-Warning--missing journal in Pauli:1988dp
-Warning--missing journal in Sinegovsky:2010dq
-Warning--missing journal in Masson:2010vx
-Warning--missing journal in Neznamov:2006yu
-Warning--missing journal in McElrath:2009fn
-Warning--missing journal in Dutta:2002nq
 Warning--missing journal in Tamborra:2024fcd
 Warning--missing journal in Linder:2005fc
 Warning--missing journal in deGouvea:2016pom
@@ -1009,45 +1047,45 @@ Warning--missing journal in Hogg:1999ad
 Warning--missing publisher in Giunti:2007ry
 Warning--missing journal in An:2025lws
 Warning--missing journal in Rodrigues:2025tha
-You've used 438 entries,
+You've used 343 entries,
             5845 wiz_defined-function locations,
-            4796 strings with 94672 characters,
-and the built_in function-call counts, 441572 in all, are:
-= -- 30831
-> -- 8933
-< -- 2448
-+ -- 2961
-- -- 2048
-* -- 71306
-:= -- 43976
-add.period$ -- 845
-call.type$ -- 438
-change.case$ -- 1774
-chr.to.int$ -- 409
-cite$ -- 489
-duplicate$ -- 42639
-empty$ -- 33828
-format.name$ -- 5400
-if$ -- 86379
-int.to.chr$ -- 30
-int.to.str$ -- 446
-missing$ -- 5211
-newline$ -- 1407
-num.names$ -- 1303
-pop$ -- 16213
+            4209 strings with 80343 characters,
+and the built_in function-call counts, 351696 in all, are:
+= -- 24361
+> -- 7328
+< -- 1936
++ -- 2413
+- -- 1694
+* -- 57420
+:= -- 34792
+add.period$ -- 665
+call.type$ -- 343
+change.case$ -- 1392
+chr.to.int$ -- 318
+cite$ -- 388
+duplicate$ -- 33834
+empty$ -- 26827
+format.name$ -- 4447
+if$ -- 68795
+int.to.chr$ -- 26
+int.to.str$ -- 351
+missing$ -- 4105
+newline$ -- 1122
+num.names$ -- 1018
+pop$ -- 12699
 preamble$ -- 1
-purify$ -- 2186
+purify$ -- 1711
 quote$ -- 0
-skip$ -- 16159
+skip$ -- 12779
 stack$ -- 0
-substring$ -- 11048
-swap$ -- 40598
-text.length$ -- 928
+substring$ -- 8755
+swap$ -- 32457
+text.length$ -- 760
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 5842
-warning$ -- 43
-while$ -- 1243
+type$ -- 4620
+warning$ -- 37
+while$ -- 965
 width$ -- 0
-write$ -- 4202
-(There were 236 error messages)
+write$ -- 3329
+(There were 234 error messages)

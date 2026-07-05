@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{438}%
+\begin{thebibliography}{343}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,234 +50,14 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Pati}\ and\ \citenamefont
-  {Salam}(1974)}]{Pati:1974yy}%
+\bibitem [{\citenamefont {Tamborra}(2024)}]{Tamborra:2024fcd}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
-  {Pati}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Salam}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Lepton Number as the
-  Fourth Color}},}\ }}\href {\doibase 10.1103/PhysRevD.10.275} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
-  {10}},\ \bibinfo {pages} {275} (\bibinfo {year} {1974})},\ \bibinfo {note}
-  {[Erratum: Phys.Rev.D 11, 703--703 (1975)]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Weinberg}(1967)}]{Weinberg:1967tq}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Weinberg}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{A
-  Model of Leptons}},}\ }}\href {\doibase 10.1103/PhysRevLett.19.1264}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
-  {\bibinfo {volume} {19}},\ \bibinfo {pages} {1264} (\bibinfo {year}
-  {1967})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Higgs}(1964{\natexlab{a}})}]{Higgs:1964ia}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~W.}\ \bibnamefont
-  {Higgs}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Broken
-  symmetries, massless particles and gauge fields}},}\ }}\href {\doibase
-  10.1016/0031-9163(64)91136-9} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Lett.}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo {pages} {132}
-  (\bibinfo {year} {1964}{\natexlab{a}})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Higgs}(1966)}]{Higgs:1966ev}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~W.}\ \bibnamefont
-  {Higgs}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Spontaneous Symmetry Breakdown without Massless Bosons}},}\ }}\href
-  {\doibase 10.1103/PhysRev.145.1156} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {145}},\ \bibinfo {pages}
-  {1156} (\bibinfo {year} {1966})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Aad}\ \emph {et~al.}(2012)\citenamefont {Aad} \emph
-  {et~al.}}]{ATLAS:2012yve}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Aad}} \emph {et~al.} (\bibinfo {collaboration} {ATLAS}),\ }\bibfield
-  {title} {\emph {\enquote {\bibinfo {title} {{Observation of a new particle in
-  the search for the Standard Model Higgs boson with the ATLAS detector at the
-  LHC}},}\ }}\href {\doibase 10.1016/j.physletb.2012.08.020} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume}
-  {716}},\ \bibinfo {pages} {1} (\bibinfo {year} {2012})},\ \Eprint
-  {http://arxiv.org/abs/1207.7214}{arXiv:1207.7214 [hep-ex]}\BibitemShut
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Tamborra}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
+  {{Neutrinos from explosive transients at the dawn of multi-messenger
+  astronomy}},}\ }}\href@noop {} {\  (\bibinfo {year} {2024})},\ \Eprint
+  {http://arxiv.org/abs/2412.09699}{arXiv:2412.09699 [astro-ph.HE]}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Ramond}(2019)}]{Ramond:2019fsr}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Ramond}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {{International
-  Conference on History of the Neutrino}: {1930-2018}}}}\ (\bibinfo {year}
-  {2019})\ \Eprint {http://arxiv.org/abs/1902.01741}{arXiv:1902.01741
-  [physics.hist-ph]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pauli}(1978)}]{Pauli:1930pc}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Pauli}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Dear
-  radioactive ladies and gentlemen}},}\ }}\href@noop {} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Today}\ }\textbf {\bibinfo {volume} {31N9}},\
-  \bibinfo {pages} {27} (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pauli}(2000)}]{Pauli:2000ak}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Pauli}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{On the
-  Earlier and more recent history of the neutrino}},}\ }}\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Camb. Monogr. Part. Phys. Nucl.
-  Phys. Cosmol.}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages} {1}
-  (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Jarlskog}(2019)}]{Jarlskog:2019axp}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Jarlskog}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {{International
-  Conference on History of the Neutrino}: {1930-2018}}}}\ (\bibinfo {year}
-  {2019})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pauli}(1988)}]{Pauli:1988dp}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Pauli}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{ON THE
-  OLDER AND MORE RECENT HISTORY OF THE NEUTRINO. (IN GERMAN)}},}\ }}\href@noop
-  {} {\  (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Cowan}\ \emph {et~al.}(1956)\citenamefont {Cowan},
-  \citenamefont {Reines}, \citenamefont {Harrison}, \citenamefont {Kruse},\
-  and\ \citenamefont {McGuire}}]{Cowan:1956rrn}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
-  {Cowan}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Reines}},
-  \bibinfo {author} {\bibfnamefont {F.~B.}\ \bibnamefont {Harrison}}, \bibinfo
-  {author} {\bibfnamefont {H.~W.}\ \bibnamefont {Kruse}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {A.~D.}\ \bibnamefont {McGuire}},\ }\bibfield
-  {title} {\emph {\enquote {\bibinfo {title} {{Detection of the free neutrino:
-  A Confirmation}},}\ }}\href {\doibase 10.1126/science.124.3212.103}
-  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
-  {volume} {124}},\ \bibinfo {pages} {103} (\bibinfo {year}
-  {1956})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Danby}\ \emph {et~al.}(1962)\citenamefont {Danby},
-  \citenamefont {Gaillard}, \citenamefont {Goulianos}, \citenamefont
-  {Lederman}, \citenamefont {Mistry}, \citenamefont {Schwartz},\ and\
-  \citenamefont {Steinberger}}]{Danby:1962nd}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Danby}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Gaillard}},
-  \bibinfo {author} {\bibfnamefont {K.~A.}\ \bibnamefont {Goulianos}}, \bibinfo
-  {author} {\bibfnamefont {L.~M.}\ \bibnamefont {Lederman}}, \bibinfo {author}
-  {\bibfnamefont {N.~B.}\ \bibnamefont {Mistry}}, \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Schwartz}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {J.}~\bibnamefont {Steinberger}},\ }\bibfield  {title} {\emph
-  {\enquote {\bibinfo {title} {{Observation of High-Energy Neutrino Reactions
-  and the Existence of Two Kinds of Neutrinos}},}\ }}\href {\doibase
-  10.1103/PhysRevLett.9.36} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. Lett.}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {36}
-  (\bibinfo {year} {1962})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kodama}\ \emph {et~al.}(2001)\citenamefont {Kodama}
-  \emph {et~al.}}]{DONUT:2000fbd}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Kodama}} \emph {et~al.} (\bibinfo {collaboration} {DONUT}),\ }\bibfield
-  {title} {\emph {\enquote {\bibinfo {title} {{Observation of tau neutrino
-  interactions}},}\ }}\href {\doibase 10.1016/S0370-2693(01)00307-0} {\bibfield
-   {journal} {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume}
-  {504}},\ \bibinfo {pages} {218} (\bibinfo {year} {2001})},\ \Eprint
-  {http://arxiv.org/abs/hep-ex/0012035}{arXiv:hep-ex/0012035}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Schael}\ \emph {et~al.}(2006)\citenamefont {Schael}
-  \emph {et~al.}}]{ALEPH:2005ab}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Schael}} \emph {et~al.} (\bibinfo {collaboration} {ALEPH, DELPHI, L3, OPAL,
-  SLD, LEP Electroweak Working Group, SLD Electroweak Group, SLD Heavy Flavour
-  Group}),\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Precision
-  electroweak measurements on the $Z$ resonance}},}\ }}\href {\doibase
-  10.1016/j.physrep.2005.12.006} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rept.}\ }\textbf {\bibinfo {volume} {427}},\ \bibinfo {pages} {257}
-  (\bibinfo {year} {2006})},\ \Eprint
-  {http://arxiv.org/abs/hep-ex/0509008}{arXiv:hep-ex/0509008}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Watkins}(1986)}]{Watkins:1986va}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~M.}\ \bibnamefont
-  {Watkins}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{DISCOVERY OF THE W AND Z BOSONS}},}\ }}\href {\doibase
-  10.1080/00107518608211015} {\bibfield  {journal} {\bibinfo  {journal}
-  {Contemp. Phys.}\ }\textbf {\bibinfo {volume} {27}},\ \bibinfo {pages} {291}
-  (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Belusevic}\ and\ \citenamefont
-  {Smith}(1988)}]{Belusevic:1987cw}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Belusevic}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Smith}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{W - Z
-  Interference in Neutrino - Nucleus Scattering}},}\ }}\href {\doibase
-  10.1103/PhysRevD.37.2419} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. D}\ }\textbf {\bibinfo {volume} {37}},\ \bibinfo {pages} {2419}
-  (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {McFarland}(2008)}]{McFarland:2008xd}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
-  {McFarland}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {{61st
-  Scottish Universities Summer School in Physics: Neutrinos in Particle
-  Physics, Astrophysics and Cosmology (SUSSP61)}}}}\ (\bibinfo {year} {2008})\
-  pp.\ \bibinfo {pages} {65--90},\ \Eprint
-  {http://arxiv.org/abs/0804.3899}{arXiv:0804.3899 [hep-ex]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Lesgourgues}\ and\ \citenamefont
-  {Pastor}(1999)}]{Lesgourgues:1999wu}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Lesgourgues}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Pastor}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Cosmological implications of a relic neutrino asymmetry}},}\ }}\href
-  {\doibase 10.1103/PhysRevD.60.103521} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {60}},\ \bibinfo
-  {pages} {103521} (\bibinfo {year} {1999})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/9904411}{arXiv:hep-ph/9904411}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Betts}\ \emph {et~al.}(2013)\citenamefont {Betts}
-  \emph {et~al.}}]{Betts:2013uya}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Betts}} \emph {et~al.},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
-  {{Snowmass 2013}: {Snowmass on the Mississippi}}}}\ (\bibinfo {year} {2013})\
-  \Eprint {http://arxiv.org/abs/1307.4738}{arXiv:1307.4738
-  [astro-ph.IM]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Eberle}(2005)}]{Eberle:2005uk}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Eberle}},\ }\emph {\bibinfo {title} {{Big Bang Relic Neutrinos and Their
-  Detection}}},\ \href {\doibase 10.3204/DESY-THESIS-2005-024} {Ph.D. thesis},\
-  \bibinfo  {school} {Hamburg U.} (\bibinfo {year} {2005})\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Bahcall}(1964)}]{Bahcall:1964gx}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
-  {Bahcall}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Solar
-  neutrinos. I: Theoretical}},}\ }}\href {\doibase 10.1103/PhysRevLett.12.300}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
-  {\bibinfo {volume} {12}},\ \bibinfo {pages} {300} (\bibinfo {year}
-  {1964})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Davis}\ \emph {et~al.}(1968)\citenamefont {Davis},
-  \citenamefont {Harmer},\ and\ \citenamefont {Hoffman}}]{Davis:1968cp}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Davis}, \bibfnamefont {Jr.}}, \bibinfo {author} {\bibfnamefont {D.~S.}\
-  \bibnamefont {Harmer}}, \ and\ \bibinfo {author} {\bibfnamefont {K.~C.}\
-  \bibnamefont {Hoffman}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo
-  {title} {{Search for neutrinos from the sun}},}\ }}\href {\doibase
-  10.1103/PhysRevLett.20.1205} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {20}},\ \bibinfo {pages}
-  {1205} (\bibinfo {year} {1968})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Bahcall}(1996)}]{Bahcall:1995am}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
-  {Bahcall}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Solar
-  neutrinos: Where we are, where are we going}},}\ }}\href {\doibase
-  10.1086/177624} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\
-  }\textbf {\bibinfo {volume} {467}},\ \bibinfo {pages} {475} (\bibinfo {year}
-  {1996})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/9512285}{arXiv:hep-ph/9512285}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Hirata}\ \emph {et~al.}(1992)\citenamefont {Hirata}
-  \emph {et~al.}}]{Kamiokande-II:1992hns}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
-  {Hirata}} \emph {et~al.} (\bibinfo {collaboration} {Kamiokande-II}),\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Observation of a
-  small atmospheric muon-neutrino / electron-neutrino ratio in Kamiokande}},}\
-  }}\href {\doibase 10.1016/0370-2693(92)90788-6} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {280}},\
-  \bibinfo {pages} {146} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Fukuda}\ \emph {et~al.}(1998)\citenamefont {Fukuda}
   \emph {et~al.}}]{Super-Kamiokande:1998kpq}%
   \BibitemOpen
@@ -289,908 +69,6 @@
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo {pages}
   {1562} (\bibinfo {year} {1998})},\ \Eprint
   {http://arxiv.org/abs/hep-ex/9807003}{arXiv:hep-ex/9807003}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Ashie}\ \emph {et~al.}(2004)\citenamefont {Ashie}
-  \emph {et~al.}}]{Super-Kamiokande:2004orf}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Ashie}} \emph {et~al.} (\bibinfo {collaboration} {Super-Kamiokande}),\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Evidence for an
-  oscillatory signature in atmospheric neutrino oscillation}},}\ }}\href
-  {\doibase 10.1103/PhysRevLett.93.101801} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {93}},\ \bibinfo
-  {pages} {101801} (\bibinfo {year} {2004})},\ \Eprint
-  {http://arxiv.org/abs/hep-ex/0404034}{arXiv:hep-ex/0404034}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Akhmedov}(1993)}]{Akhmedov:1993nn}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~K.}\ \bibnamefont
-  {Akhmedov}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {{International
-  School on Cosmological Dark Matter}}}}\ (\bibinfo {year} {1993})\ \Eprint
-  {http://arxiv.org/abs/hep-ph/9402297}{arXiv:hep-ph/9402297}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Sinegovsky}\ \emph {et~al.}(2010)\citenamefont
-  {Sinegovsky}, \citenamefont {Kochanov},\ and\ \citenamefont
-  {Sinegovskaya}}]{Sinegovsky:2010dq}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~I.}\ \bibnamefont
-  {Sinegovsky}}, \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
-  {Kochanov}}, \ and\ \bibinfo {author} {\bibfnamefont {T.~S.}\ \bibnamefont
-  {Sinegovskaya}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{High-energy atmospheric neutrinos}},}\ }}\href@noop {} {\  (\bibinfo {year}
-  {2010})},\ \Eprint {http://arxiv.org/abs/1010.2336}{arXiv:1010.2336
-  [astro-ph.HE]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Zatsepin}\ and\ \citenamefont
-  {Kuzmin}(1966)}]{Zatsepin:1966jv}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~T.}\ \bibnamefont
-  {Zatsepin}}\ and\ \bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
-  {Kuzmin}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Upper
-  limit of the spectrum of cosmic rays}},}\ }}\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {JETP Lett.}\ }\textbf {\bibinfo {volume}
-  {4}},\ \bibinfo {pages} {78} (\bibinfo {year} {1966})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Hirata}\ \emph {et~al.}(1987)\citenamefont {Hirata}
-  \emph {et~al.}}]{Kamiokande-II:1987idp}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Hirata}} \emph {et~al.} (\bibinfo {collaboration} {Kamiokande-II}),\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Observation of a
-  Neutrino Burst from the Supernova SN 1987a}},}\ }}\href {\doibase
-  10.1103/PhysRevLett.58.1490} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {58}},\ \bibinfo {pages}
-  {1490} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Learned}\ and\ \citenamefont
-  {Mannheim}(2000)}]{Learned:2000sw}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~G.}\ \bibnamefont
-  {Learned}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Mannheim}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{High-energy neutrino astrophysics}},}\ }}\href {\doibase
-  10.1146/annurev.nucl.50.1.679} {\bibfield  {journal} {\bibinfo  {journal}
-  {Ann. Rev. Nucl. Part. Sci.}\ }\textbf {\bibinfo {volume} {50}},\ \bibinfo
-  {pages} {679} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Athar}(2003)}]{Athar:2002im}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Athar}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{High-energy astrophysical neutrinos}},}\ }}\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {ASP Conf. Ser.}\ }\textbf {\bibinfo {volume}
-  {289}},\ \bibinfo {pages} {323} (\bibinfo {year} {2003})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0209130}{arXiv:hep-ph/0209130}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Bahcall}(2000)}]{Bahcall:2000ue}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
-  {Bahcall}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Astrophysical neutrinos: 20th century and beyond}},}\ }}\href {\doibase
-  10.1016/S0920-5632(00)00917-8} {\bibfield  {journal} {\bibinfo  {journal}
-  {Int. J. Mod. Phys. A}\ }\textbf {\bibinfo {volume} {16}},\ \bibinfo {pages}
-  {4955} (\bibinfo {year} {2000})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0009044}{arXiv:hep-ph/0009044}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Araki}\ \emph
-  {et~al.}(2005{\natexlab{a}})\citenamefont {Araki} \emph
-  {et~al.}}]{Araki:2005qa}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Araki}} \emph {et~al.},\ }\bibfield  {title} {\emph {\enquote {\bibinfo
-  {title} {{Experimental investigation of geologically produced antineutrinos
-  with KamLAND}},}\ }}\href {\doibase 10.1038/nature03980} {\bibfield
-  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {436}},\
-  \bibinfo {pages} {499} (\bibinfo {year} {2005}{\natexlab{a}})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Krauss}\ \emph {et~al.}(1984)\citenamefont {Krauss},
-  \citenamefont {Glashow},\ and\ \citenamefont {Schramm}}]{Krauss:1983zn}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
-  {Krauss}}, \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont {Glashow}},
-  \ and\ \bibinfo {author} {\bibfnamefont {D.~N.}\ \bibnamefont {Schramm}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Anti-neutrinos
-  Astronomy and Geophysics}},}\ }}\href {\doibase 10.1038/310191a0} {\bibfield
-  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {310}},\
-  \bibinfo {pages} {191} (\bibinfo {year} {1984})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Bellini}\ \emph
-  {et~al.}(2010{\natexlab{a}})\citenamefont {Bellini} \emph
-  {et~al.}}]{Borexino:2010dli}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Bellini}} \emph {et~al.} (\bibinfo {collaboration} {Borexino}),\ }\bibfield
-  {title} {\emph {\enquote {\bibinfo {title} {{Observation of
-  Geo-Neutrinos}},}\ }}\href {\doibase 10.1016/j.physletb.2010.03.051}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf
-  {\bibinfo {volume} {687}},\ \bibinfo {pages} {299} (\bibinfo {year}
-  {2010}{\natexlab{a}})},\ \Eprint
-  {http://arxiv.org/abs/1003.0284}{arXiv:1003.0284 [hep-ex]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Bellini}\ \emph {et~al.}(2013)\citenamefont
-  {Bellini}, \citenamefont {Ianni}, \citenamefont {Ludhova}, \citenamefont
-  {Mantovani},\ and\ \citenamefont {McDonough}}]{Bellini:2013wsa}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Bellini}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Ianni}},
-  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Ludhova}}, \bibinfo
-  {author} {\bibfnamefont {F.}~\bibnamefont {Mantovani}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {W.~F.}\ \bibnamefont {McDonough}},\ }\bibfield
-  {title} {\emph {\enquote {\bibinfo {title} {{Geo-neutrinos}},}\ }}\href
-  {\doibase 10.1016/j.ppnp.2013.07.001} {\bibfield  {journal} {\bibinfo
-  {journal} {Prog. Part. Nucl. Phys.}\ }\textbf {\bibinfo {volume} {73}},\
-  \bibinfo {pages} {1} (\bibinfo {year} {2013})},\ \Eprint
-  {http://arxiv.org/abs/1310.3732}{arXiv:1310.3732
-  [physics.geo-ph]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Parke}(1993)}]{Parke:1993dp}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
-  {Parke}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {{28th Rencontres
-  de Moriond: Perspectives in Neutrinos, Atomic Physics and Gravitation}}}}\
-  (\bibinfo {year} {1993})\ pp.\ \bibinfo {pages} {229--236},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/9304271}{arXiv:hep-ph/9304271}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Dore}\ \emph {et~al.}(2019)\citenamefont {Dore},
-  \citenamefont {Loverre},\ and\ \citenamefont {Ludovici}}]{Dore:2018ldz}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
-  {Dore}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Loverre}}, \
-  and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Ludovici}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{History of
-  accelerator neutrino beams}},}\ }}\href {\doibase 10.1140/epjh/e2019-90032-x}
-  {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J. H}\ }\textbf
-  {\bibinfo {volume} {44}},\ \bibinfo {pages} {271} (\bibinfo {year} {2019})},\
-  \Eprint {http://arxiv.org/abs/1805.01373}{arXiv:1805.01373
-  [physics.acc-ph]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Baba}(2004)}]{Baba:2004piw}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~V.~K.}\
-  \bibnamefont {Baba}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Survey of Experiments with Reactor Neutrinos}},}\ }}\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Proc. Indian Natl. Sci. Acad. A}\
-  }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages} {53} (\bibinfo {year}
-  {2004})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Qian}\ and\ \citenamefont
-  {Peng}(2019)}]{Qian:2018wid}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
-  {Qian}}\ and\ \bibinfo {author} {\bibfnamefont {J.-C.}\ \bibnamefont
-  {Peng}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Physics
-  with Reactor Neutrinos}},}\ }}\href {\doibase 10.1088/1361-6633/aae881}
-  {\bibfield  {journal} {\bibinfo  {journal} {Rept. Prog. Phys.}\ }\textbf
-  {\bibinfo {volume} {82}},\ \bibinfo {pages} {036201} (\bibinfo {year}
-  {2019})},\ \Eprint {http://arxiv.org/abs/1801.05386}{arXiv:1801.05386
-  [hep-ex]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Abdurashitov}\ \emph {et~al.}(2000)\citenamefont
-  {Abdurashitov} \emph {et~al.}}]{SAGE:2000icz}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
-  {Abdurashitov}} \emph {et~al.} (\bibinfo {collaboration} {SAGE}),\ }\bibfield
-   {title} {\emph {\enquote {\bibinfo {title} {{Solar neutrino results from
-  SAGE}},}\ }}\href {\doibase 10.1134/1.855730} {\bibfield  {journal} {\bibinfo
-   {journal} {Phys. Atom. Nucl.}\ }\textbf {\bibinfo {volume} {63}},\ \bibinfo
-  {pages} {943} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Anselmann}\ \emph {et~al.}(1992)\citenamefont
-  {Anselmann} \emph {et~al.}}]{GALLEX:1992gcp}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Anselmann}} \emph {et~al.} (\bibinfo {collaboration} {GALLEX}),\ }\bibfield
-  {title} {\emph {\enquote {\bibinfo {title} {{Solar neutrinos observed by
-  GALLEX at Gran Sasso.}}}\ }}\href {\doibase 10.1016/0370-2693(92)91521-A}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf
-  {\bibinfo {volume} {285}},\ \bibinfo {pages} {376} (\bibinfo {year}
-  {1992})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Bahcall}\ and\ \citenamefont
-  {Ulrich}(1988)}]{Bahcall:1987jc}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
-  {Bahcall}}\ and\ \bibinfo {author} {\bibfnamefont {R.~K.}\ \bibnamefont
-  {Ulrich}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Solar
-  Models, Neutrino Experiments and Helioseismology}},}\ }}\href {\doibase
-  10.1103/RevModPhys.60.297} {\bibfield  {journal} {\bibinfo  {journal} {Rev.
-  Mod. Phys.}\ }\textbf {\bibinfo {volume} {60}},\ \bibinfo {pages} {297}
-  (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Barbieri}\ \emph {et~al.}(1998)\citenamefont
-  {Barbieri}, \citenamefont {Hall}, \citenamefont {Tucker-Smith}, \citenamefont
-  {Strumia},\ and\ \citenamefont {Weiner}}]{Barbieri:1998mq}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Barbieri}}, \bibinfo {author} {\bibfnamefont {L.~J.}\ \bibnamefont {Hall}},
-  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Tucker-Smith}}, \bibinfo
-  {author} {\bibfnamefont {A.}~\bibnamefont {Strumia}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {N.}~\bibnamefont {Weiner}},\ }\bibfield  {title}
-  {\emph {\enquote {\bibinfo {title} {{Oscillations of solar and atmospheric
-  neutrinos}},}\ }}\href {\doibase 10.1088/1126-6708/1998/12/017} {\bibfield
-  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {12}},\
-  \bibinfo {pages} {017} (\bibinfo {year} {1998})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/9807235}{arXiv:hep-ph/9807235}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {LoSecco}(2019)}]{LoSecco:2019lxv}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
-  {LoSecco}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {{International
-  Conference on History of the Neutrino}: {1930-2018}}}}\ (\bibinfo {year}
-  {2019})\ \Eprint {http://arxiv.org/abs/1902.01757}{arXiv:1902.01757
-  [physics.hist-ph]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Glashow}(1961)}]{GLASHOW1961579}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont
-  {Glashow}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {Partial-symmetries of weak interactions},}\ }}\href {\doibase
-  https://doi.org/10.1016/0029-5582(61)90469-2} {\bibfield  {journal} {\bibinfo
-   {journal} {Nuclear Physics}\ }\textbf {\bibinfo {volume} {22}},\ \bibinfo
-  {pages} {579} (\bibinfo {year} {1961})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Salam}(1968)}]{Salam:1968rm}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Salam}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Weak and
-  Electromagnetic Interactions}},}\ }}\href {\doibase
-  10.1142/9789812795915_0034} {\bibfield  {journal} {\bibinfo  {journal} {Conf.
-  Proc. C}\ }\textbf {\bibinfo {volume} {680519}},\ \bibinfo {pages} {367}
-  (\bibinfo {year} {1968})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Goldstone}\ \emph {et~al.}(1962)\citenamefont
-  {Goldstone}, \citenamefont {Salam},\ and\ \citenamefont
-  {Weinberg}}]{Goldstone:1962es}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Goldstone}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Salam}}, \
-  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Weinberg}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Broken
-  Symmetries}},}\ }}\href {\doibase 10.1103/PhysRev.127.965} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
-  {127}},\ \bibinfo {pages} {965} (\bibinfo {year} {1962})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Navas}\ \emph {et~al.}(2024)\citenamefont {Navas}
-  \emph {et~al.}}]{ParticleDataGroup:2024cfk}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Navas}} \emph {et~al.} (\bibinfo {collaboration} {Particle Data Group}),\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Review of particle
-  physics}},}\ }}\href {\doibase 10.1103/PhysRevD.110.030001} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
-  {110}},\ \bibinfo {pages} {030001} (\bibinfo {year} {2024})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Wu}\ \emph {et~al.}(1957)\citenamefont {Wu},
-  \citenamefont {Ambler}, \citenamefont {Hayward}, \citenamefont {Hoppes},\
-  and\ \citenamefont {Hudson}}]{Wu:1957my}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~S.}\ \bibnamefont
-  {Wu}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Ambler}}, \bibinfo
-  {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Hayward}}, \bibinfo {author}
-  {\bibfnamefont {D.~D.}\ \bibnamefont {Hoppes}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {R.~P.}\ \bibnamefont {Hudson}},\ }\bibfield  {title} {\emph
-  {\enquote {\bibinfo {title} {{Experimental Test of Parity Conservation in
-  $\beta$ Decay}},}\ }}\href {\doibase 10.1103/PhysRev.105.1413} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
-  {105}},\ \bibinfo {pages} {1413} (\bibinfo {year} {1957})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Goldhaber}\ \emph {et~al.}(1958)\citenamefont
-  {Goldhaber}, \citenamefont {Grodzins},\ and\ \citenamefont
-  {Sunyar}}]{Goldhaber:1958nb}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Goldhaber}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Grodzins}},
-  \ and\ \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Sunyar}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Helicity of
-  Neutrinos}},}\ }}\href {\doibase 10.1103/PhysRev.109.1015} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
-  {109}},\ \bibinfo {pages} {1015} (\bibinfo {year} {1958})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Lee}\ and\ \citenamefont {Yang}(1956)}]{Lee:1956qn}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~D.}\ \bibnamefont
-  {Lee}}\ and\ \bibinfo {author} {\bibfnamefont {C.-N.}\ \bibnamefont {Yang}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Question of Parity
-  Conservation in Weak Interactions}},}\ }}\href {\doibase
-  10.1103/PhysRev.104.254} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev.}\ }\textbf {\bibinfo {volume} {104}},\ \bibinfo {pages} {254} (\bibinfo
-  {year} {1956})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Feynman}\ and\ \citenamefont
-  {Gell-Mann}(1958)}]{Feynman:1958ty}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~P.}\ \bibnamefont
-  {Feynman}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Gell-Mann}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Theory of Fermi interaction}},}\ }}\href {\doibase 10.1103/PhysRev.109.193}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
-  {volume} {109}},\ \bibinfo {pages} {193} (\bibinfo {year}
-  {1958})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Das}(2009)}]{Das:2009zzd}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Das}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{V-A theory:
-  A view from the outside}},}\ }}\href {\doibase
-  10.1088/1742-6596/196/1/012004} {\bibfield  {journal} {\bibinfo  {journal}
-  {J. Phys. Conf. Ser.}\ }\textbf {\bibinfo {volume} {196}},\ \bibinfo {pages}
-  {012004} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Fairlie}(1979)}]{Fairlie:1979at}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~B.}\ \bibnamefont
-  {Fairlie}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Higgs'
-  Fields and the Determination of the Weinberg Angle}},}\ }}\href {\doibase
-  10.1016/0370-2693(79)90434-9} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo {pages} {97}
-  (\bibinfo {year} {1979})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Moroi}\ \emph {et~al.}(1993)\citenamefont {Moroi},
-  \citenamefont {Murayama},\ and\ \citenamefont {Yanagida}}]{Moroi:1993zj}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Moroi}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Murayama}}, \
-  and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Yanagida}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{The Weinberg angle
-  without grand unification}},}\ }}\href {\doibase 10.1103/PhysRevD.48.R2995}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
-  {volume} {48}},\ \bibinfo {pages} {R2995} (\bibinfo {year} {1993})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/9306268}{arXiv:hep-ph/9306268}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Higgs}(1964{\natexlab{b}})}]{Higgs:1964pj}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~W.}\ \bibnamefont
-  {Higgs}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Broken
-  Symmetries and the Masses of Gauge Bosons}},}\ }}\href {\doibase
-  10.1103/PhysRevLett.13.508} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. Lett.}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {508}
-  (\bibinfo {year} {1964}{\natexlab{b}})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Masson}\ and\ \citenamefont
-  {Wallet}(2010)}]{Masson:2010vx}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Masson}}\ and\ \bibinfo {author} {\bibfnamefont {J.-C.}\ \bibnamefont
-  {Wallet}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{A Remark
-  on the Spontaneous Symmetry Breaking Mechanism in the Standard Model}},}\
-  }}\href@noop {} {\  (\bibinfo {year} {2010})},\ \Eprint
-  {http://arxiv.org/abs/1001.1176}{arXiv:1001.1176 [hep-th]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Bachu}(2024)}]{Bachu:2023fjn}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Bachu}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Spontaneous symmetry breaking from an on-shell perspective}},}\ }}\href
-  {\doibase 10.1007/JHEP02(2024)098} {\bibfield  {journal} {\bibinfo  {journal}
-  {JHEP}\ }\textbf {\bibinfo {volume} {02}},\ \bibinfo {pages} {098} (\bibinfo
-  {year} {2024})},\ \Eprint {http://arxiv.org/abs/2305.02502}{arXiv:2305.02502
-  [hep-th]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Yukawa}(1935)}]{Yukawa:1935xg}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Yukawa}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{On the
-  Interaction of Elementary Particles I}},}\ }}\href {\doibase
-  10.1143/PTPS.1.1} {\bibfield  {journal} {\bibinfo  {journal} {Proc. Phys.
-  Math. Soc. Jap.}\ }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages} {48}
-  (\bibinfo {year} {1935})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Tonasse}(2002)}]{Tonasse:2001txk}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont
-  {Tonasse}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Charged
-  fermion masses with Yukawa coupling strength universality}},}\ }}\href
-  {\doibase 10.1016/S0550-3213(01)00626-5} {\bibfield  {journal} {\bibinfo
-  {journal} {Nucl. Phys. B}\ }\textbf {\bibinfo {volume} {623}},\ \bibinfo
-  {pages} {316} (\bibinfo {year} {2002})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0112187}{arXiv:hep-ph/0112187}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Neznamov}(2006)}]{Neznamov:2006yu}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~P.}\ \bibnamefont
-  {Neznamov}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{The
-  Standard Model and Fermion Masses}},}\ }}\href@noop {} {\  (\bibinfo {year}
-  {2006})},\ \Eprint
-  {http://arxiv.org/abs/hep-th/0605216}{arXiv:hep-th/0605216}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Majorana}(1937)}]{Majorana:1937vz}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Majorana}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Teoria
-  simmetrica dell\textquoteright{}elettrone e del positrone}},}\ }}\href
-  {\doibase 10.1007/BF02961314} {\bibfield  {journal} {\bibinfo  {journal}
-  {Nuovo Cim.}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages} {171}
-  (\bibinfo {year} {1937})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Minkowski}(1977)}]{Minkowski:1977sc}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Minkowski}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{$\mu
-  \to e\gamma$ at a Rate of One Out of $10^{9}$ Muon Decays?}}}\ }}\href
-  {\doibase 10.1016/0370-2693(77)90435-X} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {67}},\ \bibinfo
-  {pages} {421} (\bibinfo {year} {1977})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Dolinski}\ \emph {et~al.}(2019)\citenamefont
-  {Dolinski}, \citenamefont {Poon},\ and\ \citenamefont
-  {Rodejohann}}]{Dolinski:2019nrj}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
-  {Dolinski}}, \bibinfo {author} {\bibfnamefont {A.~W.~P.}\ \bibnamefont
-  {Poon}}, \ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Rodejohann}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Neutrinoless Double-Beta Decay: Status and Prospects}},}\ }}\href {\doibase
-  10.1146/annurev-nucl-101918-023407} {\bibfield  {journal} {\bibinfo
-  {journal} {Ann. Rev. Nucl. Part. Sci.}\ }\textbf {\bibinfo {volume} {69}},\
-  \bibinfo {pages} {219} (\bibinfo {year} {2019})},\ \Eprint
-  {http://arxiv.org/abs/1902.04097}{arXiv:1902.04097 [nucl-ex]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {McElrath}(2009)}]{McElrath:2009fn}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {McElrath}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{On The
-  Origin of Neutrino Mass and Mixing in the Standard Model}},}\ }}\href@noop {}
-  {\  (\bibinfo {year} {2009})},\ \Eprint
-  {http://arxiv.org/abs/0909.3090}{arXiv:0909.3090 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Akhmedov}\ \emph {et~al.}(2000)\citenamefont
-  {Akhmedov}, \citenamefont {Branco},\ and\ \citenamefont
-  {Rebelo}}]{Akhmedov:1999tm}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~K.}\ \bibnamefont
-  {Akhmedov}}, \bibinfo {author} {\bibfnamefont {G.~C.}\ \bibnamefont
-  {Branco}}, \ and\ \bibinfo {author} {\bibfnamefont {M.~N.}\ \bibnamefont
-  {Rebelo}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Seesaw
-  mechanism and structure of neutrino mass matrix}},}\ }}\href {\doibase
-  10.1016/S0370-2693(00)00282-3} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {478}},\ \bibinfo {pages} {215}
-  (\bibinfo {year} {2000})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/9911364}{arXiv:hep-ph/9911364}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Mohapatra}(2004)}]{Mohapatra:2004zh}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~N.}\ \bibnamefont
-  {Mohapatra}},\ }in\ \href {\doibase 10.1142/9789812702210_0003} {\emph
-  {\bibinfo {booktitle} {{SEESAW25: International Conference on the Seesaw
-  Mechanism and the Neutrino Mass}}}}\ (\bibinfo {year} {2004})\ pp.\ \bibinfo
-  {pages} {29--44},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0412379}{arXiv:hep-ph/0412379}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Ma}(2006)}]{Ma:2006km}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Ma}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Verifiable
-  radiative seesaw mechanism of neutrino mass and dark matter}},}\ }}\href
-  {\doibase 10.1103/PhysRevD.73.077301} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {73}},\ \bibinfo
-  {pages} {077301} (\bibinfo {year} {2006})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0601225}{arXiv:hep-ph/0601225}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Escribano}\ \emph {et~al.}(2020)\citenamefont
-  {Escribano}, \citenamefont {Reig},\ and\ \citenamefont
-  {Vicente}}]{Escribano:2020iqq}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Escribano}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Reig}}, \
-  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Vicente}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Generalizing the
-  Scotogenic model}},}\ }}\href {\doibase 10.1007/JHEP07(2020)097} {\bibfield
-  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {07}},\
-  \bibinfo {pages} {097} (\bibinfo {year} {2020})},\ \Eprint
-  {http://arxiv.org/abs/2004.05172}{arXiv:2004.05172 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Ahriche}(2023)}]{Ahriche:2022bpx}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Ahriche}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{A
-  scotogenic model with two inert doublets}},}\ }}\href {\doibase
-  10.1007/JHEP02(2023)028} {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\
-  }\textbf {\bibinfo {volume} {02}},\ \bibinfo {pages} {028} (\bibinfo {year}
-  {2023})},\ \Eprint {http://arxiv.org/abs/2208.00500}{arXiv:2208.00500
-  [hep-ph]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Vicente}(2023)}]{Vicente:2022zey}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Vicente}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Scotogenic models: Neutrinos, dark matter and more}},}\ }}\href {\doibase
-  10.22323/1.421.0073} {\bibfield  {journal} {\bibinfo  {journal} {PoS}\
-  }\textbf {\bibinfo {volume} {NOW2022}},\ \bibinfo {pages} {073} (\bibinfo
-  {year} {2023})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Zee}(1980)}]{Zee:1980ai}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Zee}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{A Theory of
-  Lepton Number Violation, Neutrino Majorana Mass, and Oscillation}},}\ }}\href
-  {\doibase 10.1016/0370-2693(80)90349-4} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {93}},\ \bibinfo
-  {pages} {389} (\bibinfo {year} {1980})},\ \bibinfo {note} {[Erratum:
-  Phys.Lett.B 95, 461 (1980)]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Zee}(1986)}]{Zee:1985id}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Zee}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Quantum
-  Numbers of Majorana Neutrino Masses}},}\ }}\href {\doibase
-  10.1016/0550-3213(86)90475-X} {\bibfield  {journal} {\bibinfo  {journal}
-  {Nucl. Phys. B}\ }\textbf {\bibinfo {volume} {264}},\ \bibinfo {pages} {99}
-  (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Saad}(2019)}]{Saad:2019bqf}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Saad}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Simplest
-  Radiative Dirac Neutrino Mass Models}},}\ }}\href {\doibase
-  10.1016/j.nuclphysb.2019.114636} {\bibfield  {journal} {\bibinfo  {journal}
-  {Nucl. Phys. B}\ }\textbf {\bibinfo {volume} {943}},\ \bibinfo {pages}
-  {114636} (\bibinfo {year} {2019})},\ \Eprint
-  {http://arxiv.org/abs/1902.07259}{arXiv:1902.07259 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Cai}\ \emph {et~al.}(2017)\citenamefont {Cai},
-  \citenamefont {Herrero-Garc\'\i{}a}, \citenamefont {Schmidt}, \citenamefont
-  {Vicente},\ and\ \citenamefont {Volkas}}]{Cai:2017jrq}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Cai}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Herrero-Garc\'\i{}a}}, \bibinfo {author} {\bibfnamefont {M.~A.}\
-  \bibnamefont {Schmidt}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Vicente}}, \ and\ \bibinfo {author} {\bibfnamefont {R.~R.}\ \bibnamefont
-  {Volkas}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{From the
-  trees to the forest: a review of radiative neutrino mass models}},}\ }}\href
-  {\doibase 10.3389/fphy.2017.00063} {\bibfield  {journal} {\bibinfo  {journal}
-  {Front. in Phys.}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {63}
-  (\bibinfo {year} {2017})},\ \Eprint
-  {http://arxiv.org/abs/1706.08524}{arXiv:1706.08524 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Bilenky}\ and\ \citenamefont
-  {Pontecorvo}(1978)}]{Bilenky:1978nj}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~M.}\ \bibnamefont
-  {Bilenky}}\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Pontecorvo}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Lepton Mixing and Neutrino Oscillations}},}\ }}\href {\doibase
-  10.1016/0370-1573(78)90095-9} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rept.}\ }\textbf {\bibinfo {volume} {41}},\ \bibinfo {pages} {225}
-  (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Maki}\ \emph {et~al.}(1962)\citenamefont {Maki},
-  \citenamefont {Nakagawa},\ and\ \citenamefont {Sakata}}]{Maki:1962mu}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
-  {Maki}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nakagawa}}, \
-  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sakata}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Remarks on the
-  unified model of elementary particles}},}\ }}\href {\doibase
-  10.1143/PTP.28.870} {\bibfield  {journal} {\bibinfo  {journal} {Prog. Theor.
-  Phys.}\ }\textbf {\bibinfo {volume} {28}},\ \bibinfo {pages} {870} (\bibinfo
-  {year} {1962})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pontecorvo}(1967)}]{Pontecorvo:1967fh}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Pontecorvo}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Neutrino Experiments and the Problem of Conservation of Leptonic
-  Charge}},}\ }}\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Zh.
-  Eksp. Teor. Fiz.}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo {pages}
-  {1717} (\bibinfo {year} {1967})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Schechter}\ and\ \citenamefont
-  {Valle}(1980)}]{Schechter:1980gr}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Schechter}}\ and\ \bibinfo {author} {\bibfnamefont {J.~W.~F.}\ \bibnamefont
-  {Valle}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Neutrino
-  Masses in SU(2) x U(1) Theories}},}\ }}\href {\doibase
-  10.1103/PhysRevD.22.2227} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. D}\ }\textbf {\bibinfo {volume} {22}},\ \bibinfo {pages} {2227}
-  (\bibinfo {year} {1980})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Agarwalla}\ \emph
-  {et~al.}(2022{\natexlab{a}})\citenamefont {Agarwalla}, \citenamefont {Das},
-  \citenamefont {Giarnetti},\ and\ \citenamefont {Meloni}}]{Agarwalla:2021owd}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont
-  {Agarwalla}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Das}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Giarnetti}}, \ and\
-  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Meloni}},\ }\bibfield
-  {title} {\emph {\enquote {\bibinfo {title} {{Model-independent constraints on
-  non-unitary neutrino mixing from high-precision long-baseline
-  experiments}},}\ }}\href {\doibase 10.1007/JHEP07(2022)121} {\bibfield
-  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {07}},\
-  \bibinfo {pages} {121} (\bibinfo {year} {2022}{\natexlab{a}})},\ \Eprint
-  {http://arxiv.org/abs/2111.00329}{arXiv:2111.00329 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Christenson}\ \emph {et~al.}(1964)\citenamefont
-  {Christenson}, \citenamefont {Cronin}, \citenamefont {Fitch},\ and\
-  \citenamefont {Turlay}}]{Christenson:1964fg}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
-  {Christenson}}, \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
-  {Cronin}}, \bibinfo {author} {\bibfnamefont {V.~L.}\ \bibnamefont {Fitch}}, \
-  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Turlay}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Evidence for the
-  $2\pi$ Decay of the $K_2^0$ Meson}},}\ }}\href {\doibase
-  10.1103/PhysRevLett.13.138} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. Lett.}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {138}
-  (\bibinfo {year} {1964})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Gell-Mann}\ and\ \citenamefont
-  {Pais}(1955)}]{Gell-Mann:1955ipe}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Gell-Mann}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Pais}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Behavior
-  of neutral particles under charge conjugation}},}\ }}\href {\doibase
-  10.1103/PhysRev.97.1387} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev.}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo {pages} {1387} (\bibinfo
-  {year} {1955})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Lee}\ \emph {et~al.}(1957)\citenamefont {Lee},
-  \citenamefont {Oehme},\ and\ \citenamefont {Yang}}]{Lee:1957qq}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~D.}\ \bibnamefont
-  {Lee}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Oehme}}, \ and\
-  \bibinfo {author} {\bibfnamefont {C.-N.}\ \bibnamefont {Yang}},\ }\bibfield
-  {title} {\emph {\enquote {\bibinfo {title} {{Remarks on Possible
-  Noninvariance Under Time Reversal and Charge Conjugation}},}\ }}\href
-  {\doibase 10.1103/PhysRev.106.340} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev.}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo {pages} {340}
-  (\bibinfo {year} {1957})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kobayashi}\ and\ \citenamefont
-  {Maskawa}(1973)}]{Kobayashi:1973fv}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Kobayashi}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Maskawa}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{CP
-  Violation in the Renormalizable Theory of Weak Interaction}},}\ }}\href
-  {\doibase 10.1143/PTP.49.652} {\bibfield  {journal} {\bibinfo  {journal}
-  {Prog. Theor. Phys.}\ }\textbf {\bibinfo {volume} {49}},\ \bibinfo {pages}
-  {652} (\bibinfo {year} {1973})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Cabibbo}(1963)}]{Cabibbo:1963yz}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
-  {Cabibbo}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Unitary
-  Symmetry and Leptonic Decays}},}\ }}\href {\doibase
-  10.1103/PhysRevLett.10.531} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. Lett.}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages} {531}
-  (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Ma}(2004)}]{Ma:2004zv}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Ma}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{A(4)
-  symmetry and neutrinos with very different masses}},}\ }}\href {\doibase
-  10.1103/PhysRevD.70.031901} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. D}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages} {031901}
-  (\bibinfo {year} {2004})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0404199}{arXiv:hep-ph/0404199}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {He}\ \emph {et~al.}(2006)\citenamefont {He},
-  \citenamefont {Keum},\ and\ \citenamefont {Volkas}}]{He:2006dk}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.-G.}\ \bibnamefont
-  {He}}, \bibinfo {author} {\bibfnamefont {Y.-Y.}\ \bibnamefont {Keum}}, \ and\
-  \bibinfo {author} {\bibfnamefont {R.~R.}\ \bibnamefont {Volkas}},\ }\bibfield
-   {title} {\emph {\enquote {\bibinfo {title} {{A(4) flavor symmetry breaking
-  scheme for understanding quark and neutrino mixing angles}},}\ }}\href
-  {\doibase 10.1088/1126-6708/2006/04/039} {\bibfield  {journal} {\bibinfo
-  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {04}},\ \bibinfo {pages} {039}
-  (\bibinfo {year} {2006})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0601001}{arXiv:hep-ph/0601001}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Morisi}\ and\ \citenamefont
-  {Peinado}(2009)}]{Morisi:2009sc}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Morisi}}\ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Peinado}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{An A(4)
-  model for lepton masses and mixings}},}\ }}\href {\doibase
-  10.1103/PhysRevD.80.113011} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. D}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo {pages} {113011}
-  (\bibinfo {year} {2009})},\ \Eprint
-  {http://arxiv.org/abs/0910.4389}{arXiv:0910.4389 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Altarelli}\ and\ \citenamefont
-  {Feruglio}(2010)}]{Altarelli:2010gt}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Altarelli}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
-  {Feruglio}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Discrete Flavor Symmetries and Models of Neutrino Mixing}},}\ }}\href
-  {\doibase 10.1103/RevModPhys.82.2701} {\bibfield  {journal} {\bibinfo
-  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo
-  {pages} {2701} (\bibinfo {year} {2010})},\ \Eprint
-  {http://arxiv.org/abs/1002.0211}{arXiv:1002.0211 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Gonzalez~Canales}\ \emph {et~al.}(2013)\citenamefont
-  {Gonzalez~Canales}, \citenamefont {Mondragon},\ and\ \citenamefont
-  {Mondragon}}]{GonzalezCanales:2012blg}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
-  {Gonzalez~Canales}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Mondragon}}, \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Mondragon}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{The
-  $S_3$ Flavour Symmetry: Neutrino Masses and Mixings}},}\ }}\href {\doibase
-  10.1002/prop.201200121} {\bibfield  {journal} {\bibinfo  {journal} {Fortsch.
-  Phys.}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo {pages} {546} (\bibinfo
-  {year} {2013})},\ \Eprint {http://arxiv.org/abs/1205.4755}{arXiv:1205.4755
-  [hep-ph]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Zhang}(2007)}]{Zhang:2006fv}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Zhang}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Flavor
-  S(4) x Z(2) symmetry and neutrino mixing}},}\ }}\href {\doibase
-  10.1016/j.physletb.2007.09.003} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {655}},\ \bibinfo {pages} {132}
-  (\bibinfo {year} {2007})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0612214}{arXiv:hep-ph/0612214}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Harrison}\ \emph {et~al.}(1999)\citenamefont
-  {Harrison}, \citenamefont {Perkins},\ and\ \citenamefont
-  {Scott}}]{Harrison:1999cf}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~F.}\ \bibnamefont
-  {Harrison}}, \bibinfo {author} {\bibfnamefont {D.~H.}\ \bibnamefont
-  {Perkins}}, \ and\ \bibinfo {author} {\bibfnamefont {W.~G.}\ \bibnamefont
-  {Scott}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{A
-  Redetermination of the neutrino mass squared difference in tri - maximal
-  mixing with terrestrial matter effects}},}\ }}\href {\doibase
-  10.1016/S0370-2693(99)00438-4} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {458}},\ \bibinfo {pages} {79}
-  (\bibinfo {year} {1999})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/9904297}{arXiv:hep-ph/9904297}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Abbas}\ and\ \citenamefont
-  {Smirnov}(2010)}]{Abbas:2010jw}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Abbas}}\ and\ \bibinfo {author} {\bibfnamefont {A.~Y.}\ \bibnamefont
-  {Smirnov}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Is the
-  tri-bimaximal mixing accidental?}}}\ }}\href {\doibase
-  10.1103/PhysRevD.82.013008} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. D}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo {pages} {013008}
-  (\bibinfo {year} {2010})},\ \Eprint
-  {http://arxiv.org/abs/1004.0099}{arXiv:1004.0099 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {King}\ \emph {et~al.}(2014)\citenamefont {King},
-  \citenamefont {Merle}, \citenamefont {Morisi}, \citenamefont {Shimizu},\ and\
-  \citenamefont {Tanimoto}}]{King:2014nza}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~F.}\ \bibnamefont
-  {King}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Merle}},
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Morisi}}, \bibinfo
-  {author} {\bibfnamefont {Y.}~\bibnamefont {Shimizu}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {M.}~\bibnamefont {Tanimoto}},\ }\bibfield  {title}
-  {\emph {\enquote {\bibinfo {title} {{Neutrino Mass and Mixing: from Theory to
-  Experiment}},}\ }}\href {\doibase 10.1088/1367-2630/16/4/045018} {\bibfield
-  {journal} {\bibinfo  {journal} {New J. Phys.}\ }\textbf {\bibinfo {volume}
-  {16}},\ \bibinfo {pages} {045018} (\bibinfo {year} {2014})},\ \Eprint
-  {http://arxiv.org/abs/1402.4271}{arXiv:1402.4271 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Ma}(2010)}]{Ma:2009wi}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Ma}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Neutrino
-  Tribimaximal Mixing from A(4) Alone}},}\ }}\href {\doibase
-  10.1142/S021773231003361X} {\bibfield  {journal} {\bibinfo  {journal} {Mod.
-  Phys. Lett. A}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo {pages} {2215}
-  (\bibinfo {year} {2010})},\ \Eprint
-  {http://arxiv.org/abs/0908.3165}{arXiv:0908.3165 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Plentinger}\ and\ \citenamefont
-  {Rodejohann}(2005)}]{Plentinger:2005kx}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
-  {Plentinger}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Rodejohann}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Deviations from tribimaximal neutrino mixing}},}\ }}\href {\doibase
-  10.1016/j.physletb.2005.08.092} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {625}},\ \bibinfo {pages} {264}
-  (\bibinfo {year} {2005})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0507143}{arXiv:hep-ph/0507143}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Albright}\ and\ \citenamefont
-  {Rodejohann}(2009)}]{Albright:2008rp}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~H.}\ \bibnamefont
-  {Albright}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Rodejohann}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Comparing Trimaximal Mixing and Its Variants with Deviations from
-  Tri-bimaximal Mixing}},}\ }}\href {\doibase 10.1140/epjc/s10052-009-1074-3}
-  {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J. C}\ }\textbf
-  {\bibinfo {volume} {62}},\ \bibinfo {pages} {599} (\bibinfo {year} {2009})},\
-  \Eprint {http://arxiv.org/abs/0812.0436}{arXiv:0812.0436
-  [hep-ph]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {King}\ and\ \citenamefont
-  {Luhn}(2011)}]{King:2011zj}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~F.}\ \bibnamefont
-  {King}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Luhn}},\
-  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Trimaximal neutrino
-  mixing from vacuum alignment in A4 and S4 models}},}\ }}\href {\doibase
-  10.1007/JHEP09(2011)042} {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\
-  }\textbf {\bibinfo {volume} {09}},\ \bibinfo {pages} {042} (\bibinfo {year}
-  {2011})},\ \Eprint {http://arxiv.org/abs/1107.5332}{arXiv:1107.5332
-  [hep-ph]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Barger}\ \emph {et~al.}(1998)\citenamefont {Barger},
-  \citenamefont {Pakvasa}, \citenamefont {Weiler},\ and\ \citenamefont
-  {Whisnant}}]{Barger:1998ta}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~D.}\ \bibnamefont
-  {Barger}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pakvasa}},
-  \bibinfo {author} {\bibfnamefont {T.~J.}\ \bibnamefont {Weiler}}, \ and\
-  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Whisnant}},\ }\bibfield
-  {title} {\emph {\enquote {\bibinfo {title} {{Bimaximal mixing of three
-  neutrinos}},}\ }}\href {\doibase 10.1016/S0370-2693(98)00880-6} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume}
-  {437}},\ \bibinfo {pages} {107} (\bibinfo {year} {1998})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/9806387}{arXiv:hep-ph/9806387}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Xing}(2000)}]{Xing:1999wz}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.-z.}\ \bibnamefont
-  {Xing}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{The
-  Bimaximal neutrino mixing pattern revisited}},}\ }}\href {\doibase
-  10.1103/PhysRevD.61.057301} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. D}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo {pages} {057301}
-  (\bibinfo {year} {2000})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/9909514}{arXiv:hep-ph/9909514}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Dutta}(2002)}]{Dutta:2002nq}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Dutta}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Stable
-  bimaximal neutrino mixing pattern}},}\ }}\href@noop {} {\  (\bibinfo {year}
-  {2002})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0203222}{arXiv:hep-ph/0203222}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Frampton}\ \emph {et~al.}(2004)\citenamefont
-  {Frampton}, \citenamefont {Petcov},\ and\ \citenamefont
-  {Rodejohann}}]{Frampton:2004ud}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~H.}\ \bibnamefont
-  {Frampton}}, \bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont
-  {Petcov}}, \ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Rodejohann}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{On
-  deviations from bimaximal neutrino mixing}},}\ }}\href {\doibase
-  10.1016/j.nuclphysb.2004.03.014} {\bibfield  {journal} {\bibinfo  {journal}
-  {Nucl. Phys. B}\ }\textbf {\bibinfo {volume} {687}},\ \bibinfo {pages} {31}
-  (\bibinfo {year} {2004})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0401206}{arXiv:hep-ph/0401206}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {King}(2012)}]{King:2012vj}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~F.}\ \bibnamefont
-  {King}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Tri-bimaximal-Cabibbo Mixing}},}\ }}\href {\doibase
-  10.1016/j.physletb.2012.10.028} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {718}},\ \bibinfo {pages} {136}
-  (\bibinfo {year} {2012})},\ \Eprint
-  {http://arxiv.org/abs/1205.0506}{arXiv:1205.0506 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Hu}(2013)}]{Hu:2012eb}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Hu}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Trimaximal-Cabibbo neutrino mixing: A parametrization in terms of
-  deviations from tribimaximal mixing}},}\ }}\href {\doibase
-  10.1103/PhysRevD.87.053011} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. D}\ }\textbf {\bibinfo {volume} {87}},\ \bibinfo {pages} {053011}
-  (\bibinfo {year} {2013})},\ \Eprint
-  {http://arxiv.org/abs/1212.4079}{arXiv:1212.4079 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Ahluwalia}(2012)}]{Ahluwalia:2012gw}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~V.}\ \bibnamefont
-  {Ahluwalia}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{CP
-  violating Tri-bimaximal-Cabibbo mixing}},}\ }}\href {\doibase
-  10.5402/2012/954272} {\bibfield  {journal} {\bibinfo  {journal} {ISRN High
-  Energy Phys.}\ }\textbf {\bibinfo {volume} {2012}},\ \bibinfo {pages}
-  {954272} (\bibinfo {year} {2012})},\ \Eprint
-  {http://arxiv.org/abs/1206.4779}{arXiv:1206.4779 [hep-ph]}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Fritzsch}(1977)}]{Fritzsch:1977za}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Fritzsch}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Calculating the Cabibbo Angle}},}\ }}\href {\doibase
-  10.1016/0370-2693(77)90408-7} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages} {436}
-  (\bibinfo {year} {1977})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Blucher}\ \emph {et~al.}(2005)\citenamefont {Blucher}
-  \emph {et~al.}}]{Blucher:2005dc}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Blucher}} \emph {et~al.},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
-  {{3rd International Workshop on the CKM Unitarity Triangle}}}}\ (\bibinfo
-  {year} {2005})\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0512039}{arXiv:hep-ph/0512039}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Minakata}\ and\ \citenamefont
-  {Smirnov}(2004)}]{Minakata:2004xt}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Minakata}}\ and\ \bibinfo {author} {\bibfnamefont {A.~Y.}\ \bibnamefont
-  {Smirnov}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Neutrino mixing and quark-lepton complementarity}},}\ }}\href {\doibase
-  10.1103/PhysRevD.70.073009} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. D}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages} {073009}
-  (\bibinfo {year} {2004})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0405088}{arXiv:hep-ph/0405088}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Tamborra}(2024)}]{Tamborra:2024fcd}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
-  {Tamborra}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
-  {{Neutrinos from explosive transients at the dawn of multi-messenger
-  astronomy}},}\ }}\href@noop {} {\  (\bibinfo {year} {2024})},\ \Eprint
-  {http://arxiv.org/abs/2412.09699}{arXiv:2412.09699 [astro-ph.HE]}\BibitemShut
   {NoStop}%
 \bibitem [{\citenamefont {Kajita}(2016)}]{Kajita:2016cak}%
   \BibitemOpen
@@ -1533,6 +411,19 @@
   (\bibinfo {year} {2023}{\natexlab{a}})},\ \Eprint
   {http://arxiv.org/abs/2211.10620}{arXiv:2211.10620 [hep-ph]}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Schael}\ \emph {et~al.}(2006)\citenamefont {Schael}
+  \emph {et~al.}}]{ALEPH:2005ab}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Schael}} \emph {et~al.} (\bibinfo {collaboration} {ALEPH, DELPHI, L3, OPAL,
+  SLD, LEP Electroweak Working Group, SLD Electroweak Group, SLD Heavy Flavour
+  Group}),\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Precision
+  electroweak measurements on the $Z$ resonance}},}\ }}\href {\doibase
+  10.1016/j.physrep.2005.12.006} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rept.}\ }\textbf {\bibinfo {volume} {427}},\ \bibinfo {pages} {257}
+  (\bibinfo {year} {2006})},\ \Eprint
+  {http://arxiv.org/abs/hep-ex/0509008}{arXiv:hep-ex/0509008}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Zhukovsky}\ and\ \citenamefont
   {Borisov}(2016)}]{Zhukovsky:2016bee}%
   \BibitemOpen
@@ -1693,9 +584,9 @@
   {2007})},\ \Eprint
   {http://arxiv.org/abs/hep-ph/0612222}{arXiv:hep-ph/0612222}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Agarwalla}\ \emph
-  {et~al.}(2022{\natexlab{b}})\citenamefont {Agarwalla}, \citenamefont {Kundu},
-  \citenamefont {Prakash},\ and\ \citenamefont {Singh}}]{Agarwalla:2021bzs}%
+\bibitem [{\citenamefont {Agarwalla}\ \emph {et~al.}(2022)\citenamefont
+  {Agarwalla}, \citenamefont {Kundu}, \citenamefont {Prakash},\ and\
+  \citenamefont {Singh}}]{Agarwalla:2021bzs}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont
   {Agarwalla}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Kundu}},
@@ -1705,9 +596,8 @@
   with DUNE in light of current neutrino oscillation data}},}\ }}\href
   {\doibase 10.1007/JHEP03(2022)206} {\bibfield  {journal} {\bibinfo  {journal}
   {JHEP}\ }\textbf {\bibinfo {volume} {03}},\ \bibinfo {pages} {206} (\bibinfo
-  {year} {2022}{\natexlab{b}})},\ \Eprint
-  {http://arxiv.org/abs/2111.11748}{arXiv:2111.11748 [hep-ph]}\BibitemShut
-  {NoStop}%
+  {year} {2022})},\ \Eprint {http://arxiv.org/abs/2111.11748}{arXiv:2111.11748
+  [hep-ph]}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Agarwalla}\ \emph
   {et~al.}(2024{\natexlab{a}})\citenamefont {Agarwalla}, \citenamefont
   {Kundu},\ and\ \citenamefont {Singh}}]{Agarwalla:2024kti}%
@@ -1731,6 +621,14 @@
   {\bibfield  {journal} {\bibinfo  {journal} {PoS}\ }\textbf {\bibinfo {volume}
   {EPS-HEP2019}},\ \bibinfo {pages} {400} (\bibinfo {year} {2020})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Bahcall}(1964)}]{Bahcall:1964gx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
+  {Bahcall}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Solar
+  neutrinos. I: Theoretical}},}\ }}\href {\doibase 10.1103/PhysRevLett.12.300}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {12}},\ \bibinfo {pages} {300} (\bibinfo {year}
+  {1964})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Cleveland}\ \emph
   {et~al.}(1998{\natexlab{a}})\citenamefont {Cleveland}, \citenamefont {Daily},
   \citenamefont {Davis}, \citenamefont {Distel}, \citenamefont {Lande},
@@ -1750,6 +648,17 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf
   {\bibinfo {volume} {496}},\ \bibinfo {pages} {505} (\bibinfo {year}
   {1998}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Davis}\ \emph {et~al.}(1968)\citenamefont {Davis},
+  \citenamefont {Harmer},\ and\ \citenamefont {Hoffman}}]{Davis:1968cp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Davis}, \bibfnamefont {Jr.}}, \bibinfo {author} {\bibfnamefont {D.~S.}\
+  \bibnamefont {Harmer}}, \ and\ \bibinfo {author} {\bibfnamefont {K.~C.}\
+  \bibnamefont {Hoffman}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo
+  {title} {{Search for neutrinos from the sun}},}\ }}\href {\doibase
+  10.1103/PhysRevLett.20.1205} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {20}},\ \bibinfo {pages}
+  {1205} (\bibinfo {year} {1968})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Bahcall}\ and\ \citenamefont
   {Cribier}(1990)}]{10.1007/978-94-009-0541-2_3}%
   \BibitemOpen
@@ -1944,6 +853,20 @@
   10.3390/psf2023008035} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Sci.
   Forum}\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo {pages} {35} (\bibinfo
   {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cowan}\ \emph {et~al.}(1956)\citenamefont {Cowan},
+  \citenamefont {Reines}, \citenamefont {Harrison}, \citenamefont {Kruse},\
+  and\ \citenamefont {McGuire}}]{Cowan:1956rrn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Cowan}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Reines}},
+  \bibinfo {author} {\bibfnamefont {F.~B.}\ \bibnamefont {Harrison}}, \bibinfo
+  {author} {\bibfnamefont {H.~W.}\ \bibnamefont {Kruse}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {A.~D.}\ \bibnamefont {McGuire}},\ }\bibfield
+  {title} {\emph {\enquote {\bibinfo {title} {{Detection of the free neutrino:
+  A Confirmation}},}\ }}\href {\doibase 10.1126/science.124.3212.103}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {124}},\ \bibinfo {pages} {103} (\bibinfo {year}
+  {1956})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kopeikin}\ \emph {et~al.}(2004)\citenamefont
   {Kopeikin}, \citenamefont {Mikaelyan},\ and\ \citenamefont
   {Sinev}}]{Kopeikin:2004cn}%
@@ -1973,9 +896,8 @@
   {volume} {88}},\ \bibinfo {pages} {014605} (\bibinfo {year} {2013})},\
   \Eprint {http://arxiv.org/abs/1212.6625}{arXiv:1212.6625
   [nucl-ex]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Araki}\ \emph
-  {et~al.}(2005{\natexlab{b}})\citenamefont {Araki} \emph
-  {et~al.}}]{KamLAND:2004mhv}%
+\bibitem [{\citenamefont {Araki}\ \emph {et~al.}(2005)\citenamefont {Araki}
+  \emph {et~al.}}]{KamLAND:2004mhv}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
   {Araki}} \emph {et~al.} (\bibinfo {collaboration} {KamLAND}),\ }\bibfield
@@ -1983,7 +905,7 @@
   oscillation with KamLAND: Evidence of spectral distortion}},}\ }}\href
   {\doibase 10.1103/PhysRevLett.94.081801} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo
-  {pages} {081801} (\bibinfo {year} {2005}{\natexlab{b}})},\ \Eprint
+  {pages} {081801} (\bibinfo {year} {2005})},\ \Eprint
   {http://arxiv.org/abs/hep-ex/0406035}{arXiv:hep-ex/0406035}\BibitemShut
   {NoStop}%
 \bibitem [{\citenamefont {Gando}\ \emph {et~al.}(2013)\citenamefont {Gando}
@@ -2985,9 +1907,8 @@
   {volume} {107}},\ \bibinfo {pages} {141302} (\bibinfo {year} {2011})},\
   \Eprint {http://arxiv.org/abs/1104.1816}{arXiv:1104.1816
   [hep-ex]}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Bellini}\ \emph
-  {et~al.}(2010{\natexlab{b}})\citenamefont {Bellini} \emph
-  {et~al.}}]{Borexino:2008fkj}%
+\bibitem [{\citenamefont {Bellini}\ \emph {et~al.}(2010)\citenamefont {Bellini}
+  \emph {et~al.}}]{Borexino:2008fkj}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
   {Bellini}} \emph {et~al.} (\bibinfo {collaboration} {Borexino}),\ }\bibfield
@@ -2995,10 +1916,9 @@
   neutrino rate with a liquid scintillator target and 3 MeV energy threshold in
   the Borexino detector}},}\ }}\href {\doibase 10.1103/PhysRevD.82.033006}
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
-  {volume} {82}},\ \bibinfo {pages} {033006} (\bibinfo {year}
-  {2010}{\natexlab{b}})},\ \Eprint
-  {http://arxiv.org/abs/0808.2868}{arXiv:0808.2868 [astro-ph]}\BibitemShut
-  {NoStop}%
+  {volume} {82}},\ \bibinfo {pages} {033006} (\bibinfo {year} {2010})},\
+  \Eprint {http://arxiv.org/abs/0808.2868}{arXiv:0808.2868
+  [astro-ph]}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Bellini}\ \emph {et~al.}(2014)\citenamefont {Bellini}
   \emph {et~al.}}]{BOREXINO:2014pcl}%
   \BibitemOpen
@@ -3158,6 +2078,21 @@
   \bibinfo {pages} {163} (\bibinfo {year} {2002}{\natexlab{a}})},\ \Eprint
   {http://arxiv.org/abs/hep-ph/0203209}{arXiv:hep-ph/0203209}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {King}\ \emph {et~al.}(2014)\citenamefont {King},
+  \citenamefont {Merle}, \citenamefont {Morisi}, \citenamefont {Shimizu},\ and\
+  \citenamefont {Tanimoto}}]{King:2014nza}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~F.}\ \bibnamefont
+  {King}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Merle}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Morisi}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Shimizu}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Tanimoto}},\ }\bibfield  {title}
+  {\emph {\enquote {\bibinfo {title} {{Neutrino Mass and Mixing: from Theory to
+  Experiment}},}\ }}\href {\doibase 10.1088/1367-2630/16/4/045018} {\bibfield
+  {journal} {\bibinfo  {journal} {New J. Phys.}\ }\textbf {\bibinfo {volume}
+  {16}},\ \bibinfo {pages} {045018} (\bibinfo {year} {2014})},\ \Eprint
+  {http://arxiv.org/abs/1402.4271}{arXiv:1402.4271 [hep-ph]}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Fogli}\ and\ \citenamefont
   {Lisi}(1996)}]{Fogli:1996pv}%
   \BibitemOpen
@@ -3282,6 +2217,18 @@
   {http://arxiv.org/abs/hep-ph/0404046}{arXiv:hep-ph/0404046
   [hep-ph]}\BibitemShut {NoStop}%
 %%CITATION = HEP-PH/0404046;%%
+\bibitem [{\citenamefont {Minakata}\ and\ \citenamefont
+  {Smirnov}(2004)}]{Minakata:2004xt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Minakata}}\ and\ \bibinfo {author} {\bibfnamefont {A.~Y.}\ \bibnamefont
+  {Smirnov}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
+  {{Neutrino mixing and quark-lepton complementarity}},}\ }}\href {\doibase
+  10.1103/PhysRevD.70.073009} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. D}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages} {073009}
+  (\bibinfo {year} {2004})},\ \Eprint
+  {http://arxiv.org/abs/hep-ph/0405088}{arXiv:hep-ph/0405088}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Ferrandis}\ and\ \citenamefont
   {Pakvasa}(2005)}]{Ferrandis:2004vp}%
   \BibitemOpen
@@ -4164,6 +3111,18 @@
   {http://arxiv.org/abs/1209.0716}{arXiv:1209.0716 [hep-ex]}\BibitemShut
   {NoStop}%
 %%CITATION = ARXIV:1209.0716;%%
+\bibitem [{\citenamefont {Dore}\ \emph {et~al.}(2019)\citenamefont {Dore},
+  \citenamefont {Loverre},\ and\ \citenamefont {Ludovici}}]{Dore:2018ldz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Dore}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Loverre}}, \
+  and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Ludovici}},\
+  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{History of
+  accelerator neutrino beams}},}\ }}\href {\doibase 10.1140/epjh/e2019-90032-x}
+  {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J. H}\ }\textbf
+  {\bibinfo {volume} {44}},\ \bibinfo {pages} {271} (\bibinfo {year} {2019})},\
+  \Eprint {http://arxiv.org/abs/1805.01373}{arXiv:1805.01373
+  [physics.acc-ph]}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Katori}\ and\ \citenamefont
   {Martini}(2018)}]{Katori:2016yel}%
   \BibitemOpen
@@ -4355,6 +3314,29 @@
   {year} {1998})\ pp.\ \bibinfo {pages} {27--93},\ \Eprint
   {http://arxiv.org/abs/hep-ph/9811456}{arXiv:hep-ph/9811456}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Wu}\ \emph {et~al.}(1957)\citenamefont {Wu},
+  \citenamefont {Ambler}, \citenamefont {Hayward}, \citenamefont {Hoppes},\
+  and\ \citenamefont {Hudson}}]{Wu:1957my}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~S.}\ \bibnamefont
+  {Wu}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Ambler}}, \bibinfo
+  {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Hayward}}, \bibinfo {author}
+  {\bibfnamefont {D.~D.}\ \bibnamefont {Hoppes}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {R.~P.}\ \bibnamefont {Hudson}},\ }\bibfield  {title} {\emph
+  {\enquote {\bibinfo {title} {{Experimental Test of Parity Conservation in
+  $\beta$ Decay}},}\ }}\href {\doibase 10.1103/PhysRev.105.1413} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {105}},\ \bibinfo {pages} {1413} (\bibinfo {year} {1957})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Lee}\ and\ \citenamefont {Yang}(1956)}]{Lee:1956qn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~D.}\ \bibnamefont
+  {Lee}}\ and\ \bibinfo {author} {\bibfnamefont {C.-N.}\ \bibnamefont {Yang}},\
+  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Question of Parity
+  Conservation in Weak Interactions}},}\ }}\href {\doibase
+  10.1103/PhysRev.104.254} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {104}},\ \bibinfo {pages} {254} (\bibinfo
+  {year} {1956})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Streater}(1977)}]{Streater:1977hq}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont
@@ -4362,6 +3344,25 @@
   International Summer Institute of Theoretical Physics: Many Degrees of
   Freedom in Particle Physics and Field Theory}}}}\ (\bibinfo {year}
   {1977})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maki}\ \emph {et~al.}(1962)\citenamefont {Maki},
+  \citenamefont {Nakagawa},\ and\ \citenamefont {Sakata}}]{Maki:1962mu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Maki}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nakagawa}}, \
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sakata}},\
+  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Remarks on the
+  unified model of elementary particles}},}\ }}\href {\doibase
+  10.1143/PTP.28.870} {\bibfield  {journal} {\bibinfo  {journal} {Prog. Theor.
+  Phys.}\ }\textbf {\bibinfo {volume} {28}},\ \bibinfo {pages} {870} (\bibinfo
+  {year} {1962})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pontecorvo}(1967)}]{Pontecorvo:1967fh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Pontecorvo}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title}
+  {{Neutrino Experiments and the Problem of Conservation of Leptonic
+  Charge}},}\ }}\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Zh.
+  Eksp. Teor. Fiz.}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo {pages}
+  {1717} (\bibinfo {year} {1967})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Gribov}\ and\ \citenamefont
   {Pontecorvo}(1969)}]{Gribov:1968kq}%
   \BibitemOpen
@@ -4740,6 +3741,34 @@
   10.1143/PTP.13.285} {\bibfield  {journal} {\bibinfo  {journal} {Prog. Theor.
   Phys.}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {285} (\bibinfo
   {year} {1955})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Weinberg}(1967)}]{Weinberg:1967tq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Weinberg}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{A
+  Model of Leptons}},}\ }}\href {\doibase 10.1103/PhysRevLett.19.1264}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {19}},\ \bibinfo {pages} {1264} (\bibinfo {year}
+  {1967})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fairlie}(1979)}]{Fairlie:1979at}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~B.}\ \bibnamefont
+  {Fairlie}},\ }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{Higgs'
+  Fields and the Determination of the Weinberg Angle}},}\ }}\href {\doibase
+  10.1016/0370-2693(79)90434-9} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo {pages} {97}
+  (\bibinfo {year} {1979})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Moroi}\ \emph {et~al.}(1993)\citenamefont {Moroi},
+  \citenamefont {Murayama},\ and\ \citenamefont {Yanagida}}]{Moroi:1993zj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Moroi}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Murayama}}, \
+  and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Yanagida}},\
+  }\bibfield  {title} {\emph {\enquote {\bibinfo {title} {{The Weinberg angle
+  without grand unification}},}\ }}\href {\doibase 10.1103/PhysRevD.48.R2995}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {48}},\ \bibinfo {pages} {R2995} (\bibinfo {year} {1993})},\ \Eprint
+  {http://arxiv.org/abs/hep-ph/9306268}{arXiv:hep-ph/9306268}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Bandyopadhyay}\ \emph {et~al.}(2021)\citenamefont
   {Bandyopadhyay}, \citenamefont {Bhattacharyya}, \citenamefont {Das},\ and\
   \citenamefont {Raychaudhuri}}]{Bandyopadhyay:2021gcn}%
