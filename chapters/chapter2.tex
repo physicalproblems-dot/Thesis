@@ -9,368 +9,511 @@ This chapter is planned in the following way. Section \ref{sec:2.1} outlines the
 
 \section{Neutron star Matter}
 \label{sec:2.1}
-There are several approaches to construct the neutrino oscillation framework. Neutrinos are fermions and occupy their places in the lepton family of the SM, in the form of $SU(2)$ doublets. So, ideally, the Dirac equation should lead us to the neutrino oscillation probability. However, neutrino oscillation does not manifest any spin nature of itself, and hence, for the ease of our calculations, we use the Schr\"{o}dinger equation considering neutrino as a free particle instead of assuming it as a wave packet. Neutrinos are produced or detected at their flavor eigenstates ($\nu_e$, $\nu_\mu$, or $\nu_\tau$) or weak eigenstates (or gauge states), but they are in the mass eigenstates or physical states ($\nu_1$ and $\nu_2$) while propagating through the vacuum or the matter. The mass eigenstates and flavor eigenstates are considered to form a complete orthonormal basis to conserve the flavor transition probability, and hence a flavor eigenstate, $\nu_\alpha$ is connected to the mass eigenstate $\nu_k$ through a unitary matrix $U$ in the following fashion.
+The E-RMF formalism has demonstrated remarkable robustness in its ability to accurately describe both finite nuclei and infinite nuclear matter. The Lagrangian density is modeled by considering the interactions between different mesons and nucleons, including the self and cross-coupling among them. The parameters of the E-RMF model are determined by fitting with different experimental and empirical data. In literature, more than 200 parameters have been developed to reproduce the different experimental/observational data\cite{PhysRevC.55.540,PhysRevC.63.044303,PhysRevC.74.045806,PhysRevC.70.058801,LALAZISSIS200936,PhysRevC.82.055803,PhysRevC.82.025203,PhysRevC.84.054309,PhysRevC.85.024302,PhysRevC.97.045806,PhysRevC.102.065805}. In this E-RMF model \cite{E-RMF1, E-RMF2, E-RMF3, E-RMF4, E-RMF5}, the Lagrangian density has the self and cross-coupling between mesons up to fourth order. For completeness, the E-RMF Lagrangian for nucleon-meson-leptons for baryonic matter (BM) system is given as \citep{Reinhard_1989, KUMAR2017197, PhysRevC.97.045806}: 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	\label{Lagrangian}
+	{\cal L_{BM}} & = &  \sum_{i=n,p} \bar\psi_{i}
+	\Bigg\{\gamma_{\nu}(i\partial^{\nu}-g_{\omega}\omega^{\nu}-\frac{1}{2}g_{\rho}\vec{\tau}_{i}\!\cdot\!\vec{\rho}^{\,\nu})
+	-(M_{nucl.}-g_{\sigma}\sigma
+	\nonumber\\
+	&&
+	-g_{\delta}\vec{\tau}_{i}\!\cdot\!\vec{\delta})\Bigg\} \psi_{i}
+	-\frac{1}{2}m_{\sigma}^{2}\sigma^2
+	+\frac{1}{2}\partial^{\nu}\sigma\,\partial_{\nu}\sigma
+	+\frac{1}{2}m_{\omega}^{2}\omega^{\nu}\omega_{\nu}
+	\nonumber \\
+	&& 
+	-\frac{1}{4}F^{\alpha\beta}F_{\alpha\beta}
+	+\frac{1}{2}m_{\rho}^{2}\rho^{\nu}\!\cdot\!\rho_{\nu} 
+	-\frac{1}{4}\vec R^{\alpha\beta}\!\cdot\!\vec R_{\alpha\beta}
+	-\frac{1}{2}m_{\delta}^{2}\vec\delta^{\,2}
+	\nonumber \\
+	&&
+	+\frac{1}{2}\partial^{\nu}\vec\delta\,\partial_{\nu}\vec\delta
+	-g_{\sigma}\frac{m_{\sigma}^2}{M}\Bigg(\frac{\kappa_3}{3!}+\frac{\kappa_4}{4!}\frac{g_{\sigma}}{M}\sigma\Bigg)\sigma^3
+	\nonumber\\
+	&&
+	+\frac{1}{2}\frac{g_{\sigma}\sigma}{M}\Bigg(\eta_1+\frac{\eta_2}{2} \frac{g_{\sigma}\sigma}{M}\Bigg)m_\omega^2\omega^{\nu}\omega_{\nu}
+	+\frac{\zeta_0}{4!}g_\omega^2(\omega^{\nu}\omega_{\nu})^2 
+	\nonumber\\
+	&&
+	+\frac{1}{2}\eta_{\rho}\frac{m_{\rho}^2}{M}g_{\sigma}\sigma(\vec\rho^{\,\nu}\!\cdot\!\vec\rho_{\nu})
+	-\Lambda_{\omega}g_{\omega}^2g_{\rho}^2(\omega^{\nu}\omega_{\nu})(\vec\rho^{\,\nu}\!\cdot\!\vec\rho_{\nu})
+	\nonumber\\
+	&&
+	+\sum_{j=e^{-},\mu} \bar\phi_{j}(i\gamma_{\nu}\partial^{\nu}-m_{j})\phi_{j}.
+	\label{eq1}
+\end{eqnarray}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The nucleon wave functions, denoted by $\psi_{i}$, represent both neutrons and protons, while the last term in the expression accounts for the non-interacting leptonic part, namely electrons and muons. The nucleon mass is denoted by $M_{nucl.}$ (approximately 939 MeV), and specific masses and coupling constants are assigned to various mesons, including the sigma ($m_\sigma$, $g_\sigma$, $\kappa_3$, $\kappa_4$), omega ($m_\omega$, $g_\omega$, $\zeta_0$, $\eta_1$, $\eta_2$), rho ($m_\rho$, $g_\rho$, $\eta_\rho$, $\Lambda_\omega$), and delta ($m_\delta$, $g_\delta$) mesons. The field strength tensors, $F^{\alpha\beta}$ and $\vec R^{\alpha\beta}$, are employed for the omega and rho mesons, respectively.
+To facilitate further calculations, we adopt the relativistic mean-field (RMF) approximation, where meson fields are replaced with their average values. This simplifies computations, especially in cases of uniform static matter, where spatial and temporal derivatives of mesons can be disregarded. Maintaining translational and rotational invariance, as well as isotropy of nuclear matter, it is crucial for ensuring the accuracy and consistency of calculations. In this approximation, only the time-like components of the isovector field and the isospin 3 component of the mesonic field are \textcolor{red}{considered} significant.  \cite{ERMF6, Serot1992, ERMF7, E-RMF8, E-RMF9, E-RMF5, PhysRevC.97.045806}. The values of the parameter sets used in the present work are given in Table \ref{tab: Lagrangian parameters}, and their nuclear matter properties at saturation density are listed in Table \ref{tab: saturation_properties}.  The energy density ($\mathcal{E}_{\rm BM}$) and pressure ($P_{\rm BM}$) for BM system can be computed from the Lagrangian (Eq. \ref{Lagrangian}) using the stress-energy tensor, yielding as \cite{E-RMF5}:  
+%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	\label{eq:eden}
+	%%%%%%%%%%%%%%%%
+	{\cal E}_{\rm BM} & = & \sum_{i=n,p} \frac{g_s}{(2\pi)^{3}}\int_{0}^{k_{f_{i}}} d^{3}k\, \sqrt{k^{2} + M_{i}^{*2}}\nonumber\\
+	&&
+	+n g_\omega\,\omega+m_{\sigma}^2{\sigma}^2\Bigg(\frac{1}{2}+\frac{\kappa_{3}}{3!}\frac{g_\sigma\sigma}{M_{\rm nucl.}}+\frac{\kappa_4}{4!}\frac{g_\sigma^2\sigma^2}{M_{\rm nucl.}^2}\Bigg)
+	\nonumber\\
+	&&
+	-\frac{1}{4!}\zeta_{0}\,{g_{\omega}^2}\,\omega^4
+	-\frac{1}{2}m_{\omega}^2\,\omega^2\Bigg(1+\eta_{1}\frac{g_\sigma\sigma}{M_{\rm nucl.}}+\frac{\eta_{2}}{2}\frac{g_\sigma^2\sigma^2}{M_{\rm nucl.}^2}\Bigg)
+	\nonumber\\
+	&&
+	+ \frac{1}{2} n_3 \,g_\rho\,\rho
+	-\frac{1}{2}\Bigg(1+\frac{\eta_{\rho}g_\sigma\sigma}{M_{\rm nucl.}}\Bigg)m_{\rho}^2
+	\nonumber\\
+	&& 
+	-\Lambda_{\omega}\, g_\rho^2\, g_\omega^2\, \rho^2\, \omega^2
+	+\frac{1}{2}m_{\delta}^2\, \delta^{2}
+	\nonumber\\
+	&& 
+	+\sum_{j=e^{-},\mu}  \frac{g_s}{(2\pi)^{3}}\int_{0}^{k_{f_{j}}} \sqrt{k^2 + m^2_{j}} \, d^{3}k,
+\end{eqnarray}
+%%%%%%%%%%%%%%
+and
+%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	\label{eq:press}
+	%%%%%%%%%%%%%%%%
+	P_{\rm BM}& = & \sum_{i=n,p} \frac{g_s}{3 (2\pi)^{3}}\int_{0}^{k_{f_{i}}} d^{3}k\, \frac{k^2}{\sqrt{k^{2} + M_{i}^{*2} }} \nonumber\\
+	&& - m_{\sigma}^2{\sigma}^2\Bigg(\frac{1}{2} + \frac{\kappa_{3}}{3!}\frac{g_\sigma\sigma}{M_{\rm nucl.}} + \frac{\kappa_4}{4!}\frac{g_\sigma^2\sigma^2}{M_{\rm nucl.}^2}\Bigg)+ \frac{1}{4!}\zeta_{0}\,{g_{\omega}^2}\,\omega^4 
+	\nonumber\\
+	&&
+	+\frac{1}{2}m_{\omega}^2\omega^2\Bigg(1+\eta_{1}\frac{g_\sigma\sigma}{M_{\rm nucl.}}+\frac{\eta_{2}}{2}\frac{g_\sigma^2\sigma^2}{M_{\rm nucl.}^2}\Bigg)
+	\nonumber\\
+	&&
+	+ \frac{1}{2}\Bigg(1+\frac{\eta_{\rho}g_\sigma\sigma}{M_{\rm nucl.}}\Bigg)m_{\rho}^2\,\rho^{2}-\frac{1}{2}m_{\delta}^2\, \delta^{2}+\Lambda_{\omega} g_\rho^2 g_\omega^2 \rho^2 \omega^2
+	\nonumber\\
+	&&
+	+\sum_{j=e^{-}, \mu}  \frac{g_s}{3(2\pi)^{3}}\int_{0}^{k_{f_{j}}} \frac{k^2}{\sqrt{k^2 + m^2_{j}}} \, d^{3}k,
+\end{eqnarray}
+%%%%%%%%%%%%%%
+where $g_s$ = 2 is the spin degeneracy of nucleons. The effective mass of nucleon (i= n, p) is defined as: 
+\begin{eqnarray}
+	M_{i}^\star &=& M_{\rm nucl.}+ g_\sigma \sigma_0 \pm g_\delta \delta_0 .
+	\label{eq:effm_nucleon}
+\end{eqnarray}
+%%%%%%%%%%%%%%%
+
+\noindent
+\textcolor{blue}{Here, $k_{fi}$ and $k_{fj}$ are the Fermi momenta of the nucleons and leptons, respectively. The  baryonic and the isovector densities are denoted as $n$ and $n_3$. The $\sigma_0$ and $\delta_0$ are the mean meson fields of sigma and delta mesons.} 
 
 
 \section{Quarkyonic Star Matter}
+Now, we discuss the quarkyonic model as proposed by Mclerran and Reddy \cite{PhysRevLett.122.122701}. In this phenomenological model, it is suggested that at the core of the NS, where the density is several times higher than the nuclear saturation density, the nucleons break into quarks. The defining characteristic of their model is its capacity to influence the correlation between mass and radius, specifically predicting a higher mass due to the stiffening of EOS as compared to baryonic. The onset of the quarkyonic phase from baryonic is marked by a swift rise in pressure, which is due to the occupation of quarks in lower momentum states as the baryon density reaches a critical value, termed transition density. This results in treating the low momentum degrees of freedom as quarks while high momenta degrees of freedom near the Fermi surface as nucleons. The momentum states near the Fermi surfaces are in order of QCD confinement scale $\Lambda_{\rm cs}$ and hence lead to the formation of nucleons, which are the bound states of quarks.
+
+The schematic model of Mclerran and Reddy \cite{PhysRevLett.122.122701} is further developed and modified by Jhao and Lattimer \cite{PhysRevD.102.023021}. They incorporated the beta-equilibrium condition for quarkyonic matter along with charge neutrality for neutron star matter (NSM). The nucleons interact via density-dependent potential, which is fitted to select properties of uniform NM. In addition, they established chemical equilibrium among nucleons and quarks in order to establish the relation between nucleon momenta $k_{f _{(n,p)}}$ and quark  $k_{f _{(u,d)}}$, which marks the distinctiveness of the modified quarkyonic model. Since nucleons occupy a Fermi shell in the quarkyonic matter model, it has a minimum momentum $k_{0_{(n,p)}} $  and  Fermi momentum $k_{f _{(n,p)}}$. The $d$ and $u$ quark Fermi momentum are $k_{f _d}$ and$k_{f _u}$ respectively. The conservation law of baryon density implies the relation in \cite{PhysRevD.102.023021};
+%%%%%%%%%%%%%%%%%%%%% baryon density conservation (qs) %%%%%%%%%%%%%%%%%%%%%% 
+\begin{eqnarray}
+	n &=& n_n + n_p + \frac{n_u+n_d}{3}
+	\nonumber\\
+	&=& \frac{g_s}{6\pi^2}\bigg[(k_{f_{n}}^3-k_{0_{n}}^3)+(k_{f_{p}}^3-k_{0_{p}}^3)+\frac{(k_{f_{u}}^3+k_{f_{d}}^3)}{3}\bigg].  
+\end{eqnarray}
+%%%%%%%%%%%%%%
+Here, $n_n$, $n_p$, $n_u$, $n_d$  are the neutron, proton, up and down quark baryon densities.
+Also, the charge neutrality condition among nucleons, quarks, and leptons leads to;
+%%%%%%%%%%%%%%%%%%%% charge neutrality condition (qs) %%%%%%%%%
+\begin{eqnarray}
+	n_p + \frac{2n_{u}}{3} -  \frac{n_{d}}{3}& = & n_{e^{-}} + n_{\mu}.  
+\end{eqnarray}
+%%%%%%%%%%%%%%
+Here, $n_{e^{-}}$  and $n_{\mu}$ are electron and muon densities respectively.
+
+The $k_{f 0(n,p)}$ is related to the transition momentum of nucleons $k_{t_{(n,p)}}$ corresponding to transition density from nucleonic to quarkyonic matter at baryon density $ n = n_t$ by the following expression \cite{PhysRevD.102.023021}
+%%%%%%%%%%%%%%%%%%%% minimum fermi momentum of nucleon (qs) %%%%%%%%%%%
+
+\begin{eqnarray}
+	k_{0(n,p)} &=& (k_{f_{(n,p)}}-k_{t_{(n,p)}})\bigg[1+ \frac{\Lambda_{\rm cs}^2}{k_{f_{(n,p)}}k_{t_{(n,p)}}}\bigg].
+\end{eqnarray}
+
+\begin{eqnarray}
+	k_{0(n,p)} &=& 0 \\
+	&=& (k_{f_{(n,p)}}-k_{t_{(n,p)}})\bigg[1+ \frac{\Lambda_{\rm cs}^2}{k_{f_{(n,p)}}k_{t_{(n,p)}}}\bigg].
+	
+	.
+\end{eqnarray}
+%%%%%%%%%%%%%%
+At $n_t$ which is in the order of approximately $2.0 -3.0$ times the saturation density, the nucleons will overlap with each other, and quarks will drip out from the nucleon to form a fermi shell of high momenta nucleon and low momenta quarks. 
+% appearance at that density. The values of $n_t$  can be taken as  $0.3, 0.4$, and $0.5$ fm$^{-3}$ which are approximately $2, 2.5$, and $3$ times the nuclear saturation density ($n_0 = 0.16$ fm$^{-3}$) \cite{ankit_arxiv,PhysRevD.102.023021}. At such ultra-high density, the nucleons will overlap with each other, and quarks will drip out from the nucleon to form a fermi shell of nucleons of high momenta and quark fermi sphere of low momenta.\cite{PhysRevD.102.023021,ankit_arxiv}.
+Here, the $\Lambda_{\rm cs}$ is the QCD confinement scale. This acts as the cut-off momentum scale between nucleons and quarks. The low momentum degrees of freedom i.e. the momentum less than  $\Lambda_{\rm cs}$ are treated as quarks while higher momenta are treated as nucleons.  The value of $k_0$ cannot be negative because the model construction ensures that the expression for $k_0$ applies only in the regime where $k_{f(n,p)} > k_{t(n,p)}$. In this regime, which is above transition density the terms ensure a non-negative value for $k_{0(n,p)}$. Below the transition density, the expression is not applicable, and  $k_{0(n,p)}$ is set to zero. 
+
+Here, Strong interaction equilibrium ensures that at each fixed baryon density, the Fermi gas has its lowest possible energy. It is equivalent to the condition of the chemical equilibrium among nucleons and quarks given by the relations \cite{PhysRevD.102.023021}; 
+%%%%%%%%%%%%%%%%%%%% chemical equilibrium among nucleon (qs) %%%%%%%%%%
+\begin{eqnarray}\label{ebnq}
+	\mu_n &=& \mu_u+2\mu_d,
+\end{eqnarray}
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	\mu_p &=& 2\mu_u+\mu_d,
+\end{eqnarray}
+%%%%%%%%%%%%%%
+where $\mu_n$, $\mu_p$, $\mu_u$, and $\mu_d$ are the chemical potentials of neutron, proton, up quark, and down quark respectively. The relationship among the chemical potentials and their respective Fermi momenta is given by the following expression:
+\begin{eqnarray}
+	&&\hspace*{.5cm}\mu_{n,p}={\partial\varepsilon_B\over\partial n_{n,p}}= \left(1-K_{n,p}\right)^{-1}\times\nonumber\\
+	&\times&\left(\sqrt{m_{n,p}+k_{f(n,p)}^2}-K_{n,p}\sqrt{m_{n,p}^2+k_{0(n,p)}^2}\right)\nonumber\\
+	&&\hspace*{1cm}+{\partial [(n_n+n_p)V(n_n,n_p)]\over\partial n_{n,p}}, \label{eq:chempo_neutron}
+\end{eqnarray}
+where
+\begin{eqnarray}
+	K_{n,p}&=&\left({k_{0(n,p)}\over k_{f(n,p)}}\right)^2{dk_{0(n,p)}\over dk_{f(n,p)}}\nonumber\\
+	&=&\left({k_{0(n,p)}\over k_{f(n,p)}}\right)^2\left[1+\left({\Lambda_{\rm cs}\over k_{f(n,p)}}\right)^2\right].
+	\label{eq:K}\end{eqnarray}
+and 
+\begin{eqnarray}
+	\mu_{u,d} = \sqrt{ m_{u,d}+k_{f(u,d)}^2 }. 
+	\label{eq:DQ}\end{eqnarray}Here $V(n_n,n_p)$ is the mesonic mean field potential energy among nucleons.
+In addition to strong interaction equilibrium, the energy of the Fermi gas is further minimized due to the beta-equilibrium condition under the constraint of charge neutrality. This results in establishing chemical equilibrium between neutron, proton, electron, and muon, as indicated\cite{Glendenning,PhysRevD.102.023021};
+%%%%%%%%%%%%%%% beta equilibrium and charge neutrality condition (qs) %%%%%%%%%%%
+\begin{eqnarray} \label{qnbe}
+	\mu_{n} &=& \mu_{p}+\mu_{e^{-}} , \nonumber \\
+	\mu_{\mu} &=& \mu_{e^{-}}.
+\end{eqnarray}
+%%%%%%%%%%%%%%
+Here, $\mu_{\mu}$, $\mu_{e^{-}}$ are chemical potential of muon and electron respectively. These leptons chemical potential are related with their respective Fermi momenta by similar equation as in \ref{eq:DQ}. 
+
+Also, one crucial aspect of the model is the up and down quark masses, which are not independent variables but dependent on the beta equilibrium condition of NS matter  at transition density $n_t$ via;
+%%%%%%%%%%%%%%%%%% mass of up and down quark %%%%%%%%%%%%%%%
+\begin{eqnarray}
+	m_{u} = \frac{2}{3} \mu_{t_{p}} -  \frac{1}{3} \mu_{t_{n}}, \,\,\,\,\,\,\,\,\,\,\,\, m_{d} = \frac{2}{3} \mu_{t_{n}} -  \frac{1}{3} \mu_{t_{p}},
+\end{eqnarray}
+%%%%%%%%%%%%%%
+where $\mu_{t_{n}}$ and $\mu_{t_{p}}$ are the chemical potential of neutron and proton at $n_t$. In the context of our model, the quark number density is given by :
+\[
+n_q = \frac{g_s}{6\pi^2}\frac{N_c}{3} k_{fq}^3,
+\]
+where $q = (u,d)$,  \(g_s =2\) is the spin degeneracy factor, \(N_c =3\) is the color degeneracy factor, and \(k_{fq}\) is the quark Fermi momentum. To ensure zero quark density at the quark-hadron transition, the proper relationship between the quark Fermi momenta and chemical potentials must be established. The quark number density \(n_q\) becomes zero when the quark Fermi momentum \(k_{fq}\) is zero. This occurs at the transition point where the chemical potential conditions for the hadrons and quarks align. At the quark-hadron transition, the chemical potentials of the quarks and hadrons must satisfy the conditions for beta equilibrium and charge neutrality. These conditions ensure that the chemical potentials are balanced, leading to the proper phase transition. The chemical potentials of quarks in beta equilibrium are given by
+\[
+\mu_q = \sqrt{m_q^2 + k_{fq}^2}, 
+\]
+where $m_q$ is the mass of the quarks and $\mu_q$ is the chemical potential of the quarks. To achieve zero quark density at the transition, the Fermi momenta of the quarks must be such that \(k_{fq} = 0\) at \(\mu_q = \mu_{q, \text{transition}}\).
+Below the transition density the beta equllibrium condition of npe$\mu$ matter is given by         \[
+\mu_n = \mu_p + \mu_e,
+\]
+\[
+\mu_\mu = \mu_e,
+\]
+
+{This approach ensures that the up and down quark \textcolor{red}{masses} are defined self-consistently, taking into account the beta equilibrium among nucleons and quarks, which is essential for accurately describing the physical state of matter at the high densities characteristic of NSs. Consequently, the up and down quark masses, typically found to be $m_u \approx 241 \text{ MeV} \quad \text{and} \quad m_d \approx 391\; \text{MeV}$, differ significantly from the current quark masses due to the effects of the dense medium in the NS interior \cite{PhysRevD.107.043025}. Since the quarks are considered as non-interacting fermion gas, their energy density ${\cal E}_{\rm QM}$ and pressure $P_{\rm QM}$ can be written as} \cite{PhysRevD.102.023021};
+
+%%%%%%%%%%%%%%%%% energy density of quarks (kinetic part)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	{\cal E}_{\rm QM}&=& \sum_{q=u,d}\frac{g_s N_c}{(2\pi)^3}\int_0^{k_{f_{q}}}k^2\sqrt{k^2 + m_{q}^2 }\, d^3k,
+\end{eqnarray}
+%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%% total pressure (qs) %%%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	P_{\rm QM} &=& \mu_{u} n_{u} + \mu_{d} n_{d} - {\cal E}_{\rm QM} \, .
+\end{eqnarray} 
+%%%%%%%%%%%%%%
+
+where $N_{c}$ = 3 is the color degeneracy of quarks, $m_q$ is the mass of the quark (j = u, d) and $k_{fq}$ is the Fermi momenta of quarks.
+
+
+
 
 \section{Dark Matter}
 
+In this, we choose a simple DM model, where DM particles interact with nucleons and quarks by exchanging Higgs. The Lagrangian density for this interaction is given by \cite{DM1,DM2,DM3,ankit2024};
+%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	{\cal{L}}_{\rm DM} & = & \bar \chi \left[ i \gamma^\mu \partial_\mu - M_\chi + y h \right] \chi +  \frac{1}{2}\partial_\mu h \partial^\mu h  \nonumber\\
+	& &
+	- \frac{1}{2} M_h^2 h^2 + f \frac{M_{\rm nucl.}}{v} \bar \psi h \psi , 
+	\label{eq:LDM}
+\end{eqnarray}
+%%%%%%%%%%%%%%
+where $\chi$ and $\psi$ are the wave functions for the DM and nucleons, respectively and h is the Higgs field. The interaction between Higgs and nucleon is Yukawa type, having its coupling constant $f$. The $f$ is the proton-Higgs form factor. Here, we consider that the Neutralino is a DM particle having mass $M_\chi$= 200 GeV. The magnitude for the $y$ and $f$ are taken as 0.07 and 0.35, respectively, and it has been constrained using different experimental/empirical data \cite{DM5}. The Higgs mass ($M_h$) and its vacuum value ($v$) are 125 and 246 GeV, respectively. 
+{In the Standard Model, the Higgs field couples directly to fundamental particles such as quarks. However, in our discussion, when we refer to the Higgs-nucleon coupling, we are considering an effective interaction that arises at the low-energy scale relevant for nucleons. Nucleons are composite particles made up of quarks bound together by gluons. The effective Higgs-nucleon coupling comes from the sum of the Higgs interactions with the quarks inside the nucleon. The nucleon mass itself is largely derived from the quark masses and the strong interaction dynamics, both of which are influenced by the Higgs mechanism. Thus, the coupling we refer to is not a direct fundamental interaction between the Higgs field and the nucleon, but rather an effective coupling that encapsulates the interactions of the Higgs field with the quark constituents of the nucleon. This effective coupling is crucial for calculating the cross sections relevant for DM direct detection experiments, where DM particles interact with nucleons rather than free quarks \cite{PhysRevD.96.083004}}
 
-
-\begin{align}
-\ket{\nu_{\alpha}}=\sum_{k=1}^{2}U_{\alpha k}\ket{\nu_{k}},
-\end{align}
-where $\alpha$ is the flavor index [$\alpha$ = \{$e$, $\mu$\}, or \{$e, \tau$\}, or \{$\mu, \tau$\}] and k is the mass index, $U_{\alpha k}$ are the elements of the unitary matrix connecting the bridge between this two orthonormal basis, ensuring the probability conservation. The completeness of the basis indicates that $\sum_{\alpha} \ket{\nu_\alpha}\bra{\nu_\alpha} = \sum_{k=1,2} \ket{\nu_k}\bra{\nu_k}=\mathds{1}$, whereas the orthonormality ensures that $ \langle \nu_\alpha | \nu_\beta \rangle = \delta_{\alpha \beta}$  and 
- $ \langle \nu_i | \nu_j \rangle=  \delta_{ij}$. The crucial point is to be noted here that the three mass eigenstates are non-degenerate ($i.e.$, the mass of each eigenstate must not be equal, $m_1\neq m_2$, where $m_k$ is the mass of the eigenstate $\nu_k$). These mass eigenstates evolve with time while neutrinos propagate through the vacuum or the matter, and hence, the flavor eigenstates are also affected by time evolution. As the mass eigenstates are the eigenstates of the Hamiltonian, we can write the time evolution of the mass eigenstates in the following way.\\
-\par Let us consider a system where a neutrino beam of flavor state $\ket{\nu_{\alpha}(0,0)}$ is generated at space-time point $(x,t)=(0,0)$.\\
-We know while the neutrino will propagate through the vacuum they are in mass eigenstates and its time evolution will be governed by the time-dependent Schr\"{o}dinger equation, $i.e.$,\\
-\begin{align}
-i\frac{\partial}{\partial t}\ket{\nu_{k}(x,t)}&=E\ket{\nu_{k}(x,t)}\\
-&=\frac{-1}{2m_{k}}\frac{\partial^2}{\partial^2 x}\ket{\nu_{i}(x,t)},
-\end{align}
-	where, $k=1,2$. Here, we have used the natural units ($i.e.$, $\hbar$=1).\\
-	Now, 
-	\begin{align}
-	i\frac{\partial}{\partial t}\ket{\nu_{k}(x,t)}&=E\ket{\nu_{k}(x,t)}\\
-	\Rightarrow&\frac{\partial\ket{\nu_{k}(x,t)}}{\ket{\nu_{k}(x,t)}}=-iE\partial t	.
-	\end{align}\\
-	Performing partial integration, we get \\
-	\begin{align}
-\ket{\nu_{k}(x,t)}=e^{-iE_{k}t}\ket{\nu_{i}(0,0)},
-\end{align}
-and the trial solution $\ket{\nu_{k}(x,t)}=e^{ip_{k} x}$ satisfies the equation\\
-\begin{align}
-\frac{-1}{2m_{k}}\frac{\partial^2}{\partial^2 x}\ket{\nu_{k}(x,t)}=E\ket{\nu_{k}(x,t)}.
-\end{align}
-So finally,\\
-\begin{align}
-\ket{\nu_{k}(x,t)}&=e^{-i(E_{k}t-p_{k}x)}\ket{\nu_{k}(0,0)}\\
-&=e^{-i\phi_{k}}\ket{\nu_{k}(0,0)}, 
-\end{align}
-where,\\
+{The Euler Lagrange equation of motion for DM particle ($\chi$) and Higgs boson ($h$) can be derived from Lagrangian as } \cite{DM3},
+%%%%%
+\begin{eqnarray}
+	&&\bigg(i\gamma^{\mu}\partial_{\mu}-M_{\chi}+yh \bigg)\chi {}=0, \nonumber \\
+	&&\partial_{\mu}\partial^{\mu}h+M_{h}^2h=y\bar{\chi}\chi+\frac{f M_{\rm nucl.}}{v}\bar{\psi}\psi,
+	\label{eq:motion}
+\end{eqnarray}
+{respectively. Applying mean-field approximation, we get,}
+%%%%%
+\begin{eqnarray}
+	&&h_0=\frac{y\langle\bar{\chi}\chi\rangle+ f\frac{M_{\rm nucl.}}{v}\langle\bar{\psi}\psi\rangle}{M_h^2},\nonumber 
+\end{eqnarray}
+{where $h_0$ is the mean Higgs field. We define $M_\chi^{\star}$ is the DM effective mass  given as, } 
 \begin{equation}
- \phi_{k}=E_{k}t-p_{k}x.
- \label{equn:2.10}
- \end{equation}
-At some later space-time point (x,t), the time evolved flavor state $\ket{\nu}_\alpha$ will be\\
-\begin{align}
-\ket{\nu_{\alpha}(x,t)} &=\sum_{k=1}^{2} U_{\alpha k}\ket{\nu_{k}(x,t)} \\
-&=\sum_{k=1}^{2} U_{\alpha k} e^{-i\phi_{k}}\ket{\nu_{k}(0,0)} .
-\label{eqn:2.12}
-\end{align}
-So,\\
-\begin{align}
-\ket{\nu_{k}(0,0)}=\sum_{\gamma}U^*_{\gamma k}\ket{\nu_{\gamma}(0,0)}. 
-\label{eqn:2.13}
-\end{align}
-Here $\gamma$ is a dummy index of the unitary matrix while being inverted.\\
-We have to find the evolution of flavor states, but from the Schr\"{o}dinger equation, we got the time evolution of mass eigenstates as they are the eigenstates of the governing Hamiltonian.\\
-So, substituting equation \ref{eqn:2.13} into equation \ref{eqn:2.12}, we get,\\
-\begin{align}
-	\ket{\nu_{\alpha}(x,t)}&=\sum_{k=1}^{2}U_{\alpha k}e^{-i\phi_{k}}\sum_{\gamma=1}^{2}U^*_{\gamma k}\ket{\nu_{\gamma}(0,0)}\\
-	&=\sum_{\gamma}\sum_{k}U^*_{\gamma k}e^{-i\phi_{k}}U_{\alpha k}\ket{\nu_{\gamma}(0,0)}.
-\end{align}
-Transition amplitude for detecting a neutrino of flavor $\beta$ at space-time point (t,x) when generation of a neutrino of flavor $\alpha$ at space-time point (0,0) is\\
-\begin{align}
-A(\ket{\nu_{\alpha}(0,0)}\rightarrow\nonumber \ket{\nu_{\beta}(x,t)})&=\braket{\nu_{\beta}(x,t)|\nu_{\alpha}(0,0)}\\\nonumber
- &=\sum_{\gamma}\sum_{k}U_{\gamma k}e^{i\phi_{k}}U^*_{\beta k}\braket{\nu_{\gamma}(0,0)|\nu_{\alpha}(0,0)}\\\nonumber
- &=\sum_{\gamma}\sum_{k}U_{\gamma k}e^{i\phi_{k}}U^*_{\beta k}\delta_{\gamma\alpha}\\
- &=\sum_{k}U_{\alpha k}e^{i\phi_{k}}U^*_{\beta k}.
-\end{align}
-So, the oscillation probability is,
-\begin{align}
-	P(\nu_{\beta}\rightarrow\nu_{\alpha})&=|A(\ket{\nu_{\beta}(0,0)}\rightarrow \nonumber\ket{\nu_{\alpha}(x,t)})|^2\\\nonumber
-	&=|\sum_{k}U_{\alpha k}e^{i\phi_{k}}U^*_{\beta k}|^2\\ \nonumber
-	&=\sum_{k}U_{\alpha k}e^{i\phi_{k}}U^*_{\beta k}\sum_{j}U^*_{\alpha j}e^{-i\phi_{j}}U_{\beta j}\\
-	&=\sum_{j=1}^{2}\sum_{k=1}^{2}U_{\alpha k}U^*_{\beta k}U^*_{\alpha_j}U_{\beta j}e^{-i(\phi_{j}-\phi_{k})} .
-    \label{equn:2.17}
-\end{align}
-For the two-flavor oscillation, the $(2\times2)$ unitary matrix is just a rotation matrix in 2d.\\
-\begin{equation}
-U= \begin{pmatrix}
- U_{\alpha_1} & U_{\alpha_2} \\
- U_{\beta_1} & U_{\beta_2} \\
-\end{pmatrix}
-=	\begin{pmatrix}
-\cos\theta & \sin\theta\\
--\sin\theta & \cos\theta\\
-	\end{pmatrix},
+	M_{\chi}^{\star} {}=M_{\chi}-yh_0. 
+	\label{eq:m_chi_star}
 \end{equation}
-where $\theta$ is a parameter called the mixing angle. For the two-flavor oscillation, it is the only mixing parameter as a $2\times2$ unitary matrix can be parameterized by only one parameter. We show the calculation of equation \ref{equn:2.17} term by term.\\
-For \underline{\bf{$k=1,\,j=1;$}}\\
-\begin{align}
-P_1(\nu_{\beta}\rightarrow\nonumber\nu_{\alpha})&=U_{\alpha 1}U^*_{\beta 1}U^*_{\alpha_1}U_{\beta 1}e^{-i(\phi_{1}-\phi_{1})}\\
-&=|U_{\beta 1}|^2|U_{\alpha_1}|^2.
-\end{align}
-For \underline{\bf{$k=2,\,j=2;$}}\\
-\begin{align}
-P_2(\nu_{\beta}\rightarrow\nu_{\alpha})=|U_{\beta 2}|^2|U_{\alpha_2}|^2.
-\end{align}
-For \underline{\bf{$k=1,\,j=2;$}}\\
-\begin{align}
-P_3(\nu_{\beta}\rightarrow\nu_{\alpha})=U_{\alpha 1}U^*_{\beta 1}U^*_{\alpha 2}U_{\beta 2}e^{-i(\phi_{2}-\phi_{1})}.
-\end{align}
-For \underline{\bf{$k=2,\,j=1;$}}\\
-\begin{align}
-P_4(\nu_{\beta}\rightarrow\nu_{\alpha})=U_{\alpha 2}U^*_{\beta 2}U^*_{\alpha 1}U_{\beta 1}e^{-i(\phi_{1}-\phi_{2})}.
-\end{align}
-Finally, \\
-\begin{align}
-P(\nu_{\beta}\rightarrow\nonumber\nu_{\alpha})&=|U_{\beta 1}|^2|U_{\alpha 1}|^2+|U_{\beta 2}|^2|U_{\alpha 2}|^2+U_{\alpha 1}U^*_{\beta 1}U_{\alpha 2}U^*_{\beta 2}\left(e^{i\left(\phi_{2}-\phi_{1}\right)}+e^{-i\left(\phi_{2}-\phi_{1}\right)}\right)\\\nonumber
-&=(\sin^2\theta\cos^2\theta+\cos^2\theta\sin^2\theta)+2\,U_{\alpha 1}U^*_{\beta 1}U_{\alpha 2}U^*_{\beta 2}\cos(\phi_{2}-\phi_{1})\\\nonumber
-&=2\sin^2\theta\cos^2\theta+2\cos\theta(-\sin\theta)\sin\theta\cos\theta\cos(\phi_{2}-\phi_{1})\\\nonumber
-&=2\sin^2\theta\cos^2\theta\,[1-\cos(\phi_{2}-\phi_{1})]\\\nonumber
-&=4\sin^2\theta\cos^2\theta\sin^2\left(\frac{\phi_{2}-\phi_{1}}{2}\right)\\\nonumber
-&=\sin^2(2\theta)\sin^2\left(\frac{\phi_{2}-\phi_{1}}{2}\right).\\
-\label{equn:2.23}
-\end{align}
-By equation \ref{equn:2.10},
-\begin{align}
-\phi_{k}=E_{k}t-p_{k}x.
-\end{align}
-So,
-\begin{align}
-\phi_{2}-\phi_{1}=(E_2-E_1)t-(p_2-p_1)x.
-\end{align}
-\textit{At this point, we make our first assumption that neutrinos are relativistic}, so $t=x=L$. Here, $L$ is the length of the baseline, and $E$ is the true neutrino energy. As we are in natural unit scale, $c=1$, and 
-\begin{align}
-p_i&=\nonumber\sqrt{E^2_i-m^2_i}\\\nonumber
-&=E_i\sqrt{1-\frac{m^2_i}{E^2_i}}\\\nonumber
-&\approx E_i(1-\frac{m^2_i}{2E^2_i})\\\nonumber
-&=E_{i}-\frac{m^2_i}{2E_i},\\
-\label{equn:2.26}
-\end{align}
-as neutrino masses are very small compared to their energy.\\
-By equation \ref{equn:2.26},\\
-\begin{align}
- \phi_{2}-\phi_{1}=\left(\frac{m^2_2}{2E_2}-\frac{m^2_1}{2E_1}\right)L.
- \end{align}
- \textit{Our next assumption posits that each neutrino flavor state is associated with a well-defined momentum p, implying that all mass eigenstates $\nu_i$ (i= 1,2) possess an identical momentum. This premise is grounded in the notion that all mass eigenstates emanate from a common source and traverse coherently along the same trajectory.} It is to be noted here that mass eigenstates are assumed as plane wave solutions. Henceforth, we will consider $E_1=E_2=E$ in our calculation.\\
- Now,\\
- \begin{align}
- \phi_{2}-\phi_{1}&=\nonumber\left(\frac{m^2_2}{2E}-\frac{m^2_1}{2E}\right)\,L\\
- &=\frac{\Delta m^2\,L}{2E},
- \end{align}
- where, $\Delta m^2=m^2_2-m^2_1$.\\
- By equation \ref{equn:2.23}, we can write the probability of the neutrino oscillation from the flavor $\alpha$ to the flavor $\beta$ is \\
- \begin{align}
- P(\nu_{\alpha}\rightarrow\nu_{\beta})=\sin^2\left(2\theta\right)\sin^2\left(\frac{\Delta m^{2}\,L}{4E}\right).
- \label{eq:2-flavor vacuum oscillation formula}
- \end{align}
- \par Here, the first term signifies the amplitude part of the oscillation (governed by the parameter ``mixing angle" $\theta$), and the second term signifies the frequency part (governed by the parameter ``mass-squared difference" $\Delta m^2$). They are fixed in Nature. Here, we have calculated the oscillation probability by imposing natural units ($i.e.$, $\hbar$=c=1).\\
- \par  Now, if we want this oscillation probability formula compatible with the data obtained from the experiments, we need to convert the units of the equation \ref{eq:2-flavor vacuum oscillation formula} $\left[\Delta m^2\, (\mathrm{in \,\,eV}^2), \, L \,(\mathrm{in\,\, eV}^{-1}),\, E\, (\mathrm{in\,\, eV})\right]$ to the units used by the experiments [$i.e.$, $\Delta m^2\, (\mathrm{in\,\,eV}^2), \, L \,(\mathrm{in \,\,km}),\, E\, (\mathrm{in\,\,GeV})$]. The quantity  $\left(\dfrac{\Delta m^2\, L}{4E}\right)$ is in the argument of a sinusoidal function and needs to be dimensionless. After implementing those conversion factors, the final form of the neutrino oscillation probability from a flavor $\alpha$ to be transited to a flavor $\beta$ through vacuum in the two-flavor landscape is,
- \begin{align}
-P(\nu_{\alpha}\rightarrow\nu_{\beta})=\sin^2\left(2\theta\right)\sin^2\left(1.27\times\frac{\Delta m^{2}\,L}{E}\right),
-\label{eq:2 flavor app oscillation probability}
- \end{align}
-where $L$ is the length over which neutrino changes its flavor (in km), E is the true neutrino energy (in GeV), and $\Delta m^2_{21}$ is the mass-squared difference (in $\mathrm{eV}^2$), where $\Delta m^2= m^2_2-m^2_1$. It is noteworthy that, two flavor neutrino oscillation only suggests the non-trivial mixing and mass-induced flavor conversion in the neutrino sector but cannot predict anything regarding the CP violation. 
-Similarly, the expression of the survival (or disappearance) probability in the two-flavor landscape can be written as,
-\begin{align}
-P(\nu_{\alpha}\rightarrow\nu_{\alpha})=1-\sin^2\left(2\theta\right)\sin^2\left(1.27\times\frac{\Delta m^{2}\,L}{E}\right).
-\label{eq:2 flavor oscillation probability}
- \end{align}
+{The DM scalar density ($\rho_s^{DM}$)
+	is}
+\begin{equation}
+	\rho_s^{\rm DM}=\langle\bar{\chi}\chi\rangle =  \frac{\gamma}{2 \pi^2}\int_0^{k_f^{\rm DM}} dk \  \frac{M_\chi^\star}{\sqrt{M_\chi^\star{^2}+ k^2}},
+	\label{eq:dm_density}
+\end{equation}
+{where $k_f^{\rm DM}$ is the Fermi momentum for DM and $\langle\bar{\psi}\psi\rangle$ is the scalar density of the baryonic sector. $\gamma=2$ is the spin degeneracy factor for fermionic DM. The energy density and pressure for the DM can be calculated with the mean-field approximation, which is given by} \cite{DM1, DM3, DM2, mnras};
+%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	{\cal{E}}_{\rm DM}& = & \frac{\gamma}{(2\pi)^{3}}\int_0^{k_f^{\rm DM}} d^{3}k \sqrt{k^2 + (M_\chi^\star)^2} + \frac{1}{2}M_h^2 h_0^2 ,
+	\label{eq:EDM}
+\end{eqnarray}
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	P_{\rm DM}& = &\frac{\gamma}{3(2\pi)^{3}}\int_0^{k_f^{\rm DM}} \frac{d^{3}k k^2} {\sqrt{k^2 + (M_\chi^\star)^2}} - \frac{1}{2}M_h^2 h_0^2 ,
+	\label{eq:PDM}
+\end{eqnarray}
+%%%%%%%%%%%%%%s
+{where $k_f^{\rm DM}$  is the DM Fermi momentum and  $M_\chi^\star$ represent DM effective mass defined in (\ref{eq:m_chi_star}). }
 
- %----------------------------------------------------------
-\begin{figure}[htb!]
-	\centering
-	\includegraphics[width=\linewidth]{./Figures/Chapter-2/Thesis_multiplot_prob_app_disapp.pdf}	
-    \caption{\footnotesize{Neutrino oscillation probability in vacuum at two flavor case as the function of true neutrino energy (in GeV) is depicted here. The upper (lower) panel represents $\nu_\alpha\rightarrow\nu_\beta$ appearance ($\nu_\alpha\rightarrow\nu_\alpha$ disappearance) probability using Equation \ref{eq:2 flavor app oscillation probability}. In the left panel, we observe the oscillation probability for three choices of mixing angle $\theta\,\,i.e.,\,\,40^\circ,\,45^\circ,\,\mathrm{and}\,\,\, 55^\circ$ (shown in red, blue, and green lines), respectively, assuming $L= 1300$ km and $\Delta m^2=+2.522\times10^{-3}$ eV$^2$. In the right panel, we compute the same but for three different choices of $\Delta m^2,\,\,i.e.,\,2.436\times10^{-3}$ eV$^2,\, 2.522\times10^{-3}$ eV$^2, \mathrm{and}\,\,\, 2.605\times10^{-3}$ eV$^2$ (shown by red, blue, and green lines), respectively, assuming a given mixing angle $\theta=45^\circ$.}}
-	\label{fig:oscillation_prob_vacuum_analytical}
-\end{figure} 
-%------------------------------------
- \par Equation \ref{eq:2 flavor app oscillation probability} resembles with the standard oscillation formula in the acoustic medium, where the first part signifies the amplitude part (governed by the mixing angle $\theta$), whereas the second part depicts the frequency part (governed by the mass-squared difference $\Delta m^2$). If $\theta$ becomes $45^\circ$, appearance probability (\ref{eq:2 flavor app oscillation probability}) becomes maximum. Hence the value $\theta=45^\circ$ is called the maximal mixing (MM) value \cite{Xing:2015fdg}. Any other values of $\theta$ show lesser appearance probability than the maximal mixing for a given set of values of oscillation parameters. On the other hand, the shift of the frequency can be tuned to different energy and baseline lengths by controlling the value of $\Delta m^2$. 
+{We calculate the spin-independent scattering cross-section of the nucleons with DM using the relation given as ~\cite{Cline_2013}}
+%%%%
+\begin{eqnarray}
+	\sigma_{\rm SI}=\frac{y^2f^2M_{\rm nucl.}^2}{4\pi}\frac{\mu_r}{v^2M_h^2},
+\end{eqnarray}
+%%%%
+where $\mu_r$ is the reduced mass. The calculated cross-section is found to be $9.70\times10^{-46}$ cm$^{2}$, which is almost consistent with XENON-1T ~\cite{Xenon1T_2016}, PandaX-II ~\cite{PandaX_2016}, PandaX-4T \cite{Meng_2021} and LUX ~\cite{LUX_2017} for the DM mass order of hundred GeV. The LHC had also given a limit on the WIMP-nucleon scattering cross-section in the range from $10^{-40}- 10^{-50}$ cm$^{2}$ ~\cite{Djouadi_2012}. Thus our model also satisfies the LHC limit. Therefore in the present calculations, we constrained the value of $y$ from both the direct detection experiments and the LHC results. \textcolor{blue}{Assuming the nuclear saturation density of nucleons ($n$) is $10^3$ times larger than the average DM density ($n_{\rm DM}$)}, which implies the ratio  of the DM to NS mass as $M_{DM}/M_{NS}$ $\sim \frac{1}{6}$ \cite{DM1}, where $M_{NS}$ is the mass of NS and $M_{DM}$ is the total DM mass inside the NS. Using the nuclear saturation density as $n_0 \sim 0.16$ fm$^{-3}$, the DM number density becomes $n_{\rm DM} \sim 10^{-3}n_0\sim 0.16\times 10^{-3}$ fm$^{-3}$. The $k_{f}^{\rm DM}$ is obtained from the equation $k_f^{\rm DM}=(3\pi^2 n_{\rm DM})^{1/3}$. Hence the value of $k_{f}^{\rm DM}$ is $\sim 0.033$ GeV. 
 
- Figure~\ref{fig:oscillation_prob_vacuum_analytical} illustrates that the variations in the mixing angle enable precise modulation of the amplitude of the neutrino oscillation probability, while adjustments to the mass-squared difference primarily govern the phase shift of the oscillation pattern. The mixing angle $\theta$ signifies the extent of flavor mixing, with maximal mixing corresponding to the highest transition probability or the deepest suppression in survival probability. Moreover, in the oscillation frequency domain, an increase in the value of $\Delta m^2$ induces a phase shift toward higher neutrino energies, resulting in a rightward displacement of the oscillation peak.\\
+\textcolor{blue}{ Generally, DM models include Weakly Interacting Massive Particles (WIMPs) and Feebly Interacting Massive Particles (FIMPs). In both cases, dark matter interacts very weakly with baryonic matter. However, despite these minimal interactions, the presence of dark matter can have a considerable impact on baryonic matter, especially in systems of extremely dense matter, like neutron stars. According to numerous studies \cite{DM1,DM2,DM3,ankit2024}, the number density of dark matter inside a neutron star is typically around 1000 times smaller than the normal nuclear saturation density density. Thus, the assumption that the nuclear saturation density of nucleons ($n$) is 1000 times larger than the average dark matter density ($n_{\rm DM}$) is motivated by the idea that dark matter in a neutron star is expected to be much more dilute compared to nucleons distribution, which are packed at very high densities due to degeneracy pressure and gravitational compression in the neutron star interior. This large disparity between nucleon and dark matter densities reflects the expectation that neutron stars are predominantly composed of baryonic matter, while any dark matter contribution is comparatively minimal. To elaborate, we express the mass ratio as,}
+\begin{equation}
+	\frac{\rho_{DM}}{\rho_{Total }} = \frac{\frac{M_{DM}}{(4/3) \pi R^3}}{\frac{M_{Total}}{(4/3) \pi R^3}}  = \frac{M_{DM}}{M_{Total }} = \frac{n_{\rm DM} m_{\rm DM}}{n m_n + n_{\rm DM} m_{\rm DM} } = \frac{1}{6} = 0.17 =17\%,
+\end{equation}
+
+\noindent
+\textcolor{blue}{The $\rho_{Total}$ refers as the combine density of baryons and presence of dark matter inside the neutron star., i.e. $\rho_{Total}$ = ($\rho_{Baryonic} + \rho_{DM}$). Similarly $M_{Total}$ is the total mass of the baryonic matter as well as mass of the dark matter. Taking nucleon density  $n \approx 10^3 n_{\rm DM}$, mass of DM m$_{DM}$ = 200 GeV, mass of nucleon m$_n$ = 939 MeV, we get  $\frac{M_{DM}}{M_{NS}}$ = 1/6.   }The modified effective masses of nucleon ($M_{i}^\star, i = n, p$) due to their interaction with the Higgs field : 
+
+%%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	M_{i}^\star &=& M_{\rm nucl.}+ g_\sigma \sigma_0 \pm g_\delta \delta_0 - \frac{f M_{\rm nucl.}}{v}h_0, 
+	\nonumber\\
+\end{eqnarray}
+%%%%%%%%%%%%%%%
+. Now the total energy and pressure of DM admixed quarkyonic star is given as;
+%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	\cal{E} = {\cal{E}}_{\rm BM} + {\cal{E}}_{\rm QM} + {\cal{E}_{\rm DM}},
+	\label{eq:e_total}
+\end{eqnarray}
+%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+\begin{eqnarray}
+	P= P_{\rm BM}+ P_{\rm QM} + P_{\rm DM}.
+	\label{eq:p_total}
+\end{eqnarray}
+%%%%%%%%%%%%%%%%
+
+where  ${\cal{E}}_{\rm BM}$, ${\cal{E}}_{\rm QM}$, $\cal{E}_{\rm DM}$ are the energy density for the BM, quarkyonic matter and DM and   $P_{\rm BM}$,  $P_{\rm QM}$,  $P_{\rm DM}$ are the corresponding pressure respectively.
+
+
+
  %-----------------------------------------------------
  \section{Equllibrium state }
- \subsection{TOV equation}
+ 
+ The equilibrium configuration of a non-rotating neutron star is determined by solving the Einstein field equations for a self-gravitating, spherically symmetric perfect fluid. The spacetime geometry is described by the standard static, spherically symmetric line element:
+ 
+ \begin{equation}
+ 	ds^{2} = -e^{\nu(r)}\,dt^{2} + e^{\lambda(r)}\,dr^{2} + r^{2}(d\theta^{2}+\sin^{2} \theta\,d\phi^{2}), \label{eq:metric}
+ \end{equation}
+ \noindent
+ where $\nu(r)$ and $\lambda(r)$ are metric potentials depending only on the radial coordinate $r$. For a perfect fluid, the energy-momentum tensor is $T^{ab} = (\epsilon + P)u^{a}u^{b} + Pg^{ab}$, where $\epsilon(r)$ is the energy density, $P(r)$ is the pressure, and $u^a$ is the fluid four-velocity.
+ 
+ \begin{align}
+ 	G_{ab} = 8\pi G T_{ab},
+ \end{align}
+ \begin{align}
+ 	T^{ab} = (\epsilon + P)u^{a}u^{b} + Pg^{ab}.
+ \end{align}
+ \noindent
+ \section{Gravitational Mass and Radius}
+ 
+ The Einstein field equations, $G_{ab} = 8\pi G T_{ab}$, with this metric and energy-momentum tensor yield the TOV equations \cite{PhysRev.55.364,PhysRev.55.374,Shapiro_1983}:
+ 
+ \begin{align}
+ 	\frac{dm}{dr} &= 4\pi r^{2} \epsilon(r), \label{eq:mass_eq} \\
+ 	\frac{dP}{dr} &= -\frac{G}{r^{2}} \left[\epsilon(r) + P(r)\right] \left[m(r) + 4\pi r^{3} P(r)\right] e^{\lambda(r)}, \label{eq:tov_eq}
+ \end{align}
+ \noindent
+ where the mass function $m(r)$ represents the mass enclosed within radius $r$, and the metric function is given by:
+ 
+ \begin{equation}
+ 	e^{-\lambda(r)}=1-\frac{2m(r)}{r},
+ \end{equation}
+ \begin{equation}
+ 	\frac{d\nu}{dr}=2~{}\frac{(M+4\pi r^{3}p)}{r(r-2M)}.
+ \end{equation}
+ \noindent
+ Equation~\eqref{eq:mass_eq} defines the gravitational mass, while Equation~\eqref{eq:tov_eq} governs hydrostatic equilibrium. The term $\left[m(r) + 4\pi r^{3} P(r)\right]$ reveals pressure's role as a gravitational source in general relativity, a fundamental departure from Newtonian theory. The factor $e^{\lambda(r)}$ accounts for spacetime curvature effects, which become significant in the high-density core. The system is closed by an equation of state $P(\epsilon)$. Integration proceeds from the center ($r=0$) with boundary conditions $m(0) = 0$ and a central pressure $P(0) = P_c$, outward to the stellar surface $R$ defined by $P(R) = 0$. The total gravitational mass is then $M = m(R)$.
+ 
+ 
  \subsection{Tidal Deformability}
  \label{sec:2.2}
- The discovery of the non-zero value of $\theta_{13}$ in the Daya Bay \cite{DayaBay:2012fng, DayaBay:2022orm} experiment connects the atmospheric neutrino sector and the solar neutrino sector, establishing the $3\nu$ paradigm on a strong footing. At the same time, the two-flavor neutrino oscillation delineates the values of the solar and atmospheric oscillation parameters, and the $3\nu$ paradigm with non-zero $\theta_{13}$ gives rise to the possibilities of observing CP violation in the neutrino sector. Now, we discuss the formalism of the three-flavor neutrino oscillation.
- \par Let, a neutrino of flavor $ \alpha$ is produced at $ x=0 $ with energy $E$, then the state of the neutrino at $x=0$ can be expressed as\\
- 	\begin{align}
- 		\ket{\nu_{\alpha}(x=0)}& =\nonumber\ket{\nu_\alpha}\\
- 		&=\sum_{j=1}^{3}(U_{PMNS})^*_{\alpha j}\ket{\nu_j}.\\\nonumber
-  	 	\end{align}
- At the position $x=L$, the neutrino state can be written as,\\
- \begin{align}
- 	\ket{\nu_{\alpha}(x=L)}&=\nonumber\sum_{j=1}^{3}e^{ip_jL}(U_{PMNS})^*_{\alpha j}\ket{\nu_j}\\
- 	&=e^{ip_kL}\sum_{j=1}^{3}e^{i(p_j-p_k)L}(U_{PMNS})^*_{\alpha j}\ket{\nu_j}.\\\nonumber
- \end{align}
-   	
-   	Assuming $m_j<<E$ we can approximate, \\
-   	\begin{align}
-   		p_j&=\nonumber\sqrt{E^2-m^2_j}\\
-   		&=E-\frac{m^2_j}{2E}+...\\\nonumber.
-   	\end{align}
-   So,
-   \begin{align}
-   	p_j-p_k \approx -\frac{\Delta m^2_{jk}}{2E}\\\nonumber
-   \end{align}
-   where, $\Delta m^2_{jk}=m^2_j-m^2_k$ . \\
-   	 %  	\newpage
-   	   	Hence, we can write
-   	   	\begin{align}
-   	   		\ket{\nu_{\alpha}(x=L)}&=e^{ip_kL}\sum_{j=1}^{3}exp\left(-i\frac{\Delta m^2_{jk}\,L}{2E}\right)(U_{PMNS})^*_{\alpha j} \ket{\nu_j}.\\\nonumber
-   	   	\end{align}
-   	   	%\newpage
-        \vspace{-1.5mm}
-   	So, the probability amplitude of observing the neutrino flavor $\beta$ at $x=L$ is given by (neglecting the overall phase as it will be cancelled out while multiplying with its complex conjugate while obtaining the probability),   
-	\begin{align}
-  	\textrm{A}_{\beta\alpha}&=\nonumber\braket{{\nu_\beta}|\nu_{\alpha}(x=L)}\\\nonumber
-	&=\nonumber\left[\sum_{k=1}^{3}\bra{\nu_k}(U_{PMNS})_{\beta k}\right]\left[\sum_{j=1}^{3}\exp\left(-i\frac{\Delta m^2_{jk}\,L}{2E}\right)(U_{PMNS})^*_{\alpha j}\ket{\nu_j}\right]\\\nonumber
-   	&=\nonumber\sum_{j=1}^{3}(U_{PMNS})_{\beta j}\exp\left(-i\frac{\Delta m^2_{jk}\,L}{2E}\right)(U_{PMNS})^*_{\alpha j}\\
-   	&=\sum_{j=1}^{3}U_{\beta j}\exp\left(-i\frac{\Delta m^2_{jk}\,L}{2E}\right)U^*_{\alpha j}.\\\nonumber
-  	\end{align}	
-  	So, the probability of oscillation from $\ket{\nu_\alpha}$ to $\ket{\nu_\beta}$ with true neutrino energy $E$ and baseline $L$ is given by,\\
-  	\begin{align}
-  		P(\nu_\alpha \rightarrow \nu_\beta)&=\nonumber|A_{\beta\alpha}|^2\\\nonumber
-  		&=\nonumber|\sum_{j=1}^{3}U_{\beta j}exp\left(-i\frac{\Delta m^2_{jk}\,L}{2E}\right)U^*_{\alpha j}|^2\\\nonumber
-  		&=\nonumber \left[\sum_{j=1}^{3}U_{\beta j}exp\left(-i\frac{\Delta m^2_{jk}\,L}{2E}\right)U^*_{\alpha j}\right]\times\left[\sum_{i=1}^{3}U_{\alpha i}exp\left(i\frac{\Delta m^2_{ik}\,L}{2E}\right)U^*_{\beta i}\right]\\
-  		&=\sum_{j=1}^{3}\sum_{i=1}^{3}exp\left[-i\frac{\left(\Delta m^2_{jk}-\Delta m^2_{ik}\right)\,L}{2E}\right]\,U_{\beta j}U^*_{\alpha j}U_{\alpha i}U^*_{\beta i}\\\nonumber
-  		\label{Equation 8}\\
-  		&=\sum_{i}\sum_{j}\left(A_{ij}+iB_{ij}\right)\times\left(C_{ij}+iD_{ij}\right);    (say),\\\nonumber
-  	\end{align}
-   	   	where we assume, $exp\left[-i\dfrac{\left(\Delta m^2_{jk}-\Delta m^2_{ik}\right)\,L}{2E}\right]=A_{ij}+iB_{ij}$ and $U_{\beta j}U^*_{\alpha j}U_{\alpha i}U^*_{\beta i}=C_{ij}+iD_{ij}$. As the oscillation probability is a measurable quantity, so it should be real. Hence, we can drop the imaginary component of equation \ref{Equation 8}.\\
-        
-   	   	We break the sum of equation \ref{Equation 8} in two parts, $i.e.,$\\
-   	   	\[
-\sum_{i=1}^{3} \sum_{j=1}^{3} = \sum_{\substack{i=j=1}}^{3} + \sum_{\substack{i \neq j \\ i=1,\, j=1}}^{3}.
-\]        
-   	   	\textbf{\underline{Case - 1 :}}\\
-   	   	for $i=j$,\\
-   	  \begin{align}
-   	  	 exp\left[-i\frac{\Delta m^2_{ii}\,L}{2E}\right]U_{\beta i}U^*_{\alpha i}U_{\alpha i}U^*_{\beta i}	&= U_{\beta i}U^*_{\alpha i}U_{\alpha i}U^*_{\beta i}.\\\nonumber
-   	  \end{align}
-   	   	\textbf{\underline{Case - 2 :}}\\
-   	   for $i\neq j$,\\
-   	   \begin{align}
-   	   Re\left(exp\left[-i\frac{\Delta m^2_{ji}\,L}{2E}\right]\right)&=\nonumber \cos\left(\frac{\Delta m^2_{ji}\,L}{2E}\right)\\
-   	   &=\cos(\Delta_{ji});\,\,(say, A_{ij}),\\
-   	   Im\left(exp\left[-i\frac{\Delta m^2_{ji}\,L}{2E}\right]\right)&=\nonumber -\sin\left(\frac{\Delta m^2_{ji}\,L}{2E}\right)\\
-   	   &=-\sin(\Delta_{ji});\,\,(say, B_{ij}).\\\nonumber
-   	   \end{align}	
-   	   	So, from equation \ref{Equation 8}, considering the real part only, we can write\\
-   	   	\begin{align}
-    P (\nu_\alpha \rightarrow \nu_\beta) &= A_{ij}C_{ij} - B_{ij}D_{ij} \nonumber \\
-    &= Re (U^*_{\alpha i} U_{\beta i}U_{\alpha j}U^*_{\beta j}) 
-    - 2\,Re (U^*_{\alpha i} U_{\beta i}U_{\alpha j}U^*_{\beta j}) \sin^2\left(\frac{\Delta_{ji}}{2}\right) \nonumber \\
-    &\quad + Im\,(U^*_{\alpha i} U_{\beta i}U_{\alpha j}U^*_{\beta j}) \sin(\Delta_{ji}). \label{Equation12}
-\end{align}
-	   	Here, we have used $\cos(\Delta_{ji})=1-2\sin^2\left(\dfrac{\Delta_{ji}}{2}\right)$. So, taking case - 1 ($i.e.$, $i=j$) and case - 2 ($i\neq j$) together, we can write,
-  \begin{align}
-    P(\nu_\alpha \rightarrow \nu_\beta) &= \sum_{i}\sum_{j} \Big[ U_{\beta i}U^*_{\alpha i}U_{\alpha i}U^*_{\beta i} 
-    + Re\,(U^*_{\alpha i} U_{\beta i}U_{\alpha j}U^*_{\beta j}) \nonumber \\
-    &\quad - 2Re\,(U^*_{\alpha i} U_{\beta i}U_{\alpha j}U^*_{\beta j}) \sin^2\left(\frac{\Delta_{ji}}{2}\right) \nonumber \\
-    &\quad + Im\,(U^*_{\alpha i} U_{\beta i}U_{\alpha j}U^*_{\beta j}) \sin(\Delta_{ji}) \Big]. \label{Equation}
-\end{align}
-  Now,
-\begin{align}
-    \left(\sum_{i=1}^{3}U^*_{\alpha i}U_{\beta i}\right)^2 &= 
-    \left(U^*_{\alpha 1}U_{\beta 1} + U^*_{\alpha 2}U_{\beta 2} + U^*_{\alpha 3}U_{\beta 3} \right)^2 \nonumber \\
-    &= \sum_{i}(U^*_{\alpha i}U_{\beta i})^2 + \sum_{i \neq j} 2(U^*_{\alpha i} U_{\beta i}U_{\alpha j}U^*_{\beta j}). \label{Equation13}
-\end{align}
-   So, from the equation \ref{Equation13}, we can write the final generalized form of the equation of neutrino oscillation probability in $3\nu$ framework as \\
-   \begin{align}
-    P(\nu_\alpha \rightarrow \nu_\beta) &= \delta_{\alpha\beta} 
-    - 4\sum_{i>j} Re\,(U^*_{\alpha i} U_{\beta i}U_{\alpha j}U^*_{\beta j}) \sin^2\left(\frac{\Delta_{ji}}{2}\right) \nonumber \\
-    &\quad + 2\sum_{i>j} Im\,(U^*_{\alpha i} U_{\beta i}U_{\alpha j}U^*_{\beta j}) \sin(\Delta_{ji}). \label{Equation14}
-\end{align}
-If $i$ and $j$ take only values from 1 to 2, the above equation reduces to the two-flavor neutrino oscillation expression. The third term of equation \ref{Equation14} represents the CP violation. The PMNS matrix can be written as,
-\begin{equation}
-   	  U= 
-   	   \begin{pmatrix}
-	1 & 0 & 0 \\
-	0 & c_{23} & s_{23} \\
-	0 & -s_{23} & c_{23}
-\end{pmatrix} 
-\begin{pmatrix}
-	c_{13} & 0 & s_{13}e^{-i\delta} \\
-	0 & 1 & 0 \\
-	-s_{13}e^{i\delta} & 0 & c_{13}
-\end{pmatrix}
-\begin{pmatrix}
-	c_{12} & s_{12} & 0 \\
-	-s_{12} & c_{12} & 0 \\
-	0 & 0 & 1
-\end{pmatrix} \nonumber
-   \end{equation}
-   \begin{align}
-   & =
-   	\begin{pmatrix}
-   	   {c_{12}c_{13}} & {s_{12}c_{13}} & {s_{13}e^{-i\delta}}\\
-   	  {-s_{12}c_{23}-c_{12}s_{13}s_{23}e^{i\delta}} & {c_{12}c_{23}-s_{12}s_{13}s_{23}e^{i\delta}} & {c_{13}s_{23}}\\
-   	   {s_{12}s_{23}-c_{12}s_{13}c_{23}e^{i\delta}} & {-c_{12}s_{23}-s_{12}s_{13}c_{23}e^{i\delta}} & {c_{13}c_{23}}
-   	   \end{pmatrix}
-       \label{PMNS matrix}
-   \end{align}
-   \begin{align}
-   & \equiv
-   	\begin{pmatrix}
-   	U_{\alpha 1} & U_{\alpha 2} & U_{\alpha 3}\\
-   	U_{\beta 1} & U_{\beta 2} & U_{\beta 3}\\
-   	U_{\gamma 1} & U_{\gamma 2} & U_{\gamma 3}
-   	\end{pmatrix}.
-   \end{align}
- Here, $c_{ij}$ and $s_{ij}$ stand for $\cos\theta_{ij}$ and $\sin\theta_{ij}$, respectively, where $i,j= 1,2,3; \,\,i\neq j$. We are ignoring the Majorana phases here as they do not affect the neutrino oscillation probability. The advantage of considering the PMNS matrix as a suitable unitary mixing matrix connecting the flavor basis and mass basis of neutrinos is that the ratios of some matrix elements of $U$ give us the values of the oscillation parameters distinctly. For example,\\
- \begin{equation}
-     \tan^2\theta_{23} = \frac{|U_{\beta3}|^2}{|U_{\gamma3}|^2}, \\\nonumber
- \end{equation}
- and,  \begin{equation}
-     \tan^2\theta_{12} = \frac{|U_{\alpha2}|^2}{|U_{\alpha1}|^2} \\\nonumber.
- \end{equation}
-The 1-3 element of the PMNS matrix gives us the value of $\delta_{\mathrm{CP}}$ if the value of $\theta_{13}$ is well known. The ratios of other matrix elements of $U$ also give the value of the oscillation parameters, $e.g.$, 
-\ \begin{equation}
-     \cos^2\theta_{12} = \frac{\left| U_{\alpha1} \right|^2}{ 1 - \left|U_{\alpha3} \right|^2} \nonumber,\,\,\sin^2\theta_{12} = \frac{\left| U_{\alpha2} \right|^2}{ 1 - \left|U_{\alpha3} \right|^2} \nonumber, \\
-   \cos^2\theta_{23} = \frac{\left| U_{\gamma3} \right|^2}{ 1 - \left|U_{\alpha3} \right|^2} \nonumber,\,\,\sin^2\theta_{23} = \frac{\left| U_{\beta3} \right|^2}{ 1 - \left|U_{\alpha3} \right|^2}. \nonumber \\  
-\end{equation}
-Now, substituting the values of the matrix elements from equation \ref{PMNS matrix} to equation \ref{Equation14}, we get the final expression of neutrino oscillation probability in vacuum. If we focus on appearance channels only ($i.e.,\, \alpha \neq \beta$ in equation \ref{Equation14}) and keep the terms upto second order of ($\alpha\cdot\sin(2\theta_{13})$), where $\alpha=\dfrac{\Delta m^2_{21}}{\Delta m^2_{31}}$, then equation \ref{Equation14} takes the following form \cite{Akhmedov:2004ny}.\\
+ 
+\item  {Tidal deformability $\lambda_{\rm tidal}$ is a key parameter that provides valuable insights into the internal structure of compact celestial objects. It enables us to understand how these objects respond to tidal forces created by a companion star. It is defined mathematically as $\lambda_{\rm tidal} = -\frac{Q_{ij}}{\mathcal{E}_{ij}}$ where $Q_{ij}$  and $\mathcal{E}_{ij}$ is the induced quadrupole moment $Q_{ij}$ tensor caused by the external tidal field $\mathcal{E}_{ij}$ tensor. For $l=2$  it is related to dimensionless tidal love number $k_2$ and radius R by the relation $\lambda_{\rm tidal} =\frac{2}{3}k_2 R^5$ \cite{Hinderer_2008,Hinderer_2009}. It's worth noting that the tidal Love number, $k_2$, is intimately connected to the internal structure and composition of the star and can be measured in gravitational waves emanating from inspiralling binary NSs \cite{ref1_k2, ref2_k2}. A dimensionless form of tidal deformability defined as $\Lambda = \frac{\lambda_{\rm tidal}}{M^5}$ is introduced due to its convenience in comparing the deformability of NSs of different masses.} 
 
-\begin{align}
-    P(\nu_{\mu} \rightarrow \nu_{e}) \simeq 
-    &\ \bm{\sin^2\theta_{23}} \sin^2(2\theta_{13}) 
-    \sin^2\Delta \nonumber \\
-    &+ (\alpha\Delta) \sin(2\theta_{13})\sin(2\theta_{12})\sin(2\theta_{23}) \bm{\sin (\delta_{\mathrm{CP}})} \sin^2(\Delta) \nonumber \\
-    &+ (\alpha\Delta) \sin(2\theta_{13})\sin(2\theta_{12})\sin(2\theta_{23}) \bm{\cos( \delta_{\mathrm{CP}})} \cos(\Delta)\sin(\Delta) \nonumber \\
-    &+ (\alpha\Delta)^2 \cos^2\theta_{23} \sin^2(2\theta_{12}).
-    \label{Four_term_app_prob}
-\end{align}
-\par The first term in the equation \ref{Four_term_app_prob} is the leading term as it does not depend on $\alpha$ (as $\alpha<<1$) and governed by the atmospheric mixing angle $\theta_{23}$. Here, $\Delta=\dfrac{\Delta m^2_{31}\,L}{4E}$. Note that, this term depends on $\sin^2\theta_{23}$ and sensitive to the octant of $\theta_{23}$, hence the $\nu_\mu\rightarrow\nu_e$ appearance channel helps to resolve the octant of $\theta_{23}$. Although, there is a sub-leading effect of the second term, it gives the signature of CP violation as $\sin(\delta_{\mathrm{CP}})$ changes sign as $\delta_{\mathrm{CP}}$ changes its sign when we go from neutrino to antineutrino, $i.e.,$ it is a CP-odd term. Hence, the $\nu_\mu\rightarrow\nu_e$ appearance channel helps to study CP violation (Dirac $\bm{\delta_{\mathrm{CP}}}$) in the neutrino sector. The third term is the CP-even term. The last term is the solar term and depends on the solar mixing angle $\theta_{12}$. But, its contribution in the appearance channel is very much suppressed due to its $\alpha^2$ dependence.\\
-\par Similarly, we can study some features of the $\nu_\mu\rightarrow\nu_\mu$ disappearance probability in vacuum by writing its expression following the previous approximations,
-\begin{align}
-    P(\nu_{\mu} \rightarrow \nu_{\mu}) \simeq 
-    &\ 1- \bm{\sin^22\theta_{23}} \sin^2(\Delta) \nonumber \\
-    &+ 4\sin^2\theta_{13}\sin^2\theta_{23}\cos(2\theta_{23})\sin^2\Delta \nonumber\\
-    &+ (\alpha\Delta) \sin2\Delta [\cos^2\theta_{12}\sin^22\theta_{23}-2\sin\theta_{13}\sin2\theta_{12}\sin^2\theta_{23}\sin2\theta_{23}\bm{\cos\delta_{\mathrm{CP}}}] \nonumber \\
-    &- (\alpha\Delta)^2 [\sin^22\theta_{12}\cos^2\theta_{23}+\cos^2\theta_{12}\sin^22\theta_{23}(\cos2\Delta-\sin^2\theta_{12})].
-    \label{Four_term_disapp_prob}
-\end{align}
-The first salient feature of the above expression is that the leading term is proportional to $\sin^22\theta_{23}$ and therefore it is not sensitive to the octant of $\theta_{23}$, but its strength is larger than the $\nu_\mu\rightarrow\nu_e$ appearance probability in equation \ref{Four_term_app_prob}, which is suppressed by $\sin^2(2\theta_{13})$. Hence, the disappearance channel is rich in statistics. Furthermore, this channel is not sensitive to the CP violation as it only contains $\cos\delta_{\mathrm{CP}}$ term. The motivations behind showcasing only these two channels throughout this thesis are i) the $\nu_\mu\rightarrow\nu_e$ appearance channel \cite{Huber:2002mx, Cervera:2000kp} is sensitive to two of the most important unresolved issues in the $3\nu$ paradigm, $i.e.,$ CP violation and exclusion of the wrong octant solution of $\theta_{23}$, ii) the $\nu_\mu\rightarrow\nu_\mu$ disappearance channel ensures to bring good precision in measuring the atmospheric oscillation parameters $\theta_{23}$ and $\Delta m^2_{31}$ owing to high statistics in this channel in long-baseline (LBL) experiments (for details, see the next chapter on long-baseline experiments). For antineutrinos, the sign of $\delta_{\mathrm{CP}}$ changes its sign ($i.e., P(\nu_\alpha\rightarrow\nu_\beta;\,\delta_{\mathrm{CP}})\rightarrow P(\bar{\nu}_\alpha\rightarrow\bar{\nu}_\beta;\,-\delta_{\mathrm{CP}})$).
-\par The CP-odd asymmetry in neutrino oscillation can be written as,
-\begin{align}
-    \Delta P_{\alpha \beta} &= P(\nu_\alpha\rightarrow\nu_\beta) - P(\bar{\nu}_\alpha\rightarrow\bar{\nu}_\beta) \nonumber\\
-    &= \pm 16J\sin\left(\frac{\Delta m^2_{21}L}{4E}\right) \sin\left(\frac{\Delta m^2_{31}L}{4E}\right) \sin\left(\frac{\Delta m^2_{32}L}{4E}\right).
-    \label{Delta P}
-\end{align}
-Here, $\Delta P_{\alpha \beta}$ denotes the amount of CP-odd asymmetry in the neutrino sector, $J$ is the Jarlskog invariant ($J\equiv Im[U_{e1}U^*_{\mu 1}U^*_{e 2}U_{\mu 2}]$) \cite{Jarlskog:1985ht, Jarlskog:1985cw}, which is a constant quantity irrespective of the choice of basis, and can be expressed under the standard PMNS parameterization as,
+\section{Moment Of Inertia}
+
+The total moment of inertia in the slow rotating approximation is given by the integral  \cite{hartle1967}
+
+
 \begin{equation}
-    J = \frac{1}{8} \cos\theta_{13} \sin (2\theta_{12}) \sin (2\theta_{13}) \sin (2\theta_{23}) \sin \delta_{\mathrm{CP}}.\\
-    \label{Jarlskog invariant}
+	I = \frac{8\pi}{3} \int_0^R \left( \epsilon+ p \right) \lambda(r) r^4 \frac{\bar{\omega}(r)}{\Omega} \, dr
 \end{equation}
-Equations \ref{Delta P} and \ref{Jarlskog invariant} denote the necessary conditions for CP violation in the neutrino sector \cite{Antusch:2001ck}, $i.e.,$%
-\begin{itemize}[topsep=-0.5pt, itemsep=10pt, parsep=0pt, partopsep=0pt]
-    \item the mixing angles $\neq 0^\circ, \, 90^\circ,$
-    \item the value of $\delta_{\mathrm{CP}} \neq 0^\circ, \pm 180^\circ$,
-    \item the value of $\Delta m^2_{ij} \neq 0$.
-\end{itemize}
+\end{itemize} 
+
+where $\lambda(r) = e^\lambda(r) = (1 - 2m(r)/r)^{-1}  $  and $\bar{\omega}(r)$ is the rotational drag whose equation is given by:
+\begin{equation}
+\frac{d}{dr} \left( r^4 j(r) \frac{d\bar{\omega}}{dr} \right) = -4r^3 \frac{dj}{dr} \bar{\omega}
+\end{equation}.
+{Here $j(r) =  e^\nu(r) + \lambda(r)r^4$ , which has the boundary value  j(R) = 1 . In the limit of slow rotation, such that the rotation angular velocity $ \Omega \leq M/R^2$, $ \bar{\omega} $ has the boundary condition  $\bar{\omega}(R)/\Omega = 1 - 2I/R^3$. These complex equations are integrated from r = 0 to R, where the pressure drops to a negligible level. This process uses a specific EOS $p = p (\epsilon)$ and a central density $\epsilon(0)$to achieve the NS mass. Consequently, this also determines the radius. By ensuring the boundary conditions are met, the moment of inertia can then be calculated.}
 
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Perturbed state}
-\label{sec:2.3}
+\section{Perturbed state }
+The neutron star undergoes coupled perturbations in its interior matter distribution and exterior spacetime, where fluctuations of the relativistic fluid are dynamically linked to spacetime curvature through Einstein’s field equations. These perturbations encode information about the dense-matter equation of state and the star’s internal composition, while the exterior response governs the propagation of gravitational radiation. We briefly outlined the interior and exterior regions of the NS below.
+\label{Pert}
+\subsection{Interior region of the Neutron star}
+% \subsection{Exterior region}
+
+The interior of a nonrotating neutron star is characterized by two fundamental degrees of freedom: the matter perturbations, describing oscillations of the dense nuclear fluid, and the spacetime perturbations, which represent the associated ripples in the gravitational field \cite{Throne_1967,Lindblom_1983}. This coupling is essential for modeling stellar oscillations that can emit gravitational waves. The even-parity perturbations in the Regge--Wheeler gauge are described by the metric~\cite{Lindblom_1983}.
+\begin{equation}
+	\begin{aligned}
+		ds^{2} = & -e^{\nu}\left(1 + r^{\ell} H_{0} Y_{\ell m} e^{i\omega t}\right) dt^{2} \\
+		& + e^{\lambda}\left(1 - r^{\ell} H_{0} Y_{\ell m} e^{i\omega t}\right) dr^{2} \\
+		& + r^{2}\left(1 - r^{\ell} K Y_{\ell m} e^{i\omega t}\right) d\Omega^{2} \\
+		& - 2i \omega r^{\ell+1} H_{1} Y_{\ell m} e^{i\omega t} \, dt \, dr,
+	\end{aligned}
+\end{equation}
+where \(H_0\), \(H_1\), and \(K\) are radial functions representing the metric perturbations, and \(\omega\) is the complex oscillation frequency whose real part gives the mode frequency and imaginary part the damping rate due to gravitational wave emission. The fluid perturbations are described by the Lagrangian displacement vector, which characterizes how fluid elements move during oscillations \cite{Throne_1967,Lindblom_1983}:
+\begin{equation}
+	\begin{aligned}
+		\xi^r      &= r^{\ell-1} e^{-\lambda/2} W Y_{\ell m} e^{i\omega t}, \\
+		\xi^\theta &= -r^{\ell-2} V \partial_\theta Y_{\ell m} e^{i\omega t}, \\
+		\xi^\phi   &= -\frac{r^{\ell-2}}{\sin^2\theta} V \partial_\phi Y_{\ell m} e^{i\omega t},
+	\end{aligned}
+\end{equation}
+\noindent
+where \(W\) and \(V\) represent the radial and the horizontal (tangential) displacement, respectively. The $Y_{\ell m}(\theta, \phi)=Y_{\ell m}(e^{i\omega t})$ represents the spherical harmonics. 
+\section{f-mode eigenvalue problem}
+The perturbation amplitude W and V are defined by the above equations. The  oscillation equation within relativistic cowling approximation is derived by setting $H_0 = H_1 = K = 0$. These assumptions result in:
+% where $m(r^\prime)$ is the enclosed mass of the star at $r^\prime$ and $p$ is the pressure at $r$. The functions $H_0$, $H_1$, and $K$ are radial perturbations of the metric and the angular part is contained in the spherical harmonics $Y_{lm}$ with $l$ denoting the orbital angular momentum number and $m$ the azimuthal number. The quantity $\omega$ is a complex oscillation frequency; its real component is the oscillation frequency and its imaginary component is the inverse of the damping time (if it is positive).
+% In Newtonian theory of stellar pulsations, 
+% the perturbation of the gravity field is neglected for fluid modes. This simplification is  known as the Cowling approximation. 
+% In the relativistic theory, the perturbation of the GR metric is often neglected as well, which leads to the relativistic Cowling approximation. The relativistic Cowling equations are obtained by setting $H_0=H_1=K=0$. These simplifications  lead to 
+\begin{eqnarray}
+	\label{eq:ODE_DL3_cowling_UW}
+	\frac{dW}{d\ln r} && = -(l+1)\left[W-l e^{\nu +\lambda/2} U\right] \nonumber \\
+	&& -\frac{e^{\lambda/2}(\omega r)^2}{c_{ad}^2}\left[U-\frac{d\Phi}{d \ln r} \frac{e^{-\lambda/2}}{(\omega r)^2} W\right ]\,,\\
+	\frac{dU}{d\ln r} && = e^{\lambda/2-\nu}\left[W -le^{\nu-\lambda/2}U\right] \nonumber \\
+	&& + (\frac{1}{c_{\rm eq}^2}-\frac{1}{c_{\rm ad}^2} )\frac{d\Phi}{d \ln r} \left [ U -\frac{d\Phi}{d \ln r} \frac{e^{-\lambda/2}}{(\omega r)^2} W\right ]\,.\label{eq:ODE_DL4_cowling_UW}
+\end{eqnarray}
+% \begin{eqnarray}
+	% \label{eq:ODE_DL3_cowling_UW}
+	% \frac{dW}{d\ln r} & =& -(l+1)\left[W-l e^{\nu +\lambda/2} U\right] \nonumber \\
+	% && -\frac{e^{\lambda/2}(\omega r)^2}{c_{ad}^2}\left[U- \frac{e^{\lambda/2}\textrm{Q}}{(\omega r)^2} W\right ]\,,\\
+	% \frac{dU}{d\ln r} && = e^{\lambda/2-\nu}\left[W -le^{\nu-\lambda/2}U\right] \,,\label{eq:ODE_DL4_cowling_UW}
+	% \end{eqnarray}
+Here, $W = e^{\lambda/2} r^{1-l} \xi^r$, $U = -e^{-\nu}V$ and $\Phi = 2\nu$.
+%and $\delta P$ is the Eulerian perturbation of the pressure. This perturbation is related to the Lagrangian perturbation by $\Delta P = \delta P - (\varepsilon + p) \frac{d\Phi}{dr} \xi^r$. The boundary conditions can then be expressed explicitly as:
+The boundary conditions can be written explicitly as,
+% %
+\begin{eqnarray}
+	\left.\frac{W}{U}\right|_{r=0}&=&l e^{\nu|_{r=0}} \\
+	\left.\frac{W}{U}\right|_{p=0}&=&\frac{\omega^2R^3}{M}\sqrt{1-\frac{2GM}{R}} \,.
+\end{eqnarray}
+%
+Solving these equations gives us the f-mode oscillation frequency of the Neutron star within the relativistic cowling approximation.
+% These equations determine the eigenmode frequency of the oscillation in the relativistic Cowling approximation.
+
+\section{w-mode eigenvalue problem}
+
+To formulate a well-posed eigenvalue problem for \(\omega\), one must avoid singularities that arise in the perturbation equations. This is achieved by introducing a new variable \(X\), which is related to the Lagrangian pressure variation:
+\begin{equation}
+	\Delta p = -r^\ell e^{-\nu/2} X Y_{\ell m} e^{i\omega t}.
+\end{equation}
+The system is then reduced to four first-order differential equations for the variables \(H_1\), \(K\), \(W\), and \(X\) \cite{Lindblom_1983,detweiler85}, which together describe the coupled fluid-spacetime system. The evolution of these variables is governed by\cite{detweiler85}:
+\begin{equation}
+	\begin{aligned}
+		r \frac{dH_1}{dr} &= -\left[\ell + 1 + 2b e^\lambda + 4\pi r^2 e^\lambda (p - \epsilon)\right] H_1 \\
+		& \quad + e^\lambda \left[H_0 + K - 16\pi (\epsilon + p) V\right], \\ 
+		r \frac{dK}{dr} &= H_0 + (\ell + 1) H_1 + \left[e^\lambda Q - \ell - 1\right] K \\
+		& \quad - 8\pi (\epsilon + p) e^{\nu/2} W, \\
+		r \frac{dW}{dr} &= -(\ell + 1)\left[W + \ell e^{\nu/2} V\right] \\
+		& \quad + r^2 e^{\lambda/2} \left[\frac{X}{(\epsilon + p)c_s^2} e^{-\nu/2} + \frac{H_0}{2} + K\right], \\
+		r \frac{dX}{dr} &= -\ell X + \frac{\epsilon + p}{2} e^{\nu/2} \Bigg\{ (3e^\lambda Q - 1) K \\
+		& \quad - \frac{4(\ell^2 + \ell - 2) e^\lambda Q}{r^2} V + (1 - e^\lambda Q) H_0 \\
+		& \quad + \left(r^2 \omega^2 e^{-\nu} + \ell^2 + \ell - 2\right) H_1 \\
+		& \quad + \bigg[2\omega^2 e^{\lambda/2 - \nu} - 8\pi (\epsilon + p) e^{\nu/2} \\
+		& \quad \quad + r^2 \frac{d}{dr} \left( \frac{e^{-\nu/2} g}{r^2} \right) \bigg] W \Bigg\},
+	\end{aligned}
+\end{equation}
+where \(Q = M + 4\pi r^3 p\) represents the gravitational mass including pressure contributions, \(b = GM/r\) is the compactness, and \(c_s\) is the adiabatic sound speed. The first equation governs the evolution of the metric perturbation \(H_1\), which is coupled to fluid variables through \(V\) and \(W\). The second equation describes the curvature perturbation \(K\), which sources and is sourced by both metric and fluid terms. The third equation determines the radial fluid displacement \(W\), driven by pressure perturbations \(X\) and metric variations. The fourth equation controls the pressure perturbation variable \(X\), which is influenced by all other variables and encodes the fluid's response to spacetime curvature changes.
+
+
+
+The remaining metric function \(H_0\) and fluid function \(V\) are not independent but are determined algebraically by constraint equations that ensure consistency with Einstein's field equations\cite{tinaki_ur}:
+\begin{equation}
+	\begin{aligned}
+		H_0 &= \frac{1}{2b + \ell + Q} \Big\{ 8\pi r^2 e^{-\nu/2} X \\
+		&\quad - \left[(\ell^2 + \ell - 1) Q - \omega^2 r^2 e^{-(\nu + \lambda)}\right] H_1 \\
+		&\quad + \left[\ell(\ell + 1) - \omega^2 r^2 e^{-\nu} - Q(Q e^\lambda - 1)\right] K \Big\}, \\
+		V &= \frac{e^{\nu/2}}{\omega^2} \left[ \frac{X}{\epsilon + p} - \frac{Q}{r^2} e^{(\nu + \lambda)/2} W - e^{\nu/2} \frac{H_0}{2} \right].
+	\end{aligned}
+\end{equation}
+These constraints reduce the number of dynamical degrees of freedom from four to two, consistent with the wave-like nature of the perturbations where only two polarizations of gravitational waves are possible.
+
+The boundary conditions ensure physical regularity at the center (\(r = 0\)) and a free surface at the stellar boundary (\(r = R\)):
+\begin{equation}
+	\begin{aligned}
+		W(0) &= 1, \\
+		K(0) &= H_0(0), \\
+		H_1(0) &= \frac{\ell K(0) + 8\pi (\epsilon_0 + p_0) W(0)}{\ell(\ell + 1)}, \\
+		X(0) &= (\epsilon_0 + p_0) e^{\nu_0/2} \left[ \frac{4\pi}{3} (\epsilon_0 + 3p_0) - \frac{\omega^2}{\ell} e^{-\nu_0} \right] W(0) \\
+		&\quad + \frac{K(0)}{2},
+	\end{aligned}
+\end{equation}
+with the surface condition \(X(R) = 0\) ensuring vanishing Lagrangian pressure perturbation. This formulation captures the complete physics of nonradial oscillations in relativistic stars, providing the foundation for calculating quasinormal modes and their gravitational wave signatures.
+
+
+\subsection{The exterior region of the NS}
+
+In the vacuum region outside a neutron star, where matter perturbations vanish, the dynamics are governed solely by the degrees of freedom of the spacetime itself. The two independent metric perturbations, denoted by \( H_1 \) and \( K \), can be combined into a single master variable satisfying a second-order wave equation known as the Zerilli equation \cite{fackerell71,zerilli_1970}. This equation describes the propagation of gravitational waves in the exterior spacetime of the neutron star, defined as,
+
+\begin{equation}
+	\left[ \frac{d^2}{dr_*^2} + \omega^2 - V_{\rm Z}(r) \right] Z(r) = 0,
+	\label{zerilli_eq}
+\end{equation}
+\noindent
+where \( Z(r) \) is the Zerilli function, \( \omega \) is the complex frequency of the perturbation, and \( V_{\rm Z}(r) \) is the effective potentialgiven by,
+
+\begin{equation}
+	\begin{aligned}
+		V_{\rm Z}(r) &= \frac{2\left(1 - \frac{2M}{r}\right)}{r^3(nr + 3M)^2} \\
+		&\quad \times \left[ n^2(n+1)r^3 + 3n^2 M r^2 + 9n M^2 r + 9M^3 \right],
+	\end{aligned}
+\end{equation}
+\noindent
+with \( n = \frac{1}{2}(l-1)(l+2) \), where \( l \) is the angular quantum number, and \( M \) represents the total mass of the neutron star. The Zerilli potential \( V_{\rm Z}(r) \) is of fundamental importance as it encapsulates the entire influence of the curved spacetime on the propagating gravitational waves. Its shape creates a potential barrier surrounding the neutron star, which is peaked just outside the stellar radius. This barrier is responsible for several key physical phenomena: it partially traps gravitational radiation, leading to the existence of long-lived quasinormal modes; it filters and scatters incoming waves, determining the reflection and transmission coefficients for gravitational radiation; and its height and width directly influence the damping times and frequencies of the oscillations. The potential vanishes both at the stellar surface (approximated by the Schwarzschild radius in this exterior solution) and at spatial infinity, ensuring that wave solutions become simple plane waves in these asymptotic regions \cite{Benhar_2004}.
+
+The tortoise coordinate \( r_* \) plays a crucial role in the analysis of wave propagation around neutron stars. It is defined by the transformation:
+\begin{equation}
+	\frac{d r_*}{d r} = \frac{1}{1 - \frac{2M}{r}},
+\end{equation}
+which integrates to give the explicit form:
+\begin{equation}
+	r_* = r + 2M \ln\left(\frac{r}{2M} - 1\right).
+	\label{tortoise_def}
+\end{equation}
+This coordinate transformation is particularly significant for neutron star physics as it regularizes the wave equation at the surface and beyond. While for black holes the tortoise coordinate maps the event horizon to negative infinity, for neutron stars (which lack an event horizon) it serves to simplify the wave equation and facilitate the implementation of boundary conditions \cite{Benhar_2004}. The coordinate stretches the space around the compact object, providing a conformally flat background that is essential for cleanly separating incoming and outgoing wave solutions at infinity and ensuring proper treatment of the wave propagation in the strong-field region near the neutron star surface.
+
+
+The solutions to the Zerilli equation represent gravitational wave modes in the neutron star's exterior. For general frequencies \( \omega \), the physical solution consists of a mixture of outgoing and ingoing waves at spatial infinity. The quasinormal modes correspond to specific discrete, complex frequencies \( \omega_n \) that satisfy purely outgoing wave conditions at infinity. These modes characterize the natural oscillation frequencies of the neutron star spacetime, representing damped vibrations where gravitational wave emission carries energy away from the system. The real part of \( \omega_n \) gives the oscillation frequency, while the imaginary part determines the damping rate due to gravitational wave emission \cite{Kokkotas_living_review,Benhar_2004}.
+
+
+
+
 \subsection{f-mode eigenvalue problem}
 \subsection{w-mode eigenvalue problem}
 

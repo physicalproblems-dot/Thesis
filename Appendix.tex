@@ -4,3 +4,45 @@
 \chapter{Phase Amplitude Method}
 \label{app:running_osc_params}
 
+\subsection{Phase amplitude method}
+\label{Formalism4}
+
+Equation (\ref{zerilli_eq}) bears a formal resemblance to the time-independent Schrödinger equation; obtaining accurate solutions for quasinormal mode frequencies is a highly non-trivial numerical undertaking. The primary challenge lies in the precise implementation of the physical boundary condition requiring purely outgoing gravitational waves at spatial infinity. This requirement must be translated into a numerical computation in two problematic steps: first, one must approximate ``infinity" by a finite but large radial coordinate, and second—constituting the major numerical difficulty—one must clearly separate two linearly independent solutions whose asymptotic behavior is exponentially growing and decaying, respectively. This numerical instability, where tiny errors in the decaying solution can be overwhelmed by contamination from the growing solution, has spawned the development of specialized techniques such as Leaver’s continued-fraction method and various WKB/phase-integral approximations \cite{leaver_QNM_techniques_1985,Kokkotas_living_review}.
+
+In the present work, we employ the phase-amplitude method, as formulated by Anderson et al.~\cite{Anderson_inverse_cowling}. This method is originally developed and demonstrated in the calculation of black hole quasinormal modes. Its application to the neutron star problem is well-motivated, as it directly addresses the core numerical difficulty. The method's advantage is highlighted in comparative studies where traditional phase-integral approaches, such as the one derived by Fr\"oman et al.\cite{Fromen}, were found to yield reliable frequencies only for the very lowest-order modes. In contrast, the phase-amplitude method is shown to generate highly accurate normal-mode frequencies across a wide spectrum. It achieves this robustness by reformulating the problem in terms of a phase function and its derivative, which remain well-behaved numerically even where the wavefunction itself is not. This stability allows for a more precise determination of the complex eigenfrequencies that satisfy the outgoing-wave boundary condition. The following section provides a detailed description of the phase-amplitude formalism and its specific implementation for calculating the quasinormal modes of neutron stars. 
+The phase-amplitude method, as introduced by Anderson et al.~\cite{Anderson_inverse_cowling}, provides a robust framework for overcoming the numerical challenges inherent in solving the Zerilli equation for quasinormal modes. The method begins with a transformation of the dependent variable designed to simplify the asymptotic behavior of the solutions. Specifically, one defines a new function \(\Psi\) related to the Zerilli function \(Z\) by:
+\begin{equation}
+	Z = \left(1 - \frac{2M}{r}\right)^{-1/2} \Psi.
+\end{equation}
+This transformation removes the first derivative term from the resulting wave equation, yielding a Schrödinger-like form:
+\begin{equation}
+	\left( \frac{d^2}{dr^2} + U(r) \right) \Psi = 0,
+\end{equation}
+where the effective potential \(U(r)\) incorporates the original Zerilli potential \(V_Z(r)\) along with additional terms arising from the coordinate transformation. The key insight is to express the two linearly independent solutions \(\Psi^\pm\) in a phase-amplitude form:
+\begin{equation}
+	\Psi^\pm = q^{-1/2} \exp\left[ \pm i \int^r q(\hat{r}) \, d\hat{r} \right],
+\end{equation}
+where the function \(q(r)\) satisfies the nonlinear differential equation\cite{Anderson_inverse_cowling}:
+\begin{equation}
+	\frac{1}{2q} \frac{d^2 q}{dr^2} - \frac{3}{4q^2} \left( \frac{dq}{dr} \right)^2 + q^2 - U = 0.
+\end{equation}
+Although this equation is nonlinear and appears more complex, it possesses significant numerical advantages. While the original wavefunction \(\Psi\) oscillates rapidly, especially for high frequencies, the function \(q(r)\) is typically slowly varying. This slow variation makes \(q(r)\) amenable to stable numerical integration. Initial conditions for \(q\) can be generated using the WKB approximation \(q \approx \sqrt{U}\) at a large distance from the star, where \(U\) varies slowly.
+
+The phenomenon of Stokes lines plays a crucial role in understanding the behavior of the solutions and must be accounted before numerical integration \cite{Anderson_inverse_cowling}. Stokes lines are curves in the complex plane emanating from turning points (zeros of \(U\)) where the asymptotic behavior of the WKB solutions changes discontinuously. When crossing a Stokes line, the coefficient of the subdominant exponential solution can change abruptly—a phenomenon known as the Stokes phenomenon \cite{Anderson_inverse_cowling}. This means that a linear combination of \(\Psi^+\) and \(\Psi^-\) that represents the physical solution on one side of a Stokes line may not be valid on the other side. 
+
+To handle this properly, one must identify the appropriate anti-Stokes lines in the complex \(r\)-plane. Anti-Stokes lines are curves along which the phase integral \(\int q \, dr\) is purely real, ensuring that the solutions remain oscillatory and bounded. For quasinormal modes with complex frequency \(\omega\), the optimal integration path is a straight line with slope given by \(\tan \theta = -\text{Im} \, \omega / \text{Re} \, \omega\), which aligns with an anti-Stokes line. This path choice is essential for suppressing the exponential divergence of the outgoing wave solution and obtaining numerically stable results. The derivative along this path is computed using:
+\begin{equation}
+	\frac{dq}{dr} = e^{-i\theta} \frac{dq}{d\rho},
+\end{equation}
+where \(\rho\) is the real distance along the integration path. The phase-amplitude method inherently accounts for the Stokes phenomenon by working with the slowly varying \(q\)-function, which remains smooth across Stokes lines, thereby avoiding the discontinuities that come from WKB approaches.
+
+The numerical solution proceeds by integrating the \(q\)-equation from a large complex \(r\) (where the WKB initial conditions are valid) inward along the chosen anti-Stokes line to the stellar surface \(r = R\). At the surface, the exterior solution must match the interior solution. The matching condition leads to an expression for the amplitude ratio of incoming to outgoing waves. This ratio can be expressed as \cite{Anderson_inverse_cowling}:
+\begin{equation}
+	\mathcal{R}(\omega) = \frac{ 
+		\mathcal{Z}_2 \left[ \left(1 - \frac{2M}{R} \right) \left( i q + \frac{1}{2q} \frac{dq}{dr} \right) + \frac{M}{R^2} \right] + \frac{d\mathcal{Z}_2}{dr}
+	}{ 
+		\mathcal{Z}_2 \left[ \left(1 - \frac{2M}{R} \right) \left( i q - \frac{1}{2q} \frac{dq}{dr} \right) - \frac{M}{R^2} \right] - \frac{d\mathcal{Z}_2}{dr}
+	},
+\end{equation}
+where \(\mathcal{Z}_2\) represents the interior solution evaluated at the stellar surface, and all quantities are computed at \(r = R\). The quasinormal modes are precisely those complex frequencies \(\omega_n\) for which this ratio vanishes, \(\mathcal{R}(\omega_n) = 0\), indicating no incoming radiation. This condition is solved iteratively, and the use of the complex path along anti-Stokes lines ensures that the exponentially growing component is controlled, allowing for accurate determination of the mode frequencies. This approach has proven highly effective for both black hole and neutron star perturbations, providing reliable results even for highly damped modes where traditional WKB methods fail. 
+
